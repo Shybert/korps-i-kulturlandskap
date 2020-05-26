@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "eleventy --input=src --serve --formats=njk,css",
     "build": "eleventy --input=src"
   },
   "author": "Shybert",
