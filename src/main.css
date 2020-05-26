@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 nav {
@@ -28,4 +29,11 @@ nav ul a {
 }
 nav ul a:hover {
   opacity: 1;
+}
+
+#content {
+  max-width: 680px;
+  margin: auto;
+  padding: 0 32px;
+  text-align: center;
 }

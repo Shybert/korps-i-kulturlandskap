@@ -7,10 +7,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="/main.css" />
     <title>Sør-Fron Regionstevne 2021</title>
   </head>
   <body>
     {% include "header.njk" %}
+    
+    <div id="content">
+      {% block body %} {% endblock %}
+    </div>
   </body>
 </html>
