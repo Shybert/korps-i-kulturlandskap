@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "eleventy --input=src --serve",
-    "build": "eleventy --input=src"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   },
   "author": "Shybert",
   "license": "GPL-3.0",

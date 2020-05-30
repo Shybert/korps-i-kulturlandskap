@@ -77,5 +77,6 @@ nav ul a:hover {
 #content {
   max-width: 680px;
   margin: auto;
+  overflow: auto;
   text-align: center;
 }
