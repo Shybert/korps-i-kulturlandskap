@@ -1,4 +1,4 @@
-{% extends "basePage.njk" %}
+{% extends "base/BasePage.njk" %}
 
 {% block title %}
   Program
@@ -6,6 +6,6 @@
 
 {% block content %}
   {% markdown %}
-    {% include "program.md" %}
+    {% include "pages/program.md" %}
   {% endmarkdown %}
 {% endblock %}
