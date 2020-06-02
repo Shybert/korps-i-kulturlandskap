@@ -80,3 +80,26 @@ nav ul a:hover {
   overflow: auto;
   text-align: center;
 }
+
+.event {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.eventInfo {
+  width: 70%;
+  box-shadow: 0 15px 35px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 8px 0 8px 48px;
+  text-align: left;
+}
+.eventTime {
+  font-size: 30px;
+}
+.eventTitle {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 30px;
+  color: forestgreen;
+}
