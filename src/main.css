@@ -84,14 +84,15 @@ nav ul a:hover {
 .event {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 16px;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 24px;
+  padding: 24px;
+  padding-top: 14px;
+  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .eventInfo {
-  width: 70%;
-  box-shadow: 0 15px 35px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
-  padding: 24px;
-  margin: 8px 0 8px 48px;
+  margin-left: 24px;
   text-align: left;
 }
 .eventTime {
@@ -102,4 +103,20 @@ nav ul a:hover {
   margin-bottom: 8px;
   font-size: 30px;
   color: forestgreen;
+}
+@media only screen and (max-width: 600px) {
+  .event {
+    flex-direction: column;
+    width: 80%;
+  }
+  .eventInfo {
+    margin-left: 0;
+  }
+  .eventTime {
+    margin-bottom: 8px;
+  }
+  .eventTitle {
+    text-align: center;
+    font-size: 25px;
+  }
 }
