@@ -4,7 +4,7 @@ const Terser = require("terser");
 module.exports = function (eleventyConfig) {
   const md = new MarkdownIt();
   eleventyConfig.addPairedShortcode("markdown", (content) =>
-    md.render(content.trimStart())
+    md.render(content.trimLeft())
   );
 
   eleventyConfig.addFilter("jsmin", (code) => {
