@@ -5,13 +5,7 @@
 {% endblock %}
 
 {% block header %}
-  <div id="splash">
-    <div id="splashOverlay"></div>
-    <div id="splashLogo">Sør-Fron Regionstevne <br /> 2021</div>
-    <div id="splashSlogan">"Korpsmusikk i kulturlandskap"</div>
-  </div>
-  <div id="splashSpacer"></div>
-
+  {% include "header/headerSplash.njk" %}
   {% include "header/headerBar.njk" %}
 {% endblock %}
 
