@@ -1,0 +1,27 @@
+<div id="headerBarWrapper">
+  <div id="headerBar">
+    <a href="/" id="headerBarLogo">Sør-Fron Regionstevne 2021</a>
+
+    <nav id="headerBarNav">
+      {% include "header/navList.njk" %}
+    </nav>
+
+    <button id="navMenuOpen" aria-label="Open navigation" type="button">
+      <svg class="icon">
+        <use xlink:href="/icons/icons.svg#menu" />
+      </svg>
+    </button>
+
+    <div id="navMenu" class="collapsed">
+      <button id="navMenuClose" aria-label="Close navigation" type="button">
+        <svg class="icon">
+          <use xlink:href="/icons/icons.svg#x" />
+        </svg>
+      </button>
+
+      <nav>
+        {% include "header/navList.njk" %}
+      </nav>
+    </div>
+  </div>
+</div>
