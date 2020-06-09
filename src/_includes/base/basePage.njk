@@ -24,5 +24,11 @@
         {% block content %} {% endblock %}
       </main>
     </div>
+
+    {% set js %}
+    {% endset %}
+    <script>
+      {{ js | jsmin | safe }}
+    </script>
   </body>
 </html>
