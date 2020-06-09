@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
     md.render(content.trimStart())
   );
 
-  eleventyConfig.setTemplateFormats(["njk", "css"]);
+  eleventyConfig.setTemplateFormats(["njk", "css", "svg"]);
 
   return {
     dir: { input: "src" },
