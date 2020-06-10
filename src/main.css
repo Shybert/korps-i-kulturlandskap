@@ -222,6 +222,25 @@ h2 {
   overflow: auto;
 }
 
+/* Program */
+#programNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.programNavItem {
+  margin: 8px;
+}
+@media only screen and (max-width: 600px) {
+  #programNav {
+    flex-direction: column;
+  }
+}
+
+.programDay {
+  margin-bottom: 80px;
+}
 .event {
   display: flex;
   align-items: center;

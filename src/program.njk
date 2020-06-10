@@ -9,8 +9,17 @@
     {% include "pages/program.md" %}
   {% endmarkdown %}
 
+  <nav id="programNav">
+    {% for day in programData %}
+      <a class="baseButton programNavItem" href="#day{{ loop.index }}">{{ day.title }}</a>
+    {% endfor %}
+  </nav>
+
   {% for day in programData %}
-    <section>
+    <section
+      id="day{{ loop.index }}"
+      class="programDay"
+    >
       <h2>{{ day.title }}</h2>
       <div class="events">
         {% for event in day.events %}
