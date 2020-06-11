@@ -19,7 +19,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addDataExtension("yaml", (content) => yaml.safeLoad(content));
 
-  eleventyConfig.setTemplateFormats(["njk", "css", "svg"]);
+  eleventyConfig.addPassthroughCopy("src/icons");
+  eleventyConfig.addPassthroughCopy("src/main.css");
+  eleventyConfig.setTemplateFormats(["njk"]);
 
   return {
     dir: { input: "src" },
