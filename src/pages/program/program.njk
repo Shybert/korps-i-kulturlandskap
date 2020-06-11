@@ -1,21 +1,23 @@
+---
+permalink: /program/
+---
 {% extends "base/BasePage.njk" %}
 
 {% block title %}
-  Program
+  {{ title }}
 {% endblock %}
 
 {% block content %}
-  {% markdown %}
-    {% include "pages/program.md" %}
-  {% endmarkdown %}
+  <h1>{{ title }}</h1>
+  <p>{{ lead }}</p>
 
   <nav id="programNav">
-    {% for day in programData %}
+    {% for day in program %}
       <a class="baseButton programNavItem" href="#day{{ loop.index }}">{{ day.title }}</a>
     {% endfor %}
   </nav>
 
-  {% for day in programData %}
+  {% for day in program %}
     <section
       id="day{{ loop.index }}"
       class="programDay"

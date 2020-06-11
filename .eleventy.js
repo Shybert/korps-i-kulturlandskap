@@ -1,5 +1,6 @@
 const MarkdownIt = require("markdown-it");
 const Terser = require("terser");
+const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
   const md = new MarkdownIt();
@@ -15,6 +16,8 @@ module.exports = function (eleventyConfig) {
     }
     return minifiedCode.code;
   });
+
+  eleventyConfig.addDataExtension("yaml", (content) => yaml.safeLoad(content));
 
   eleventyConfig.setTemplateFormats(["njk", "css", "svg"]);
 
