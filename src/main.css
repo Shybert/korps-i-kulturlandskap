@@ -26,6 +26,14 @@ h2 {
   }
 }
 
+a {
+  color: forestgreen;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
 .baseButton {
   padding: 14px 16px;
   background-color: forestgreen;
