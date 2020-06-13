@@ -2,22 +2,19 @@
 permalink: /program/
 ---
 {% extends "base/BasePage.njk" %}
+{% from "macros.njk" import mainSection %}
 
-{% block content %}
-  <h1>{{ title }}</h1>
-  <p>{{ lead }}</p>
+{% block main %}
+  {% include "lead.njk" %}
 
-  <nav id="programNav">
+  <nav id="navProgram">
     {% for day in program %}
-      <a class="baseButton programNavItem" href="#day{{ loop.index }}">{{ day.title }}</a>
+      <a class="navProgramItem baseButton" href="#day{{ loop.index }}">{{ day.title }}</a>
     {% endfor %}
   </nav>
 
   {% for day in program %}
-    <section
-      id="day{{ loop.index }}"
-      class="programDay"
-    >
+    {% call mainSection("day" + loop.index, "programDay", thin=true) %}
       <h2>{{ day.title }}</h2>
       <div class="events">
         {% for event in day.events %}
@@ -30,6 +27,6 @@ permalink: /program/
           </section>
         {% endfor %}
       </div>
-    </section>
+    {% endcall %}
   {% endfor %}
 {% endblock %}

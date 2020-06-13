@@ -21,11 +21,9 @@
       {% endblock %}
     </header>
     
-    <div id="contentWrapper">
-      <main id="content" role="main">
-        {% block content %} {% endblock %}
-      </main>
-    </div>
+    <main id="main" role="main">
+      {% block main %} {% endblock %}
+    </main>
 
     {% set js %}
       {% include "core.js" %}

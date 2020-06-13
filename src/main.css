@@ -1,3 +1,4 @@
+/* Base */
 body {
   background-color: #f5f5f5;
   font-size: 18px;
@@ -32,6 +33,33 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+#main {
+  width: 100%;
+  overflow: auto;
+  background-color: #f5f5f5;
+}
+.mainSectionWrapper.alternating:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+.mainSectionWrapper.alternating:nth-child(even) {
+  background-color: white;
+}
+.mainSection {
+  max-width: 1100px;
+  padding: 0 20px;
+  margin: auto;
+  overflow: auto;
+}
+.mainSection.thin {
+  max-width: 680px;
+}
+
+#lead {
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
 }
 
 .baseButton {
@@ -219,29 +247,18 @@ a:hover {
   }
 }
 
-#contentWrapper {
-  width: 100%;
-  padding: 0 20px;
-  box-sizing: border-box;
-}
-#content {
-  max-width: 680px;
-  margin: auto;
-  overflow: auto;
-}
-
 /* Program */
-#programNav {
+#navProgram {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 16px;
 }
-.programNavItem {
+.navProgramItem {
   margin: 8px;
 }
 @media only screen and (max-width: 600px) {
-  #programNav {
+  #navProgram {
     flex-direction: column;
   }
 }
@@ -252,7 +269,6 @@ a:hover {
 .event {
   display: flex;
   align-items: center;
-  width: 85%;
   margin: auto;
   margin-bottom: 24px;
   padding: 24px;
@@ -262,7 +278,6 @@ a:hover {
 }
 .eventInfo {
   margin-left: 24px;
-  text-align: left;
 }
 .eventTime {
   font-size: 30px;
@@ -276,7 +291,6 @@ a:hover {
 @media only screen and (max-width: 600px) {
   .event {
     flex-direction: column;
-    width: 80%;
   }
   .eventInfo {
     margin-left: 0;
