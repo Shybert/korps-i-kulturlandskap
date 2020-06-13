@@ -2,13 +2,14 @@ pageTitle: Overnatting
 lead:
   title: Overnatting
   text: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien. Praesent rhoncus orci eget ligula blandit, vel hendrerit dui ultrices. Vivamus ut sollicitudin magna. Sed pulvinar nulla lectus, at ultricies odio fringilla id. Vestibulum interdum porttitor ante non sodales. Proin nec purus id tortor sagittis pellentesque. Praesent varius lacus dolor, at dapibus leo tincidunt in. Suspendisse eget metus cursus, malesuada arcu vel, dictum elit. Nunc porttitor molestie urna dapibus rutrum. Pellentesque purus nisl, vestibulum eget quam eget, mollis ultricies mauris. Nulla vitae placerat felis. Nullam gravida tincidunt semper. Etiam quam dui, pretium nec laoreet at, euismod nec massa.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 places:
   - name: Dale-Gudbrands Gard
     email: post@dale-gudbrandsgard.no
     phoneNumbers:
       - +47 911 58 938
     website: https://www.dale-gudbrandsgard.no/
+    image: /images/dale-gudbrand.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
 
@@ -18,6 +19,7 @@ places:
       - +47 911 58 938
       - +47 911 26 507
     website: http://pyntabergethotell.no/
+    image: /images/pyntaberget.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
 
@@ -26,6 +28,7 @@ places:
     phoneNumbers:
       - +47 61 29 76 00
     website: http://www.gala.no/
+    image: /images/gala.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
 
@@ -35,5 +38,6 @@ places:
       - +47 61 29 60 49
       - +47 917 66 403
     website: https://endencamping.no/
+    image: /images/enden-camping.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
