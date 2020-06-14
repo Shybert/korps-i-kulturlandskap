@@ -1,3 +1,5 @@
+{% from "macros.njk" import icon %}
+
 <div id="headerBarWrapper">
   <div id="headerBar">
     <a href="/" id="headerBarLogo">Korps i kulturlandskap</a>
@@ -6,17 +8,13 @@
       {% include "header/navList.njk" %}
     </nav>
 
-    <button id="navMenuOpen" aria-label="Open navigation" type="button">
-      <svg class="icon">
-        <use xlink:href="/icons/icons.svg#menu" />
-      </svg>
+    <button id="navMenuOpen" type="button">
+      {{ icon("menu", "Open navigation", "large") }}
     </button>
 
     <div id="navMenu" class="collapsed">
-      <button id="navMenuClose" aria-label="Close navigation" type="button">
-        <svg class="icon">
-          <use xlink:href="/icons/icons.svg#x" />
-        </svg>
+      <button id="navMenuClose" type="button">
+        {{ icon("x", "Close navigation", "large") }}
       </button>
 
       <nav>

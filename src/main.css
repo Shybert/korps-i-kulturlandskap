@@ -72,6 +72,10 @@ a:hover {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
+.icon.large {
+  width: 2em;
+  height: 2em;
+}
 .icon.extraLarge {
   width: 4em;
   height: 4em;
