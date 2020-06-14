@@ -1,6 +1,7 @@
 /* Base */
 body {
   background-color: #f5f5f5;
+  color: rgb(0, 0, 0, 0.85);
   font-size: 18px;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
