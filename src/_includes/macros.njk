@@ -11,3 +11,10 @@
     </section>
   </div>
 {% endmacro %}
+
+{% macro icon(name, title, size="") %}
+  <svg class="icon {{ size }}">
+    <title>{{ title }}</title>
+    <use xlink:href="/icons/icons.svg#{{ name }}" />
+  </svg>
+{% endmacro %}
