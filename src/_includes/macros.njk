@@ -1,15 +1,3 @@
-{% macro mainSection(title, id, classes="") %}
-  <section id="{{ id }}" class="mainSection {{ classes }}">
-    <div id="container">
-      <header>
-        <h2 class="{{ id }}Title">{{ title }}</h2>
-      </header>
-
-      {{ caller() | safe }}
-    </div>
-  </section>
-{% endmacro %}
-
 {% macro icon(name, title, size="") %}
   <svg class="icon {{ size }}">
     <title>{{ title }}</title>

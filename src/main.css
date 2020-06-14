@@ -89,6 +89,14 @@ a:hover {
 .mainSection {
   padding: 25px 0;
 }
+.mainSection > .container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+.mainSection.thin > .container {
+  max-width: 680px;
+}
 
 #lead {
   max-width: 680px;
@@ -260,7 +268,7 @@ a:hover {
   background-color: forestgreen;
   color: white;
 }
-.contactTitle {
+#contact h2 {
   font-size: 60px;
 }
 .contactLinks {
@@ -289,7 +297,7 @@ a:hover {
   margin-bottom: 24px;
 }
 @media only screen and (max-width: 600px) {
-  .contactTitle {
+  #contact h2 {
     font-size: 50px;
   }
   .contactLinks {
@@ -320,9 +328,6 @@ a:hover {
   }
 }
 
-.programDay {
-  margin-bottom: 80px;
-}
 .event {
   display: flex;
   align-items: center;
