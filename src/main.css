@@ -37,6 +37,16 @@ a:hover {
   text-decoration: underline;
 }
 
+.wave {
+  display: block;
+}
+
+/* For removing a very tiny gap that sometimes appear between a wave and its section */
+.wave.top {
+  position: relative;
+  bottom: -1px;
+}
+
 .baseButton {
   padding: 14px 16px;
   background-color: forestgreen;
@@ -238,6 +248,55 @@ a:hover {
   }
   #navMenu {
     display: block;
+  }
+}
+
+/* Home */
+#contact {
+  background-color: forestgreen;
+  color: white;
+}
+.contactTitle {
+  font-size: 60px;
+}
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+  font-size: 30px;
+  text-align: center;
+}
+.contactLinks li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 48px;
+}
+.contactLinks a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.contactLinks a:hover {
+  text-decoration: none;
+}
+.contactLinks .icon {
+  margin-bottom: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .contactTitle {
+    font-size: 50px;
+  }
+  .contactLinks {
+    flex-direction: column;
+    font-size: 25px;
+  }
+  .contactLinks li {
+    margin: 0;
+  }
+  .contactLinks li:not(:last-child) {
+    margin-bottom: 48px;
   }
 }
 
