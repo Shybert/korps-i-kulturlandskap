@@ -1,15 +1,13 @@
-{% macro mainSection(id, classes="", alternating=false, thin=false) %}
-  <div
-    id="{{ id }}Wrapper"
-    class="mainSectionWrapper {{classes}} {{ 'alternating' if alternating }}"
-  >
-    <section
-      id="{{ id }}"
-      class="mainSection {{ 'thin' if thin }}"
-    >
+{% macro mainSection(title, id, classes="") %}
+  <section id="{{ id }}" class="mainSection {{ classes }}">
+    <div id="container">
+      <header>
+        <h2 class="{{ id }}Title">{{ title }}</h2>
+      </header>
+
       {{ caller() | safe }}
-    </section>
-  </div>
+    </div>
+  </section>
 {% endmacro %}
 
 {% macro icon(name, title, size="") %}

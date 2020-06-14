@@ -36,33 +36,6 @@ a:hover {
   text-decoration: underline;
 }
 
-#main {
-  width: 100%;
-  overflow: auto;
-  background-color: #f5f5f5;
-}
-.mainSectionWrapper.alternating:nth-child(odd) {
-  background-color: #f5f5f5;
-}
-.mainSectionWrapper.alternating:nth-child(even) {
-  background-color: white;
-}
-.mainSection {
-  max-width: 1100px;
-  padding: 0 20px;
-  margin: auto;
-  overflow: auto;
-}
-.mainSection.thin {
-  max-width: 680px;
-}
-
-#lead {
-  max-width: 680px;
-  margin: auto;
-  text-align: center;
-}
-
 .baseButton {
   padding: 14px 16px;
   background-color: forestgreen;
@@ -91,6 +64,21 @@ a:hover {
 .icon.extraLarge {
   width: 4em;
   height: 4em;
+}
+
+#main {
+  width: 100%;
+  overflow: auto;
+  background-color: #f5f5f5;
+}
+.mainSection {
+  padding: 25px 0;
+}
+
+#lead {
+  max-width: 680px;
+  margin: auto;
+  text-align: center;
 }
 
 /* Header */
