@@ -7,24 +7,35 @@ body {
   margin: 0;
 }
 h1,
-h2 {
+h2,
+h3 {
   text-align: center;
-  margin-top: 0;
+}
+h1,
+h2 {
+  margin: 0 0 16px 0;
 }
 h1 {
-  font-size: 40px;
+  font-size: 50px;
 }
 h2 {
+  font-size: 40px;
+}
+h3 {
   font-size: 30px;
+  margin: 0 0 8px 0;
 }
 @media only screen and (max-width: 600px) {
   body {
     font-size: 16px;
   }
   h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   h2 {
+    font-size: 30px;
+  }
+  h3 {
     font-size: 25px;
   }
 }
@@ -345,9 +356,7 @@ a:hover {
   font-size: 30px;
 }
 .eventTitle {
-  margin: 0;
-  margin-bottom: 8px;
-  font-size: 30px;
+  text-align: left;
   color: forestgreen;
 }
 @media only screen and (max-width: 600px) {
@@ -362,6 +371,5 @@ a:hover {
   }
   .eventTitle {
     text-align: center;
-    font-size: 25px;
   }
 }
