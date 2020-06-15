@@ -109,6 +109,14 @@ a:hover {
   max-width: 680px;
 }
 
+.card {
+  padding: 35px;
+  padding-top: 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
 #lead {
   max-width: 680px;
   margin: auto;
@@ -341,12 +349,9 @@ a:hover {
 .event {
   display: flex;
   align-items: center;
-  margin: auto;
   margin-bottom: 24px;
   padding: 24px;
   padding-top: 14px;
-  background-color: white;
-  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .eventInfo {
   margin-left: 24px;
