@@ -23,15 +23,6 @@ places:
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
 
-  - name: Gålå Hotell
-    email: booking@gala.no
-    phoneNumbers:
-      - +47 61 29 76 00
-    website: http://www.gala.no/
-    image: /images/gala.jpg
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
-
   - name: Enden Camping
     email: post@endencamping.no
     phoneNumbers:
