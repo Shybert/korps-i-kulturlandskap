@@ -378,3 +378,71 @@ a:hover {
     text-align: center;
   }
 }
+
+/* Overnatting */
+.overnightPlace {
+  margin-bottom: 125px;
+}
+.overnightPlace > .container {
+  display: flex;
+  align-items: center;
+}
+.overnightPlace:nth-child(odd) > .container {
+  flex-direction: row-reverse;
+}
+.overnightPlace h2 {
+  text-align: left;
+}
+.overnightPlace img {
+  width: 55%;
+}
+.overnightPlace img.desktopOnly {
+  display: block;
+}
+.overnightPlace img.mobileOnly {
+  display: none;
+}
+.overnightPlaceInfo {
+  width: 45%;
+  margin: 0 48px;
+}
+.overnightPlaceContact {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.overnightPlaceContact li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.overnightPlaceContact .icon {
+  margin-right: 6px;
+}
+@media only screen and (max-width: 600px) {
+  .overnightPlace {
+    margin-bottom: 10px;
+  }
+  .overnightPlace > .container {
+    flex-direction: column;
+  }
+  .overnightPlace:nth-child(odd) > .container {
+    flex-direction: column;
+  }
+  .overnightPlace h2 {
+    text-align: center;
+  }
+  .overnightPlace img {
+    width: 100%;
+  }
+  .overnightPlace img.desktopOnly {
+    display: none;
+  }
+  .overnightPlace img.mobileOnly {
+    display: block;
+  }
+  .overnightPlaceInfo {
+    width: 100%;
+    margin: 0;
+  }
+}

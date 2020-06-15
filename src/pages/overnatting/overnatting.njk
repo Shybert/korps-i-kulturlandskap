@@ -2,7 +2,46 @@
 permalink: /overnatting/
 ---
 {% extends "base/BasePage.njk" %}
+{% from "macros.njk" import icon %}
 
 {% block main %}
   {% include "lead.njk" %}
+
+  {% for place in places %}
+    <section class="mainSection overnightPlace">
+      <div class="container">
+        <img class="card desktopOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
+
+        <div class="overnightPlaceInfo">
+          <h2>{{ place.name }}</h2>
+          <img class="card mobileOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
+          {% markdown %}
+            {{ place.description }}
+          {% endmarkdown %}
+
+          <ul class="overnightPlaceContact">
+            <li>
+              {{ icon("link", "Nettside", "large") }}
+              <a href="{{ place.website }}">{{ place.website }}</a>
+            </li>
+            <li>
+              {{ icon("mail", "E-mail", "large") }}
+              <a href="mailto:{{ place.email }}">{{ place.email }}</a>
+            </li>
+            <li>
+              {{ icon("phone", "Telefonnummer", "large")}}
+              {% for phoneNumber in place.phoneNumbers %}
+                <a href="tel:{{ phoneNumber }}">{{ phoneNumber }}</a>
+                {% if not loop.last %}&nbsp;/&nbsp;{% endif %}
+              {% endfor %}
+            </li>
+            <li>
+              {{ icon("map-pin", "Addresse", "large") }}
+              {{ place.address }}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  {% endfor %}
 {% endblock %}

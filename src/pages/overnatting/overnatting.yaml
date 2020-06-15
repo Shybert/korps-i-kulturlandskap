@@ -9,6 +9,7 @@ places:
     phoneNumbers:
       - +47 911 58 938
     website: https://www.dale-gudbrandsgard.no/
+    address: Hundorpgjeilen 12, 2647 Sør-Fron
     image: /images/dale-gudbrand.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
@@ -16,9 +17,10 @@ places:
   - name: Pyntaberget Hotell
     email: post@pyntabergethotell.no
     phoneNumbers:
-      - +47 911 58 938
+      - +47 902 84 642
       - +47 911 26 507
     website: http://pyntabergethotell.no/
+    address: Pyntabergvegen 107, 2647 Sør-Fron
     image: /images/pyntaberget.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
@@ -29,6 +31,7 @@ places:
       - +47 61 29 60 49
       - +47 917 66 403
     website: https://endencamping.no/
+    address: Endenstrekka 63, 2647 Sør-Fron
     image: /images/enden-camping.jpg
     description: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
