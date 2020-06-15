@@ -84,10 +84,14 @@ a:hover {
   stroke-linejoin: round;
 }
 .icon.large {
+  width: 1.3em;
+  height: 1.3em;
+}
+.icon.extraLarge {
   width: 2em;
   height: 2em;
 }
-.icon.extraLarge {
+.icon.huge {
   width: 4em;
   height: 4em;
 }
