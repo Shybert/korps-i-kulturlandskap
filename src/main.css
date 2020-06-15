@@ -111,8 +111,6 @@ a:hover {
 }
 
 .card {
-  padding: 35px;
-  padding-top: 25px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
