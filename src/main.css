@@ -47,6 +47,12 @@ a {
 a:hover {
   text-decoration: underline;
 }
+a.baseButton:hover {
+  text-decoration: none;
+}
+a.externalLink::after {
+  content: " ↗";
+}
 
 .wave {
   display: block;
@@ -59,6 +65,7 @@ a:hover {
 }
 
 .baseButton {
+  display: inline-block;
   padding: 14px 16px;
   background-color: forestgreen;
   color: white;
@@ -285,6 +292,14 @@ a:hover {
 }
 
 /* Home */
+#signUp > .container {
+  padding: 35px;
+  padding-top: 25px;
+}
+#signUpLink {
+  text-align: center;
+}
+
 #contact {
   background-color: forestgreen;
   color: white;
