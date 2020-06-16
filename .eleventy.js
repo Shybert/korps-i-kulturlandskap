@@ -21,6 +21,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("src/icons");
   eleventyConfig.addPassthroughCopy("src/main.css");
+  eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.setTemplateFormats(["njk"]);
 
   return {

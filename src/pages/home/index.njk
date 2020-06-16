@@ -4,6 +4,10 @@ permalink: /
 {% extends "base/basePage.njk" %}
 {% from "macros.njk" import icon %}
 
+{% block head %}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{% endblock %}
+
 {% block header %}
   {% include "header/headerSplash.njk" %}
   {% include "header/headerBar.njk" %}
