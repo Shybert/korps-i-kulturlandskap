@@ -2,7 +2,8 @@
 permalink: /konsertProgram/
 ---
 {% extends "layouts/base.njk" %}
+{% from "components/lead.njk" import lead as leadComponent %}
 
 {% block main %}
-  {% include "lead.njk" %}
+  {{ leadComponent(lead.title, lead.text) }}
 {% endblock %}
