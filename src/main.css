@@ -302,6 +302,12 @@ a.externalLink::after {
 #signUpLink {
   text-align: center;
 }
+@media only screen and (max-width: 600px) {
+  #signUp > .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 #news .newsReel {
   display: flex;
