@@ -8,6 +8,8 @@ signUp:
 
     Nunc porttitor molestie urna dapibus rutrum. Pellentesque purus nisl, vestibulum eget quam eget, mollis ultricies mauris. Nulla vitae placerat felis. Nullam gravida tincidunt semper. Etiam quam dui, pretium nec laoreet at, euismod nec massa.
   link: http://example.com/
+news:
+  title: Nyheter
 contact:
   title: Kontakt oss
   email: email@example.com

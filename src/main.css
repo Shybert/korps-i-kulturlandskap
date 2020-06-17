@@ -50,6 +50,9 @@ a:hover {
 a.baseButton:hover {
   text-decoration: none;
 }
+a.internalLink::after {
+  content: " →";
+}
 a.externalLink::after {
   content: " ↗";
 }
@@ -300,6 +303,12 @@ a.externalLink::after {
   text-align: center;
 }
 
+#news .newsReel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 #contact {
   background-color: forestgreen;
   color: white;
@@ -461,4 +470,34 @@ a.externalLink::after {
     width: 100%;
     margin: 0;
   }
+}
+
+/* News */
+.newsCard {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 20px;
+}
+.newsCard .image {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.newsCard .info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  padding-top: 15px;
+}
+.newsCard .title {
+  margin: 0;
+}
+.newsCard .blurb {
+  text-align: center;
+}
+.newsCard .link {
+  margin-top: auto;
 }

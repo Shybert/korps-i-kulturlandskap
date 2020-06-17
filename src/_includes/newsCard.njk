@@ -1,0 +1,19 @@
+{% macro newsCard(post) %}
+  <section class="newsCard card">
+    <img
+      class="image"
+      src="{{ post.data.image.link }}"
+      alt="{{ post.data.image.text }}"
+    />
+
+    <div class="info">
+      <h3 class="title">{{ post.data.title }}</h3>
+
+      <p class="blurb">{{ post.data.blurb }}</p>
+
+      <a class="link baseButton internalLink" href="{{ post.url }}">
+        Les mer
+      </a>
+    </div>
+  </section>
+{% endmacro %}

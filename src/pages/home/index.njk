@@ -3,6 +3,7 @@ permalink: /
 ---
 {% extends "base/basePage.njk" %}
 {% from "macros.njk" import icon %}
+{% from "newsCard.njk" import newsCard %}
 
 {% block head %}
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -26,6 +27,18 @@ permalink: /
         <a href="{{ signUp.link }}" class="baseButton externalLink">
           Klikk her for påmelding!
         </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="news" class="mainSection">
+    <div class="container">
+      <h2>{{ news.title }}</h2>
+
+      <div class="newsReel">
+        {% for newsPost in collections.recentNewsPosts %}
+          {{ newsCard(newsPost) }}
+        {% endfor %}
       </div>
     </div>
   </section>
