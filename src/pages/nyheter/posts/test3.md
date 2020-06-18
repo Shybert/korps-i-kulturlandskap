@@ -5,7 +5,6 @@ date: 2020-06-18
 image:
   link: /static/korpsmusikkikulturlandskap.jpg
   text: Test!
-tags: newsPosts
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.

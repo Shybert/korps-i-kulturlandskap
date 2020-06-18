@@ -1,0 +1,24 @@
+{% extends "layouts/base.njk" %}
+
+{% block title %}
+  {{ title | title }}
+{% endblock %}
+
+{% block main %}
+  <section class="newsPost mainSection">
+    <div class="container">
+      <h1 class="title">{{ title | title }}</h1>
+      <p class="date">{{ date | humanReadableDate }}</p>
+
+      <img
+        class="image"
+        src="{{ image.link }}"
+        alt="{{ image.text }}"
+      />
+
+      <div class="content">
+        {{ content | safe }}
+      </div>
+    </div>
+  </section>
+{% endblock %}

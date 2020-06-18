@@ -8,6 +8,11 @@ module.exports = function (eleventyConfig) {
     md.render(content.trimLeft())
   );
 
+  eleventyConfig.addFilter("humanReadableDate", (date) => {
+    const options = { year: "numeric", month: "long", day: "numeric" };
+    return date.toLocaleDateString(["nb-NO", "en-GB"], options);
+  });
+
   eleventyConfig.addFilter("jsmin", (code) => {
     const minifiedCode = Terser.minify(code, { ecma: 5 });
     if (minifiedCode.error) {
