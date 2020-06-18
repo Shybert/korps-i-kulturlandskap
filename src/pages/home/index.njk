@@ -15,6 +15,18 @@ permalink: /
 {% endblock %}
 
 {% block main %}
+  <section id="welcome" class="mainSection">
+    <div class="container">
+      <div class="content">
+        <h2 class="title">{{ welcome.title }}</h2>
+
+        {% markdown %}
+          {{ welcome.content | safe }}
+        {% endmarkdown %}
+      </div>
+    </div>
+  </section>
+
   <section id="signUp" class="mainSection thin">
     <div class="container card">
       <h2>{{ signUp.title }}</h2>
