@@ -11,11 +11,11 @@ permalink: /overnatting/
   {% for place in places %}
     <section class="mainSection overnightPlace">
       <div class="container">
-        <img class="card desktopOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
+        <img class="desktopOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
 
         <div class="overnightPlaceInfo">
           <h2>{{ place.name }}</h2>
-          <img class="card mobileOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
+          <img class="mobileOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
           {% markdown %}
             {{ place.description }}
           {% endmarkdown %}

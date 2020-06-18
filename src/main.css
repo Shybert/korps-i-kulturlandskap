@@ -430,6 +430,7 @@ a.externalLink::after {
 }
 .overnightPlace img {
   width: 55%;
+  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .overnightPlace img.desktopOnly {
   display: block;
