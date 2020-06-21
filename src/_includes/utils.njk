@@ -4,3 +4,9 @@
     <use xlink:href="/icons/icons.svg#{{ name }}" />
   </svg>
 {% endmacro %}
+
+{% macro conditionalAttribute(attribute, value, condition) -%}
+  {% if condition -%}
+    {{ attribute }}={{value}}
+  {%- endif %}
+{%- endmacro %}

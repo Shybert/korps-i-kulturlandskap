@@ -3,6 +3,7 @@ permalink: /
 ---
 {% extends "layouts/base.njk" %}
 {% from "utils.njk" import icon %}
+{% from "components/textMedia.njk" import textMedia %}
 {% from "components/newsCard.njk" import newsCard %}
 
 {% block head %}
@@ -15,17 +16,12 @@ permalink: /
 {% endblock %}
 
 {% block main %}
-  <section id="welcome" class="mainSection">
-    <div class="container">
-      <div class="content">
-        <h2 class="title">{{ welcome.title }}</h2>
-
-        {% markdown %}
-          {{ welcome.content | safe }}
-        {% endmarkdown %}
-      </div>
-    </div>
-  </section>
+  {{ textMedia(
+    title = welcome.title,
+    text  = welcome.content,
+    id    = "welcome"
+    )
+  }}
 
   <section id="signUp" class="mainSection thin">
     <div class="container card">

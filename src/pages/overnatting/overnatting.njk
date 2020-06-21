@@ -4,45 +4,46 @@ permalink: /overnatting/
 {% extends "layouts/base.njk" %}
 {% from "utils.njk" import icon %}
 {% from "components/lead.njk" import lead as leadComponent %}
+{% from "components/textMedia.njk" import textMedia %}
 
 {% block main %}
   {{ leadComponent(lead.title, lead.text) }}
 
   {% for place in places %}
-    <section class="mainSection overnightPlace">
-      <div class="container">
-        <img class="desktopOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
-
-        <div class="overnightPlaceInfo">
-          <h2>{{ place.name }}</h2>
-          <img class="mobileOnly" src="{{ place.image }}" alt="Bilde av {{ place.name }}" />
-          {% markdown %}
-            {{ place.description }}
-          {% endmarkdown %}
-
-          <ul class="overnightPlaceContact">
-            <li>
-              {{ icon("link", "Nettside", "large") }}
-              <a href="{{ place.website }}">{{ place.website }}</a>
-            </li>
-            <li>
-              {{ icon("mail", "E-mail", "large") }}
-              <a href="mailto:{{ place.email }}">{{ place.email }}</a>
-            </li>
-            <li>
-              {{ icon("phone", "Telefonnummer", "large")}}
-              {% for phoneNumber in place.phoneNumbers %}
-                <a href="tel:{{ phoneNumber }}">{{ phoneNumber }}</a>
-                {% if not loop.last %}&nbsp;/&nbsp;{% endif %}
-              {% endfor %}
-            </li>
-            <li>
-              {{ icon("map-pin", "Addresse", "large") }}
-              {{ place.address }}
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    {% set media %}
+      <img src="{{ place.image }}" alt="Bilde av {{ place.name }}" />      
+    {% endset %}
+    {% set extra %}
+      <ul class="contact">
+        <li>
+          {{ icon("link", "Nettside", "large") }}
+          <a href="{{ place.website }}">{{ place.website }}</a>
+        </li>
+        <li>
+          {{ icon("mail", "E-mail", "large") }}
+          <a href="mailto:{{ place.email }}">{{ place.email }}</a>
+        </li>
+        <li>
+          {{ icon("phone", "Telefonnummer", "large")}}
+          {% for phoneNumber in place.phoneNumbers %}
+            <a href="tel:{{ phoneNumber }}">{{ phoneNumber }}</a>
+            {% if not loop.last %}&nbsp;/&nbsp;{% endif %}
+          {% endfor %}
+        </li>
+        <li>
+          {{ icon("map-pin", "Addresse", "large") }}
+          {{ place.address }}
+        </li>
+      </ul>
+    {% endset %}
+    {{ textMedia(
+      title     = place.name,
+      text      = place.description,
+      media     = media,
+      extra     = extra,
+      reversed  = loop.index % 2 === 1,
+      classes   = "place"
+      )
+    }}
   {% endfor %}
 {% endblock %}
