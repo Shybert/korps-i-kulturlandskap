@@ -13,6 +13,10 @@ module.exports = function (eleventyConfig) {
     return date.toLocaleDateString(["nb-NO", "en-GB"], options);
   });
 
+  eleventyConfig.addFilter("limitTo", (array, maxLength) =>
+    array.slice(0, maxLength)
+  );
+
   eleventyConfig.addFilter("jsmin", (code) => {
     const minifiedCode = Terser.minify(code, { ecma: 5 });
     if (minifiedCode.error) {
