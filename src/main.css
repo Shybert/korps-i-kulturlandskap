@@ -72,7 +72,7 @@ a.externalLink::after {
 
 .baseButton {
   display: inline-block;
-  padding: 14px 16px;
+  padding: 18px 32px;
   background-color: forestgreen;
   color: white;
   text-align: center;
