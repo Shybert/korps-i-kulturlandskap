@@ -353,22 +353,6 @@ a.externalLink::after {
 }
 
 /* Home */
-#welcome .content {
-  width: 45%;
-}
-#welcome .title {
-  text-align: left;
-  margin: 0;
-}
-@media only screen and (max-width: 600px) {
-  #welcome .content {
-    width: 100%;
-  }
-  #welcome .title {
-    text-align: center;
-  }
-}
-
 #signUp > .container {
   padding: 35px;
   padding-top: 25px;
