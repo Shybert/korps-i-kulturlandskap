@@ -1,0 +1,16 @@
+---
+permalink: /nyheter/
+---
+{% extends "layouts/base.njk" %}
+{% from "components/lead.njk" import lead as leadComponent %}
+{% from "components/newsCard.njk" import newsCard %}
+
+{% block main %}
+  {{ leadComponent("Nyheter") }}
+
+  <div class="newsReel mainSection">
+    {% for newsPost in collections.newsPosts %}
+      {{ newsCard(newsPost) }}
+    {% endfor %}
+  </div>
+{% endblock %}

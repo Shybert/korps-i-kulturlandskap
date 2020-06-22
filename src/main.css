@@ -367,10 +367,13 @@ a.externalLink::after {
   }
 }
 
-#news .newsReel {
+#news > .container {
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+#news .moreNewsLink {
+  margin-top: 24px;
 }
 
 #contact {
@@ -485,11 +488,20 @@ a.externalLink::after {
 }
 
 /* News */
+.newsReel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .newsCard {
   display: flex;
   flex-direction: column;
   width: 320px;
   margin: 20px;
+  transition: transform 0.4s;
+}
+.newsCard:hover {
+  transform: scale(1.05);
 }
 .newsCard .image {
   width: 100%;
@@ -516,6 +528,7 @@ a.externalLink::after {
 
 .newsPost .title {
   margin-bottom: 8px;
+  font-size: 40px;
 }
 .newsPost .date {
   margin: 0;
@@ -525,13 +538,17 @@ a.externalLink::after {
 .newsPost .image {
   width: 100%;
   margin: 40px 0;
-  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03),
+    10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 .newsPost .content {
   margin: auto;
   max-width: 680px;
 }
 @media only screen and (max-width: 600px) {
+  .newsPost .title {
+    font-size: 30px;
+  }
   .newsPost .image {
     margin: 25px 0;
   }

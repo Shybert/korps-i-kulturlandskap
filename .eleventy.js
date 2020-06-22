@@ -26,10 +26,6 @@ module.exports = function (eleventyConfig) {
     return minifiedCode.code;
   });
 
-  eleventyConfig.addCollection("recentNewsPosts", (collectionApi) =>
-    collectionApi.getFilteredByTag("newsPosts").slice(0, 3)
-  );
-
   eleventyConfig.addDataExtension("yaml", (content) => yaml.safeLoad(content));
 
   eleventyConfig.addPassthroughCopy("src/icons");

@@ -44,10 +44,14 @@ permalink: /
       <h2>{{ news.title }}</h2>
 
       <div class="newsReel">
-        {% for newsPost in collections.recentNewsPosts %}
+        {% for newsPost in collections.newsPosts | limitTo(3) %}
           {{ newsCard(newsPost) }}
         {% endfor %}
       </div>
+
+      <a class="baseButton internalLink moreNewsLink" href="/nyheter/">
+        Se alle nyheter
+      </a>
     </div>
   </section>
 
