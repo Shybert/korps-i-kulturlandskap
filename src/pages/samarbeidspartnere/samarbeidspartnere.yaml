@@ -3,3 +3,16 @@ lead:
   title: Samarbeidspartnere
   text: |
     Våre samarbeidspartnere!
+partners:
+  - name: Sparebank 1
+    logo: /images/logo_sparebank1.svg
+    website: https://www.sparebank1.no/
+  - name: Gudbrandsdal Energi
+    logo: /images/logo_ge.svg
+    website: https://www.ge.no/
+  - name: Sør-Fron Kommune
+    logo: /images/logo_sorfronkommune.svg
+    website: https://www.sor-fron.kommune.no/
+  - name: Norges Musikkorps Forbund
+    logo: /images/logo_nmf.svg
+    website: https://musikkorps.no/

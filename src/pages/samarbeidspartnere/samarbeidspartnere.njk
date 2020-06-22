@@ -6,4 +6,18 @@ permalink: /samarbeidspartnere/
 
 {% block main %}
   {{ leadComponent(lead.title, lead.text) }}
+
+  <section class="mainSection">
+    <div class="container">
+      <ul class="partners">
+        {% for partner in partners %}
+          <li>
+            <a href="{{ partner.website }}">
+              <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 {% endblock %}

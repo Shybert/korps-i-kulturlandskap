@@ -487,6 +487,26 @@ a.externalLink::after {
   margin-right: 6px;
 }
 
+/* Partners */
+.partners {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.partners li {
+  margin: 20px;
+  transition: transform 0.4s;
+}
+.partners li:hover {
+  transform: scale(1.1);
+}
+.partners img {
+  width: 220px;
+}
+
 /* News */
 .newsReel {
   display: flex;
