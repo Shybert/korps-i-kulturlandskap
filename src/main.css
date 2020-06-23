@@ -336,6 +336,7 @@ a.externalLink::after {
 }
 #navMenu {
   display: none;
+  z-index: 1;
 }
 #navMenuOpen {
   display: none;
