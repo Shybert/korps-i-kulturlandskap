@@ -1,0 +1,17 @@
+---
+pagination:
+  data: bands
+  size: 1
+  alias: band
+permalink: /konsertProgram/{{ band | slug }}/
+---
+
+{% extends "layouts/base.njk" %}
+
+{% block main %}
+  <section class="mainSection">
+    <div class="container">
+      <h1>{{ band }}</h1>
+    </div>
+  </section>
+{% endblock %}
