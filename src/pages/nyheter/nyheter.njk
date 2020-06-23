@@ -6,11 +6,15 @@ permalink: /nyheter/
 {% from "components/newsCard.njk" import newsCard %}
 
 {% block main %}
-  {{ leadComponent("Nyheter") }}
+  <section class="mainSection">
+    <div class="container">
+      <h1>Nyheter</h1>
 
-  <div class="newsReel mainSection">
-    {% for newsPost in collections.newsPosts | reverse %}
-      {{ newsCard(newsPost) }}
-    {% endfor %}
-  </div>
+      <div class="newsReel">
+        {% for newsPost in collections.newsPosts | reverse %}
+          {{ newsCard(newsPost) }}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
 {% endblock %}
