@@ -44,7 +44,7 @@ permalink: /
       <h2>{{ news.title }}</h2>
 
       <div class="newsReel">
-        {% for newsPost in collections.newsPosts | limitTo(3) %}
+        {% for newsPost in collections.newsPosts | reverse | limitTo(3) %}
           {{ newsCard(newsPost) }}
         {% endfor %}
       </div>

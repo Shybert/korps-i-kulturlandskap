@@ -9,7 +9,7 @@ permalink: /nyheter/
   {{ leadComponent("Nyheter") }}
 
   <div class="newsReel mainSection">
-    {% for newsPost in collections.newsPosts %}
+    {% for newsPost in collections.newsPosts | reverse %}
       {{ newsCard(newsPost) }}
     {% endfor %}
   </div>
