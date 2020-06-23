@@ -515,6 +515,7 @@ a.externalLink::after {
   flex-wrap: wrap;
 }
 .newsCard {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 320px;
@@ -523,6 +524,12 @@ a.externalLink::after {
 }
 .newsCard:hover {
   transform: scale(1.05);
+  background-color: forestgreen;
+  color: white;
+}
+.newsCard:hover .link {
+  color: white;
+  text-decoration: none;
 }
 .newsCard .image {
   width: 100%;
@@ -539,6 +546,17 @@ a.externalLink::after {
 }
 .newsCard .title {
   margin: 0;
+}
+.newsCard .link {
+  color: inherit;
+}
+.newsCard .link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .newsCard .blurb {
   text-align: center;
