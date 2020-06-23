@@ -29,6 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml", (content) => yaml.safeLoad(content));
 
   eleventyConfig.addPassthroughCopy("src/icons");
+  eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/main.css");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.setTemplateFormats(["njk", "md"]);
