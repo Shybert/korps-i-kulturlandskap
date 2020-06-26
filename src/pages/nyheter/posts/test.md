@@ -3,8 +3,8 @@ title: "Test post #1"
 blurb: This is the first test post!
 date: 2020-06-16
 image:
-  link: /static/korpsmusikkikulturlandskap.jpg
-  text: Test!
+  link: /images/fana.jpg
+  text: Fana til Hundorp Musikklag
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
