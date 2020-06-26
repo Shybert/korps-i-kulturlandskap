@@ -26,13 +26,7 @@
       {% block main %} {% endblock %}
     </main>
 
-    {% set js %}
-      {% include "cmsRedirect.js" %}
-      {% include "core.js" %}
-      {% include "header/navMenu.js" %}
-    {% endset %}
-    <script>
-      {{ js | jsmin | safe }}
-    </script>
+    <script src="/js/base.js" defer></script>
+    {% block js %} {% endblock %}
   </body>
 </html>

@@ -1,5 +1,4 @@
 const MarkdownIt = require("markdown-it");
-const Terser = require("terser");
 const yaml = require("js-yaml");
 
 module.exports = function (eleventyConfig) {
@@ -17,20 +16,12 @@ module.exports = function (eleventyConfig) {
     array.slice(0, maxLength)
   );
 
-  eleventyConfig.addFilter("jsmin", (code) => {
-    const minifiedCode = Terser.minify(code, { ecma: 5 });
-    if (minifiedCode.error) {
-      console.error("JS minification error: ", minifiedCode.error);
-      return code;
-    }
-    return minifiedCode.code;
-  });
-
   eleventyConfig.addDataExtension("yaml", (content) => yaml.safeLoad(content));
 
   eleventyConfig.addPassthroughCopy("src/icons");
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/main.css");
+  eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/admin");
   eleventyConfig.setTemplateFormats(["njk", "md"]);
 
