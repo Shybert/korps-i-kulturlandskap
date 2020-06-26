@@ -10,11 +10,14 @@
       <h1 class="title">{{ title | title }}</h1>
       <p class="date">{{ date | humanReadableDate }}</p>
 
-      <img
-        class="image"
-        src="{{ image.link }}?nf_resize=fit&w=1100"
-        alt="{{ image.text }}"
-      />
+      <picture>
+        <source srcset="{{ image.link }}?nf_resize=fit&w=450" media="(max-width: 600px)" />
+        <img
+          class="image"
+          src="{{ image.link }}?nf_resize=fit&w=850"
+          alt="{{ image.text }}"
+        />
+      </picture>
 
       <div class="content">
         {{ content | safe }}
