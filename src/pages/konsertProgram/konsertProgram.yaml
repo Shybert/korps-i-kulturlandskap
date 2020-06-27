@@ -8,6 +8,32 @@ bands:
   - ABC Korps
   - Studentorchesteret Dei Taktfulle
   - British Philharmonic Orchestra
+locations:
+  - name: Sørheim
+    latitude: 61.56599
+    longitude: 9.92713
+  - name: Dale-Gudbrands Gard
+    latitude: 61.54853
+    longitude: 9.96621
+  - name: Sygard Grytting
+    latitude: 61.57595
+    longitude: 9.89313
+  - name: Sør-Fron Kirke
+    latitude: 61.55841
+    longitude: 9.94145
+  - name: Sør-Fron Kulturhus
+    latitude: 61.57638
+    longitude: 9.86302
+  - name: Kiwi Harpefoss
+    latitude: 61.57798
+    longitude: 9.85830
+  - name: Sør-Fron Kommunehus
+    latitude: 61.55667
+    longitude: 9.93901
+  - name: Lidarende
+    latitude: 61.53732
+    longitude: 9.97823
+
 concerts:
   - time: "10:00"
     name: Oppmarsj
