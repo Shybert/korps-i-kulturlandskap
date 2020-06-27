@@ -17,3 +17,19 @@ collections:
             fields:
               - { label: Tittel, name: title, widget: string }
               - { label: Tekst, name: text, widget: markdown }
+  - label: Nyheter
+    name: nyheter
+    folder: src/pages/nyheter/posts
+    create: true
+    fields:
+      - { label: Tittel, name: title, widget: string }
+      - { label: Blurb, name: blurb, widget: string }
+      - { label: Publiseringsdato, name: date, widget: datetime }
+      - label: Bilde
+        name: image
+        widget: object
+        collapsed: false
+        fields:
+          - { label: Bilde, name: link, widget: image }
+          - { label: Bildetekst, name: text, widget: string }
+      - { label: Hoveddel, name: body, widget: markdown }
