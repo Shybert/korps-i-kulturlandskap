@@ -17,7 +17,7 @@
         <div class="content">
           <h2 class="title">{{ title }}</h2>
 
-          <div class="mediaWrapper mobileOnly">
+          <div class="mediaWrapper mobileOnly card">
             {{ media | safe }}
           </div>
 
@@ -28,7 +28,7 @@
           {{ extra | safe }}
         </div>
 
-        <div class="mediaWrapper desktopOnly">
+        <div class="mediaWrapper desktopOnly card largeShadow">
           {{ media | safe }}
         </div>
     </div>

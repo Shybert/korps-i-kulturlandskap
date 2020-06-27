@@ -129,8 +129,15 @@ a.externalLink::after {
 
 .card {
   background-color: white;
+  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03),
+    5px 10px 15px rgba(0, 0, 0, 0.1);
+}
+.card.rounded {
   border-radius: 10px;
-  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.card.largeShadow {
+  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03),
+    10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* Components */
@@ -159,12 +166,10 @@ a.externalLink::after {
 .textMedia .mediaWrapper.desktopOnly {
   display: block;
   width: 55%;
-  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 20px 30px rgba(0, 0, 0, 0.2);
 }
 .textMedia .mediaWrapper.mobileOnly {
   display: none;
   width: 100%;
-  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03), 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 .textMedia .mediaWrapper > * {
   display: block;
@@ -586,8 +591,6 @@ a.externalLink::after {
 .newsPost .image {
   width: 100%;
   margin: 40px 0;
-  box-shadow: 0 15px 15px rgba(64, 93, 50, 0.03),
-    10px 10px 25px rgba(0, 0, 0, 0.2);
 }
 .newsPost .content {
   margin: auto;
