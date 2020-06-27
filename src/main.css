@@ -498,6 +498,9 @@ a.externalLink::after {
 }
 
 /* Overnatting */
+.place {
+  margin-bottom: 96px;
+}
 .place .contact {
   list-style-type: none;
   padding: 0;
@@ -510,6 +513,11 @@ a.externalLink::after {
 }
 .place .contact .icon {
   margin-right: 6px;
+}
+@media only screen and (max-width: 1000px) {
+  .place {
+    margin-bottom: 0;
+  }
 }
 
 /* Partners */
