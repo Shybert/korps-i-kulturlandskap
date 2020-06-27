@@ -6,10 +6,6 @@ permalink: /
 {% from "components/textMedia.njk" import textMedia %}
 {% from "components/newsCard.njk" import newsCard %}
 
-{% block head %}
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-{% endblock %}
-
 {% block header %}
   {% include "header/headerSplash.njk" %}
   {% include "header/headerBar.njk" %}
@@ -77,5 +73,6 @@ permalink: /
 {% endblock %}
 
 {% block js %}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
   <script src="/js/cmsRedirect.js" defer></script>
 {% endblock %}
