@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
 media_folder: src/images
+public_folder: /images
 collections:
   - label: Sider
     name: pages
