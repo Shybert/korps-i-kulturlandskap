@@ -6,6 +6,13 @@ permalink: /
 {% from "components/textMedia.njk" import textMedia %}
 {% from "components/newsCard.njk" import newsCard %}
 
+{% block head %}
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=block&text=Korpsikultand"
+    rel="stylesheet"
+  >
+{% endblock %}
+
 {% block header %}
   {% include "header/headerSplash.njk" %}
   {% include "header/headerBar.njk" %}
