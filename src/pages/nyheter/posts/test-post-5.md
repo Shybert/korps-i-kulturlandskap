@@ -3,7 +3,7 @@ title: "Test Post #5"
 blurb: Written in the CMS!
 date: 2020-06-01T19:50:09.626Z
 image:
-  link: /src/images/fana.jpg
+  link: /images/fana.jpg
   text: Den sagnomsuste fana til Hundorp Musikklag!
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque erat 
