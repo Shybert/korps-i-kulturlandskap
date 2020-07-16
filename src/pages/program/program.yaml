@@ -1,47 +1,62 @@
-pageTitle: "Program"
+pageTitle: Program
 lead:
   title: Program
   text: |
     Det foreløpige programmet for stevnet. Med forbehold for endringer!
 program:
-  - title: "Fredag, 11. juni"
+  - title: Fredag, 11. juni
     events:
       - time: "17:00"
-        title: "Stevnekontoret åpner"
-        description: Stevnekontoret kan finnes på ... . Lorem ipsum dolor sit lamet. Conscectitur..."
+        title: Stevnekontoret åpner
+        description: Stevnekontoret finner du i Sør-Fron Kulturhus og holder oppe fra fredag kl. 17 og hele lørdagen.
       - time: "19:00"
-        title: "Marsjkonkurranse"
-        description: "Marsjkonkurranse for de som kommer på fredag. Kåring blablabla. Lorem ipsum dolor sit lamet. Conscectitur..."
-      - time: "20:00"
-        title: "Servering, drikke, og dans"
-        description: "Servering, drikke, og dans. Finner sted på ???. Lorem ipsum dolor sit lamet. Conscectitur..."
+        title: Marsjkonkurranse
+        description: Vi oppfordrer alle som kommer på fredag til å melde seg på marsjkonkurransen. Konkurransen går ut på at hvert enkelt korps spiller en marsj fra scenen i kulturhuset. En oppnevnt jury gir bedømming ut fra kvalitet og spilleglede. Resultatet inkludert premiering offentliggjøres lørdag under festmiddagen.
+      - time: "19:00"
+        title: Servering, drikke, og dans
+        description: Servering, drikke, og dans på Sør-Fron Kulturhus.
 
-  - title: "Lørdag, 12. juni"
+  - title: Lørdag, 12. juni
     events:
       - time: "10:00"
-        title: "Oppmarsj til Sør-Fron kirke"
-        description: "Oppmarsj til Sør-Fron kirke! Korpsene starter ... . Lorem ipsum dolor sit lamet. Conscectitur..."
-      - time: "10:30"
-        title: "Ankomst Sør-Fron Kirke"
-        description: "Presentasjon av korps, tale, felles marsjer, med mer. Lorem ipsum dolor sit lamet. Conscectitur..."
-      - time: "12:00"
-        title: "Spilling rundt i bygda"
-        description: "Marsjheftespilling. Gardstunspilling. ... . Lorem ipsum dolor sit lamet. Conscectitur..."
-      - time: "15:00"
-        title: "Parallelle konserter"
-        description: "Konserter på kjente og kjære steder i Sør-Fron ... . Lorem ipsum dolor sit lamet. Conscectitur..."
-      - time: "20:00"
-        title: "Festmiddag"
-        description: "Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i marsjkonkurransen. ... . Lorem ipsum dolor sit lamet. Conscectitur..."
+        title: Oppmarsj til Sør-Fron kirke
+        description: |
+          Korpsene marsjerer fra 4 forskjellige retninger:
 
-  - title: "Søndag, 13. juni"
+          - Dale-Gudbrands Gard
+          - Sørheim
+          - Midtbygda
+          - Flatmoen
+      - time: "10:30"
+        title: Ankomst Sør-Fron Kirke
+        description: Åpning av stevnet med presentasjon av hvert enkelt korps, taler og felles marsj.
+      - time: "12:00"
+        title: Spilling rundt i bygda
+        description: Hvert enkelt korps lister opp ønske for marsjheftespilling (Kiwi Harpefoss, Sørheim Omsorgssenter, kommunehuset / Tveit Smie), eller gardstunspilling sittende, ta med notestativ. Enkelt trommesett er tilgjengelig (Sygard Grytting, Nordgard Korstad, Aanekre Gard).
+      - time: "15:00"
+        title: Parallelle konserter
+        description: |
+          - Sør-Fron Kirke - Passer for korps under 30 musikanter.
+          - Rudi Gard - Passer for korps opp til 40 musikanter.
+          - Sør-Fron Kulturhus - Ingen størrelsebegrensing. Her kan vi tilby oppvarmingsrom.
+
+          Alle steder har standard slagverkutstyr. Ta kontakt for spesielle behov.
+      - time: "20:00"
+        title: Festmiddag
+        description: Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i marsjkonkurransen. Underholdning og dans.
+
+  - title: Søndag, 13. juni
     events:
       - time: "11:00"
-        title: "Avmarsj til Dale-Gudbrands gard"
-        description: "Avmarsj til Dale-Gudbrands gard. Korpsene starter ... . Lorem ipsum dolor sit lamet. Conscectitur..."
+        title: Avmarsj til Dale-Gudbrands gard
+        description: |
+          Korpsene marsjerer fra tre forskjellige retninger:
+          - Sør-Fron Kirke
+          - Hyttebyen
+          - Lidarende
       - time: "12:00"
-        title: "Arrangement på Dale-Gudbrand"
-        description: "Felles marsjer, lokale innslag, ... . Lorem ipsum dolor sit lamet. Conscectitur..."
+        title: Arrangement på Dale-Gudbrand
+        description: Felles marsjer, historisk og musikalsk underholdning fra scene.
       - time: "14:00"
-        title: "Takk for deltagelse tale"
-        description: "Takk for deltagelse ... . Lorem ipsum dolor sit lamet. Conscectitur..."
+        title: Regionstevnet 2021, Korps i Kulturlandskap avsluttes
+        description: Avslutningstale.
