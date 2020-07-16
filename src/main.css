@@ -482,6 +482,19 @@ a.externalLink::after {
   text-align: left;
   color: forestgreen;
 }
+.eventDescription > :first-child {
+  margin-top: 0;
+}
+.eventDescription > :last-child {
+  margin-bottom: 0;
+}
+.eventDescription p {
+  margin: 4px;
+}
+.eventDescription ul {
+  margin: 4px;
+  padding-left: 20px;
+}
 @media only screen and (max-width: 600px) {
   .event {
     flex-direction: column;

@@ -23,7 +23,11 @@ permalink: /program/
             <div class="eventTime">{{ event.time }}</div>
             <div class="eventInfo">
               <h3 class="eventTitle">{{ event.title }}</h3>
-              <div class="eventDescription">{{ event.description }}</div>
+              <div class="eventDescription">
+                {% markdown %}
+                  {{ event.description }}
+                {% endmarkdown %}
+              </div>
             </div>
           </section>
         {% endfor %}
