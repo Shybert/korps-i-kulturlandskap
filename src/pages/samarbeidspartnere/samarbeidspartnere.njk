@@ -9,11 +9,14 @@ permalink: /samarbeidspartnere/
 
   <section class="mainSection">
     <div class="container">
-      <ul class="partners">
+      <ul class="listMedia">
         {% for partner in partners %}
-          <li>
+          <li class="partner">
             <a href="{{ partner.website }}">
-              <img src="{{ partner.logo }}" alt="{{ partner.name }}" />
+              <img
+                src="{{ partner.logo }}"
+                alt="{{ partner.name }}"
+              />
             </a>
           </li>
         {% endfor %}
