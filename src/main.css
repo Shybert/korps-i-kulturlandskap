@@ -63,12 +63,14 @@ a.externalLink::after {
 
 .wave {
   display: block;
+  position: relative;
 }
-
 /* For removing a very tiny gap that sometimes appear between a wave and its section */
 .wave.top {
-  position: relative;
   bottom: -1px;
+}
+.wave.bottom {
+  top: -1px;
 }
 
 .baseButton {
@@ -229,66 +231,13 @@ a.externalLink::after {
 }
 
 /* Header */
-#headerSplash {
+#headerBarWrapper {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 700px;
-  max-height: 90vh;
-  z-index: -2;
-  background-image: url("/images/korpsikulturlandskap.jpg");
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-}
-#headerSplash::after {
-  z-index: -2;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 100%;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.85));
-}
-#headerSplashSlogan {
-  z-index: -1;
-  margin-left: 15%;
-  color: white;
-  text-align: center;
-  font-size: 85px;
-  font-family: "Dancing Script", cursive;
-  text-shadow: 2px 2px 2px black;
-}
-#headerSplashSpacer {
-  height: 700px;
-  max-height: 90vh;
-}
-@media only screen and (max-width: 600px), (max-height: 500px) {
-  #headerSplash {
-    align-items: center;
-  }
-  #headerSplash::after {
-    width: 100%;
-    background: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.85)
-    );
-  }
-  #headerSplashSlogan {
-    margin-left: 0;
-    font-size: 55px;
-  }
-}
-
-#headerBarWrapper {
-  width: 100%;
   height: 48px;
+  z-index: 500;
   background-color: forestgreen;
 }
 #headerBar {
@@ -308,6 +257,32 @@ a.externalLink::after {
 }
 #headerBarLogo:hover {
   text-decoration: underline;
+}
+
+#headerSplash {
+  margin-top: 48px;
+  height: 700px;
+  max-height: 60vh;
+  background-color: forestgreen;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+#headerSplashSlogan {
+  margin-left: 15%;
+  color: white;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Dancing Script", cursive;
+}
+@media only screen and (max-width: 600px) {
+  #headerSplash {
+    justify-content: center;
+  }
+  #headerSplashSlogan {
+    margin: 0;
+    font-size: 60px;
+  }
 }
 
 .navList {
