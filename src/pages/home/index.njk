@@ -68,12 +68,16 @@ permalink: /
       <ul class="contactLinks">
         <li>
           {{ icon("facebook", "Facebook", "huge") }}
-          <a href="{{ contact.facebookPage }}">Finn oss på Facebook!</a>
+          <a href="{{ contact.facebookPage }}">Facebookside</a>
         </li>
         <li>
           {{ icon("mail", "Email", "huge") }}
           <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
         </li>
+        <li>
+          {{ icon("phone", "Telefonnummer", "huge") }}
+          <a href="tel:{{ contact.number }}">{{ contact.number }}</a>
+        </li>        
       </ul>
     </div>
   </section>
