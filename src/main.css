@@ -231,6 +231,9 @@ a.externalLink::after {
 }
 
 /* Header */
+#headerBarSpacer {
+  height: 48px;
+}
 #headerBarWrapper {
   position: fixed;
   top: 0;
@@ -260,7 +263,6 @@ a.externalLink::after {
 }
 
 #headerSplash {
-  margin-top: 48px;
   height: 700px;
   max-height: 60vh;
   background-color: forestgreen;
