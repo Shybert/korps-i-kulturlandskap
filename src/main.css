@@ -127,6 +127,7 @@ a.externalLink::after {
   padding-bottom: 25px;
 }
 .mainSection > .container {
+  width: 100%;
   max-width: 1100px;
   margin: 0 20px;
 }
