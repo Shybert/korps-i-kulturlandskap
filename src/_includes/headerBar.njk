@@ -1,0 +1,34 @@
+{% from "utils.njk" import icon %}
+
+{% set nav %}
+  <ul class="navList">
+    <li class="navItem"><a href="/">Hjem</a></li>
+    <li class="navItem"><a href="/overnatting/">Overnatting</a></li>
+    <li class="navItem"><a href="/program/">Program</a></li>
+    <li class="navItem"><a href="/konsertProgram/">Konsertprogram</a></li>
+    <li class="navItem"><a href="/omOss/">Om oss</a></li>
+    <li class="navItem"><a href="/samarbeidspartnere/">Samarbeidspartnere</a></li>
+  </ul>
+{% endset %}
+
+<div id="headerBar">
+  <a href="/" id="headerBarLogo">Korps i kulturlandskap</a>
+
+  <nav id="headerBarNav">
+    {{ nav | safe }}
+  </nav>
+
+  <button id="navMenuOpen" type="button">
+    {{ icon("menu", "Open navigation", "extraLarge") }}
+  </button>
+
+  <div id="navMenu" class="collapsed">
+    <button id="navMenuClose" type="button">
+      {{ icon("x", "Close navigation", "extraLarge") }}
+    </button>
+
+    <nav>
+      {{ nav | safe }}
+    </nav>
+  </div>
+</div>
