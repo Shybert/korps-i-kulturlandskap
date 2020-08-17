@@ -22,7 +22,7 @@
           </div>
 
           {% markdown %}
-            {{ text }}
+            {{ text | safe }}
           {% endmarkdown %}
 
           {{ extra | safe }}
