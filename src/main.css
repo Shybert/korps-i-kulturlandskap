@@ -326,8 +326,9 @@ header {
 
 /* Home */
 .home header {
-  background: linear-gradient(#228b22aa 60%, forestgreen 100%),
-    url("/images/sor-fron-kirke-panorama.jpg") center;
+  background: linear-gradient(#228b22b5 60%, forestgreen 100%),
+    url("/images/sor-fron-kirke.jpg") center;
+  background-size: cover;
 }
 .home #headerBarLogo {
   display: none;
@@ -338,6 +339,7 @@ header {
   display: flex;
 }
 .hero .slogan {
+  max-width: 75%;
   margin: auto;
   color: white;
   text-align: center;
@@ -349,7 +351,13 @@ header {
   fill: #f5f5f5;
 }
 @media only screen and (max-width: 600px) {
+  .home header {
+    background: linear-gradient(#228b22b5 60%, forestgreen 100%),
+      url("/images/sor-fron-kirke-crop.jpg") center;
+    background-size: cover;
+  }
   .hero .slogan {
+    max-width: 100%;
     font-size: 60px;
   }
 }
