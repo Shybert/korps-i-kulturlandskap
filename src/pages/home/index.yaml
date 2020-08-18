@@ -8,7 +8,7 @@ welcome:
 
     Nunc porttitor molestie urna dapibus rutrum. Pellentesque purus nisl, vestibulum eget quam eget, mollis ultricies mauris. Nulla vitae placerat felis. Nullam gravida tincidunt semper. Etiam quam dui, pretium nec laoreet at, euismod nec massa.
 signUp:
-  title: Påmelding
+  title: Påmelding og pris
   content: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
 
