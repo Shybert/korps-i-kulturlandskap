@@ -1,6 +1,6 @@
 ---
 title: "Test post #3"
-blurb: Blurb is quite a peculiar word, isn't it? I wonder what the etymology is...
+blurb: Another one. Another one. Another one.
 date: 2020-06-18
 image:
   link: /images/fana.jpg
