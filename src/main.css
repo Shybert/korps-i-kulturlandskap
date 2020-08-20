@@ -411,6 +411,20 @@ header {
   }
 }
 
+#hml .image {
+  width: 100%;
+}
+#hml .content {
+  max-width: 600px;
+  margin: auto;
+}
+#hml blockquote {
+  max-width: 400px;
+  margin: auto;
+  padding: 12px;
+  text-align: center;
+}
+
 /* Program */
 #navProgram {
   display: flex;
