@@ -5,19 +5,7 @@ public_folder: /images
 collections:
   - label: Sider
     name: pages
-    files:
-      - label: Om oss
-        name: omOss
-        file: src/pages/omOss/omOss.yaml
-        fields:
-          - { label: Sidetittel, name: pageTitle, widget: string }
-          - label: Innledning
-            name: lead
-            widget: object
-            collapsed: false
-            fields:
-              - { label: Tittel, name: title, widget: string }
-              - { label: Tekst, name: text, widget: markdown }
+    files: []
   - label: Nyheter
     name: nyheter
     folder: src/pages/nyheter/posts

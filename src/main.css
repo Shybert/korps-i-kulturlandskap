@@ -508,21 +508,6 @@ header {
   }
 }
 
-/* About us */
-.about .hml .image {
-  width: 100%;
-}
-.about .hml .content {
-  max-width: 600px;
-  margin: auto;
-}
-.about .hml blockquote {
-  max-width: 400px;
-  margin: auto;
-  padding: 12px;
-  text-align: center;
-}
-
 /* Partners */
 .partner {
   transition: transform 0.4s;
