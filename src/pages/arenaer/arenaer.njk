@@ -1,0 +1,10 @@
+---
+permalink: /arenaer/
+---
+{% set bodyClass = "arenaer" %}
+{% extends "layouts/base.njk" %}
+{% from "components/lead.njk" import lead as leadComponent %}
+
+{% block main %}
+  {{ leadComponent(lead.title, lead.text) }}
+{% endblock %}
