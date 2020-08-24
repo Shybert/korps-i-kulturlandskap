@@ -4,7 +4,36 @@ permalink: /praktiskInfo/
 {% set bodyClass = "praktiskInfo" %}
 {% extends "layouts/base.njk" %}
 {% from "components/lead.njk" import lead as leadComponent %}
+{% from "components/textMedia.njk" import textMedia %}
 
 {% block main %}
   {{ leadComponent(lead.title, lead.text) }}
+
+  {% set media %}
+    <img src="/images/kart-sor-fron.jpg" alt="Kart over Sør-Fron" />      
+  {% endset %}
+  {{ textMedia(
+    title = map.title,
+    text  = map.content,
+    media = media
+    )
+  }}
+
+  <section class="mainSection thin">
+    <div class="container">
+      <h2>{{ taxi.title }}</h2>
+      {% markdown %}
+        {{ taxi.content | safe }}
+      {% endmarkdown %}
+    </div>
+  </section>
+
+  <section class="mainSection thin">
+    <div class="container">
+      <h2>{{ food.title }}</h2>
+      {% markdown %}
+        {{ food.content | safe }}
+      {% endmarkdown %}
+    </div>
+  </section>  
 {% endblock %}
