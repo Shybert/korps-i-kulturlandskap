@@ -4,7 +4,22 @@ permalink: /arenaer/
 {% set bodyClass = "arenaer" %}
 {% extends "layouts/base.njk" %}
 {% from "components/lead.njk" import lead as leadComponent %}
+{% from "components/textMedia.njk" import textMedia %}
 
 {% block main %}
   {{ leadComponent(lead.title, lead.text) }}
+
+  {% for arena in arenas %}
+    {% set media %}
+      <img src="{{ arena.image }}" alt="Bilde av {{ arena.name }}" />      
+    {% endset %}
+    {{ textMedia(
+      title     = arena.name,
+      text      = arena.description,
+      media     = media,
+      reversed  = loop.index % 2 === 1,
+      classes   = "arena"
+      )
+    }} 
+  {% endfor %}
 {% endblock %}

@@ -508,6 +508,11 @@ header {
   }
 }
 
+/* Arenas */
+.arena {
+  margin-bottom: 96px;
+}
+
 /* Partners */
 .partner {
   transition: transform 0.4s;
