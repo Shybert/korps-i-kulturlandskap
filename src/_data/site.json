@@ -1,0 +1,10 @@
+{
+  "nav": [
+    { "name": "Hjem", "link": "/" },
+    { "name": "Overnatting", "link": "/overnatting/" },
+    { "name": "Program", "link": "/program/" },
+    { "name": "Arenaer", "link": "/arenaer/" },
+    { "name": "Praktisk info", "link": "/praktiskInfo/" },
+    { "name": "Samarbeidspartnere", "link": "/samarbeidspartnere/" }
+  ]
+}

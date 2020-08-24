@@ -2,12 +2,11 @@
 
 {% set nav %}
   <ul class="navList">
-    <li class="navItem"><a href="/">Hjem</a></li>
-    <li class="navItem"><a href="/overnatting/">Overnatting</a></li>
-    <li class="navItem"><a href="/program/">Program</a></li>
-    <li class="navItem"><a href="/arenaer/">Arenaer</a></li>
-    <li class="navItem"><a href="/praktiskInfo/">Praktisk info</a></li>
-    <li class="navItem"><a href="/samarbeidspartnere/">Samarbeidspartnere</a></li>
+    {% for item in site.nav %}
+      <li class="navItem">
+        <a href="{{ item.link }}">{{ item.name }}</a>
+      </li>
+    {% endfor %}
   </ul>
 {% endset %}
 
