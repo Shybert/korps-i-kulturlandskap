@@ -6,5 +6,10 @@
     { "name": "Arenaer", "link": "/arenaer/" },
     { "name": "Praktisk info", "link": "/praktiskInfo/" },
     { "name": "Samarbeidspartnere", "link": "/samarbeidspartnere/" }
-  ]
+  ],
+  "contact": {
+    "email": "email@example.com",
+    "facebookPage": "http://example.com/",
+    "phoneNumber": "412 26 193"
+  }
 }
