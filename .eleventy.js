@@ -23,7 +23,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/main.css");
   eleventyConfig.addPassthroughCopy("src/js");
   eleventyConfig.addPassthroughCopy("src/admin");
-  eleventyConfig.setTemplateFormats(["njk", "md"]);
+  eleventyConfig.setTemplateFormats(["njk", "md", "11ty.js"]);
 
   return {
     dir: { input: "src" },
