@@ -32,7 +32,7 @@ permalink: /overnatting/
         </li>
         <li>
           {{ icon("map-pin", "Addresse", "large") }}
-          {{ place.address }}
+          <a href="https://www.google.com/maps/@{{ place.address.latitude }},{{ place.address.longitude }},16z">{{ place.address.text }}</a>
         </li>
       </ul>
     {% endset %}
