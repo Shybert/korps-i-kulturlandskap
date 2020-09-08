@@ -530,6 +530,19 @@ header {
 .arena {
   margin-bottom: 96px;
 }
+.arena .links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.arena .links li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.arena .links .icon {
+  margin-right: 6px;
+}
 
 /* Partners */
 .partner {

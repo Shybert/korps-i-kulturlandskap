@@ -3,6 +3,7 @@ permalink: /arenaer/
 ---
 {% set bodyClass = "arenaer" %}
 {% extends "layouts/base.njk" %}
+{% from "utils.njk" import icon %}
 {% from "components/lead.njk" import lead as leadComponent %}
 {% from "components/textMedia.njk" import textMedia %}
 
@@ -13,10 +14,19 @@ permalink: /arenaer/
     {% set media %}
       <img src="{{ arena.image }}" alt="Bilde av {{ arena.name }}" />      
     {% endset %}
+    {% set extra %}
+      <ul class="links">
+        <li>
+          {{ icon("map-pin", "Addresse", "large") }}
+          <a href="https://www.google.com/maps/@{{ arena.address.latitude }},{{ arena.address.longitude }},16z">{{ arena.address.text }}</a>
+        </li>
+      </ul>
+    {% endset %}    
     {{ textMedia(
       title     = arena.name,
       text      = arena.description,
       media     = media,
+      extra     = extra,
       reversed  = loop.index % 2 === 1,
       classes   = "arena"
       )
