@@ -1,4 +1,7 @@
 /* Base */
+html {
+  scroll-padding-top: 60px;
+}
 body {
   background-color: #f5f5f5;
   color: rgb(0, 0, 0, 0.85);
@@ -232,8 +235,15 @@ header {
   background-color: forestgreen;
 }
 #headerBar {
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
+  height: 48px;
+  background-color: forestgreen;
+}
+#headerBarSpacer {
   height: 48px;
 }
 
@@ -280,6 +290,7 @@ header {
   right: 12px;
 }
 #navMenu {
+  z-index: 9999;
   display: block;
   visibility: visible;
   position: fixed;
@@ -330,6 +341,13 @@ header {
     url("/images/sor-fron-kirke.jpg");
   background-size: cover;
   background-position: center;
+}
+.home #headerBar {
+  background-color: transparent;
+  transition: background-color 0.35s;
+}
+.home #headerBar.scrolled {
+  background-color: forestgreen;
 }
 .home #headerBarLogo {
   display: none;
