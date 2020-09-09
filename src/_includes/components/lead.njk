@@ -1,10 +1,12 @@
-{% macro lead(title, text) %}
+{% macro lead(title, text, extra = "") %}
   <section id="lead" class="mainSection thin">
     <div class="container">
       <h1>{{ title }}</h1>
       {% markdown %}
         {{ text }}
       {% endmarkdown %}
+
+      {{ extra | safe }}
     </div>
   </section>  
 {% endmacro %}
