@@ -1,11 +1,18 @@
 ---
 permalink: /program/
 ---
+{% set bodyClass = "program" %}
 {% extends "layouts/base.njk" %}
+{% from "utils.njk" import icon %}
 {% from "components/lead.njk" import lead as leadComponent %}
 
 {% block main %}
-  {{ leadComponent(lead.title, lead.text) }}
+  {% set extra %}
+    <a class="print button" href="/program/program.pdf">
+      {{ icon("printer", "Printer", "large") }} Utskriftsversjon
+    </a>
+  {% endset %}
+  {{ leadComponent(lead.title, lead.text, extra) }}
 
   <nav id="navProgram">
     {% for day in program %}

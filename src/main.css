@@ -507,6 +507,13 @@ header {
   }
 }
 
+.program .print {
+  display: inline-flex;
+}
+.program .print .icon {
+  margin-right: 6px;
+}
+
 /* Overnatting */
 .place {
   margin-bottom: 96px;
