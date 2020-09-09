@@ -14,10 +14,16 @@ permalink: /program/
   {% endset %}
   {{ leadComponent(lead.title, lead.text, extra) }}
 
-  <nav id="navProgram">
-    {% for day in program %}
-      <a class="navProgramItem button" href="#day{{ loop.index }}">{{ day.title }}</a>
-    {% endfor %}
+  <nav id="navProgram" class="mainSection">
+    <div class="container">
+      <ul>
+        {% for day in program %}
+          <li>
+            <a class="button" href="#day{{ loop.index }}">{{ day.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </nav>
 
   {% for day in program %}

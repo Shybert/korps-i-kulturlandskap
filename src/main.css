@@ -449,15 +449,26 @@ header {
 
 /* Program */
 #navProgram {
+  padding-bottom: 0;
+}
+#navProgram > .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.navProgramItem {
+#navProgram ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navProgram ul li {
   margin: 8px;
 }
 @media only screen and (max-width: 600px) {
-  #navProgram {
+  #navProgram ul {
     flex-direction: column;
   }
 }
