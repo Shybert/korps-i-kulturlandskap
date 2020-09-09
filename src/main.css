@@ -89,6 +89,10 @@ a.externalLink::after {
 .button:hover {
   background-color: #1e7b1e;
 }
+.button-rounded {
+  box-shadow: none;
+  border-radius: 40px;
+}
 
 .icon {
   width: 1em;
