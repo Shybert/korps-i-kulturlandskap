@@ -54,7 +54,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a.baseButton:hover {
+a.button:hover {
   text-decoration: none;
 }
 a.internalLink::after {
@@ -73,7 +73,7 @@ a.externalLink::after {
   bottom: -1px;
 }
 
-.baseButton {
+.button {
   display: inline-block;
   padding: 18px 32px;
   background-color: forestgreen;
@@ -86,7 +86,7 @@ a.externalLink::after {
   box-shadow: 0 4px 1px -1px #145214;
   transition: background-color 0.25s;
 }
-.baseButton:hover {
+.button:hover {
   background-color: #1e7b1e;
 }
 
