@@ -6,18 +6,24 @@ permalink: /praktiskInfo/
 {% from "components/lead.njk" import lead as leadComponent %}
 {% from "components/textMedia.njk" import textMedia %}
 
+{% block head %}
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""
+  />  
+{% endblock %}
+
 {% block main %}
   {{ leadComponent(lead.title, lead.text) }}
 
-  {% set media %}
-    <img src="/images/kart-sor-fron.jpg" alt="Kart over Sør-Fron" />      
-  {% endset %}
-  {{ textMedia(
-    title = map.title,
-    text  = map.content,
-    media = media
-    )
-  }}
+  <section class="mainSection thin">
+    <div class="container">
+      <h2>{{ map.title }}</h2>
+      <div id="map" class="card largeShadow"></div>
+    </div>
+  </section>  
 
   <section class="mainSection thin">
     <div class="container">
@@ -36,4 +42,15 @@ permalink: /praktiskInfo/
       {% endmarkdown %}
     </div>
   </section>  
+{% endblock %}
+
+{% block js %}
+  <script
+    src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""
+    defer
+  ></script>
+  <script src="/js/map.js" defer></script>
+  <script src="/js/praktiskInfo.js" defer></script>
 {% endblock %}

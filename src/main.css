@@ -116,6 +116,10 @@ a.externalLink::after {
   height: 4em;
 }
 
+#map {
+  height: 400px;
+}
+
 #main {
   width: 100%;
   overflow: auto;
