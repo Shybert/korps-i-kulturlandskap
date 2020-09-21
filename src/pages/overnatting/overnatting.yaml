@@ -2,7 +2,7 @@ pageTitle: Overnatting
 lead:
   title: Overnatting
   text: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
 places:
   - name: Dale-Gudbrands Gard
     emails:
@@ -16,28 +16,71 @@ places:
       longitude: 9.9662324
     image: /images/dale-gudbrand.jpg
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
+      Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000. Stevneprogrammet søndag er lagt til Dale-Gudbrands gard.
 
-  - name: Pyntaberget Hotell
+  - name: Hytter på Gålå
     emails:
-      - post@pyntabergethotell.no
+      - knut@galabooking.no
+      - booking@galabooking.no
     phoneNumbers:
-      - +47 902 84 642
-      - +47 911 26 507
-    website: http://pyntabergethotell.no/
+      - +47 918 32 111
+    website: https://galabooking.no/
     address:
-      text: Pyntabergvegen 107, 2647 Sør-Fron
-      latitude: 61.5659375
-      longitude: 9.9701180
-    image: /images/pyntaberget.jpg
+      text: Gålåvegen 1343, 2646 Gålå
+      latitude: 61.5010057
+      longitude: 9.7923023
+    image: /images/enden-camping.jpg
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
+      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus, kan korpset bo i hytter eller leiligheter. Kjøp frokosten på Gålå Handel.
+
+  - name: Frya Leir
+    emails:
+      - info@fryaleir.no
+    phoneNumbers:
+      - +47 450 69 558
+    website: https://fryaleir.no/
+    address:
+      text: Frya Leir, 2630 Ringebu
+      latitude: 61.5492746
+      longitude: 10.0574862
+    image: /images/enden-camping.jpg
+    description: |
+      Frya Leir ligger 5 km sør for Sør-Fron Kirke.
+
+  - name: Heggerud Gård
+    emails:
+      - ragnhild@heggerud.no
+      - johan@heggerud.no
+    phoneNumbers:
+      - +47 996 08 339
+      - +47 952 82 079
+    website: https://heggerud.no/
+    address:
+      text: Kongsvegen 1170, 2647 Sør-Fron
+      latitude: 61.5759745
+      longitude: 9.8693837
+    image: /images/heggerud.jpg
+    description: |
+      Heggerud Gård ligger flott til på Harpefoss, 6 km fra Sør-Fron Kirke.
+
+  - name: Heimtun Camping
+    emails:
+      - ovejonsen@gmail.com
+    phoneNumbers:
+      - +47 958 60 365
+    website: https://heimtun-camping.business.site/
+    address:
+      text: Endenstrekka 79, 2647 Sør-Fron
+      latitude: 61.5504455
+      longitude: 10.0486614
+    image: /images/enden-camping.jpg
+    description: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
 
   - name: Enden Camping
     emails:
       - post@endencamping.no
     phoneNumbers:
-      - +47 61 29 60 49
       - +47 917 66 403
     website: https://endencamping.no/
     address:
@@ -46,4 +89,4 @@ places:
       longitude: 10.0517021
     image: /images/enden-camping.jpg
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
+      Enden Camping er en rolig campingplass 7 km fra Sør-Fron Kirke.
