@@ -533,17 +533,20 @@ header {
 .place {
   margin-bottom: 96px;
 }
-.place .contact {
+.place ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-.place .contact li {
+.place ul li {
   display: flex;
   align-items: center;
   margin-bottom: 4px;
 }
-.place .contact .icon {
+.place ul li li {
+  margin: 0;
+}
+.place ul .icon {
   margin-right: 6px;
 }
 @media only screen and (max-width: 1000px) {

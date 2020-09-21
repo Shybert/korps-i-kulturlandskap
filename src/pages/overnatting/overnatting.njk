@@ -14,7 +14,7 @@ permalink: /overnatting/
       <img src="{{ place.image }}" alt="Bilde av {{ place.name }}" />      
     {% endset %}
     {% set extra %}
-      <ul class="contact">
+      <ul>
         <li>
           {{ icon("link", "Nettside", "large") }}
           <a href="{{ place.website }}">{{ place.website }}</a>
@@ -25,10 +25,13 @@ permalink: /overnatting/
         </li>
         <li>
           {{ icon("phone", "Telefonnummer", "large")}}
-          {% for phoneNumber in place.phoneNumbers %}
-            <a href="tel:{{ phoneNumber }}">{{ phoneNumber }}</a>
-            {% if not loop.last %}&nbsp;/&nbsp;{% endif %}
-          {% endfor %}
+          <ul>
+            {% for phoneNumber in place.phoneNumbers %}
+              <li>
+                <a href="mailto:{{ phoneNumber }}">{{ phoneNumber }}</a>
+              </li>
+            {% endfor %}
+          </ul>
         </li>
         <li>
           {{ icon("map-pin", "Addresse", "large") }}
