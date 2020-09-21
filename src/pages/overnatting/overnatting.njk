@@ -21,7 +21,13 @@ permalink: /overnatting/
         </li>
         <li>
           {{ icon("mail", "E-mail", "large") }}
-          <a href="mailto:{{ place.email }}">{{ place.email }}</a>
+          <ul>
+            {% for email in place.emails %}
+              <li>
+                <a href="mailto:{{ email }}">{{ email }}</a>
+              </li>
+            {% endfor %}
+          </ul>
         </li>
         <li>
           {{ icon("phone", "Telefonnummer", "large")}}
