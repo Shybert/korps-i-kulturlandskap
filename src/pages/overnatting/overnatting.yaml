@@ -17,6 +17,9 @@ places:
     image: /images/dale-gudbrand.jpg
     description: |
       Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000. Stevneprogrammet søndag er lagt til Dale-Gudbrands gard.
+    beds: "50"
+    price: 1100 kr per sengeplass
+    breakfast: Ja
 
   - name: Hytter på Gålå
     emails:
@@ -31,7 +34,10 @@ places:
       longitude: 9.7923023
     image: /images/enden-camping.jpg
     description: |
-      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus, kan korpset bo i hytter eller leiligheter. Kjøp frokosten på Gålå Handel.
+      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus, kan korpset bo i hytter eller leiligheter.
+    beds: 500-600 i 100 utleieenheter
+    price: "???"
+    breakfast: "???"
 
   - name: Frya Leir
     emails:
@@ -46,6 +52,9 @@ places:
     image: /images/enden-camping.jpg
     description: |
       Frya Leir ligger 5 km sør for Sør-Fron Kirke.
+    beds: "90"
+    price: 220-390 kr per sengeplass, avhengig av antall på rommet
+    breakfast: Ja, koster 150 kr
 
   - name: Heggerud Gård
     emails:
@@ -62,6 +71,9 @@ places:
     image: /images/heggerud.jpg
     description: |
       Heggerud Gård ligger flott til på Harpefoss, 6 km fra Sør-Fron Kirke.
+    beds: Mange, fordelt på diverse hytter og stuer
+    price: Fra 700 kr per sengeplass
+    breakfast: Kan bestilles
 
   - name: Heimtun Camping
     emails:
@@ -75,7 +87,10 @@ places:
       longitude: 10.0486614
     image: /images/enden-camping.jpg
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra.
+    beds: 26 i hytter på 2-4 personer
+    price: 300-475 kr per hytte
+    breakfast: Nei
 
   - name: Enden Camping
     emails:
@@ -90,3 +105,6 @@ places:
     image: /images/enden-camping.jpg
     description: |
       Enden Camping er en rolig campingplass 7 km fra Sør-Fron Kirke.
+    beds: 58 i hytter på 2-6 personer
+    price: 400-800 kr per hytte
+    breakfast: "???"

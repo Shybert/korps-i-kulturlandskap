@@ -14,36 +14,46 @@ permalink: /overnatting/
       <img src="{{ place.image }}" alt="Bilde av {{ place.name }}" />      
     {% endset %}
     {% set extra %}
-      <ul>
-        <li>
-          {{ icon("link", "Nettside", "large") }}
-          <a href="{{ place.website }}">{{ place.website }}</a>
-        </li>
-        <li>
-          {{ icon("mail", "E-mail", "large") }}
-          <ul>
-            {% for email in place.emails %}
-              <li>
-                <a href="mailto:{{ email }}">{{ email }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li>
-          {{ icon("phone", "Telefonnummer", "large")}}
-          <ul>
-            {% for phoneNumber in place.phoneNumbers %}
-              <li>
-                <a href="mailto:{{ phoneNumber }}">{{ phoneNumber }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </li>
-        <li>
-          {{ icon("map-pin", "Addresse", "large") }}
-          <a href="https://www.google.com/maps/@{{ place.address.latitude }},{{ place.address.longitude }},16z">{{ place.address.text }}</a>
-        </li>
-      </ul>
+      <div class="info">
+        <ul>
+          <li><span class="descriptor">Senger</span>: {{ place.beds }}</li>
+          <li><span class="descriptor">Pris</span>: {{ place.price }}</li>
+          <li><span class="descriptor">Frokost</span>: {{ place.breakfast }}</li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <ul>
+          <li>
+            {{ icon("link", "Nettside", "large") }}
+            <a href="{{ place.website }}">{{ place.website }}</a>
+          </li>
+          <li>
+            {{ icon("mail", "E-mail", "large") }}
+            <ul>
+              {% for email in place.emails %}
+                <li>
+                  <a href="mailto:{{ email }}">{{ email }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            {{ icon("phone", "Telefonnummer", "large")}}
+            <ul>
+              {% for phoneNumber in place.phoneNumbers %}
+                <li>
+                  <a href="mailto:{{ phoneNumber }}">{{ phoneNumber }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li>
+            {{ icon("map-pin", "Addresse", "large") }}
+            <a href="https://www.google.com/maps/@{{ place.address.latitude }},{{ place.address.longitude }},16z">{{ place.address.text }}</a>
+          </li>
+        </ul>
+      </div>
     {% endset %}
     {{ textMedia(
       title     = place.name,
