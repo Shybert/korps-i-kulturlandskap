@@ -4,17 +4,18 @@ permalink: /overnatting/
 {% extends "layouts/base.njk" %}
 {% from "utils.njk" import icon %}
 {% from "components/lead.njk" import lead as leadComponent %}
-{% from "components/textMedia.njk" import textMedia %}
+{% from "components/contentMedia.njk" import contentMedia %}
 
 {% block main %}
   {{ leadComponent(lead.title, lead.text) }}
 
   {% for place in places %}
-    {% set media %}
-      <img src="{{ place.image }}" alt="Bilde av {{ place.name }}" />      
-    {% endset %}
-    {% set extra %}
+    {% set content %}
       <div class="info">
+        {% markdown %}
+          {{ place.description | safe }}
+        {% endmarkdown %}
+
         <ul>
           <li><span class="descriptor">Senger</span>: {{ place.beds }}</li>
           <li><span class="descriptor">Pris</span>: {{ place.price }}</li>
@@ -55,11 +56,13 @@ permalink: /overnatting/
         </ul>
       </div>
     {% endset %}
-    {{ textMedia(
+    {% set media %}
+      <img src="{{ place.image }}" alt="Bilde av {{ place.name }}" />      
+    {% endset %}
+    {{ contentMedia(
       title     = place.name,
-      text      = place.description,
+      content   = content,
       media     = media,
-      extra     = extra,
       reversed  = loop.index % 2 === 1,
       classes   = "place"
       )

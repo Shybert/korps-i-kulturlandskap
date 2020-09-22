@@ -1,0 +1,31 @@
+{% from "utils.njk" import conditionalAttribute %}
+
+{% macro contentMedia(
+  title="",
+  content="",
+  media="",
+  reversed=false,
+  id="",
+  classes=""
+) %}
+  <section
+    {{ conditionalAttribute("id", id, id) }}
+    class="mainSection textMedia {{ 'reversed' if reversed }} {{ classes }}"
+  >
+    <div class="container">
+        <div class="content">
+          <h2 class="title">{{ title }}</h2>
+
+          <div class="mediaWrapper mobileOnly card">
+            {{ media | safe }}
+          </div>
+
+          {{ content | safe }}
+        </div>
+
+        <div class="mediaWrapper desktopOnly card largeShadow">
+          {{ media | safe }}
+        </div>
+    </div>
+  </section>
+{% endmacro %}
