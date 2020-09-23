@@ -43,6 +43,43 @@ collections:
                   - label: Beskrivelse
                     name: description
                     widget: markdown
+
+      - label: Hjem
+        name: index
+        file: src/pages/home/index.yaml
+        fields:
+          - { label: Sidetittel, name: pageTitle, widget: string }
+          - label: Velkommen
+            name: welcome
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Innhold, name: content, widget: markdown }
+          - label: Påmelding
+            name: signUp
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Innhold, name: content, widget: markdown }
+              - { label: Lenke, name: link, widget: string }
+          - label: Nyheter
+            name: news
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+          - label: Kontakt oss
+            name: contact
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+          - label: Om oss
+            name: hml
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Bilde, name: picture, widget: image }
+              - { label: Innhold, name: text, widget: markdown }
+
   - label: Nyheter
     name: nyheter
     folder: src/pages/nyheter/posts
