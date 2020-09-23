@@ -80,6 +80,53 @@ collections:
               - { label: Bilde, name: picture, widget: image }
               - { label: Innhold, name: text, widget: markdown }
 
+      - label: Overnatting
+        name: overnight
+        file: src/pages/overnatting/overnatting.yaml
+        fields:
+          - { label: Sidetittel, name: pageTitle, widget: string }
+          - label: Innledning
+            name: lead
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Tekst, name: text, widget: markdown }
+          - label: Overnattingssteder
+            name: places
+            widget: list
+            fields:
+              - { label: Navn, name: name, widget: string }
+              - label: Email
+                name: emails
+                widget: list
+                field: { label: Email, name: email, widget: string }
+              - label: Telefonnummer
+                name: phoneNumbers
+                widget: list
+                field:
+                  { label: Telefonnummer, name: phoneNumber, widget: string }
+              - { label: Nettside, name: website, widget: string }
+              - label: Adresse
+                name: address
+                widget: object
+                fields:
+                  - { label: Tekst, name: text, widget: string }
+                  - label: Breddegrad
+                    name: latitude
+                    widget: number
+                    default: 0
+                    value_type: float
+                  - label: Lengdegrad
+                    name: longitude
+                    widget: number
+                    default: 0
+                    value_type: float
+              - { label: Bilde, name: image, widget: image }
+              - { label: Beskrivelse, name: description, widget: markdown }
+              - { label: Sengeplasser, name: beds, widget: string }
+              - { label: Pris, name: price, widget: string }
+              - { label: Frokost, name: breakfast, widget: string }
+
   - label: Nyheter
     name: nyheter
     folder: src/pages/nyheter/posts
