@@ -26,8 +26,8 @@ class Render {
       pdf.moveDown(1);
     });
 
-    pdf.pipe(fs.createWriteStream(data.page.outputPath));
-    pdf.end();
+    // pdf.pipe(fs.createWriteStream(data.page.outputPath));
+    // pdf.end();
   }
 }
 
