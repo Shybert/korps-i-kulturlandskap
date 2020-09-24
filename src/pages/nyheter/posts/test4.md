@@ -1,6 +1,6 @@
 ---
 title: Stevnekomiteen
-blurb: The 4th test post.
+blurb: Hovedkomiteen
 date: 2020-06-20
 image:
   link: /images/fana.jpg
