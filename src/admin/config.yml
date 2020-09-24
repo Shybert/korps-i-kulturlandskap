@@ -6,30 +6,6 @@ collections:
   - label: Sider
     name: pages
     files:
-      - label: Program
-        name: program
-        file: src/pages/program/program.yaml
-        fields:
-          - { label: Sidetittel, name: pageTitle, widget: string }
-          - label: Innledning
-            name: lead
-            widget: object
-            fields:
-              - { label: Tittel, name: title, widget: string }
-              - { label: Tekst, name: text, widget: markdown }
-          - label: Program
-            name: program
-            widget: list
-            fields:
-              - { label: Tittel, name: title, widget: string }
-              - label: Hendelser
-                name: events
-                widget: list
-                fields:
-                  - { label: Tid, name: time, widget: string }
-                  - { label: Tittel, name: title, widget: string }
-                  - { label: Beskrivelse, name: description, widget: markdown }
-
       - label: Hjem
         name: index
         file: src/pages/home/index.yaml
@@ -112,6 +88,30 @@ collections:
               - { label: Sengeplasser, name: beds, widget: string }
               - { label: Pris, name: price, widget: string }
               - { label: Frokost, name: breakfast, widget: string }
+
+      - label: Program
+        name: program
+        file: src/pages/program/program.yaml
+        fields:
+          - { label: Sidetittel, name: pageTitle, widget: string }
+          - label: Innledning
+            name: lead
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Tekst, name: text, widget: markdown }
+          - label: Program
+            name: program
+            widget: list
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - label: Hendelser
+                name: events
+                widget: list
+                fields:
+                  - { label: Tid, name: time, widget: string }
+                  - { label: Tittel, name: title, widget: string }
+                  - { label: Beskrivelse, name: description, widget: markdown }
 
       - label: Arenaer
         name: arenas
