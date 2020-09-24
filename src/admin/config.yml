@@ -191,6 +191,25 @@ collections:
               - { label: Tittel, name: title, widget: string }
               - { label: Innhold, name: content, widget: markdown }
 
+      - label: Samarbeidspartnere
+        name: partners
+        file: src/pages/samarbeidspartnere/samarbeidspartnere.yaml
+        fields:
+          - { label: Sidetittel, name: pageTitle, widget: string }
+          - label: Innledning
+            name: lead
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Tekst, name: text, widget: markdown }
+          - label: Samarbeidspartnere
+            name: partners
+            widget: list
+            fields:
+              - { label: Navn, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image }
+              - { label: Nettside, name: website, widget: string }
+
   - label: Nyheter
     name: nyheter
     folder: src/pages/nyheter/posts
