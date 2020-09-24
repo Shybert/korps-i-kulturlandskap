@@ -140,7 +140,7 @@ collections:
               - { label: Tekst, name: text, widget: markdown }
           - label: Arenaer
             name: arenas
-            type: list
+            widget: list
             fields:
               - { label: Navn, name: name, widget: string }
               - { label: Bilde, name: image, widget: image }
