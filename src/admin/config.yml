@@ -216,20 +216,20 @@ collections:
   - label: Data
     name: data
     files:
-      label: Generelt
-      name: general
-      file: src/_data/site.json
-      fields:
-        - label: Navigasjon
-          name: nav
-          widget: list
-          fields:
-            - { label: Navn, name: name, widget: string }
-            - { label: Link, name: link, widget: string }
-        - label: Kontakt
-          name: contact
-          widget: object
-          fields:
-            - { label: Email, name: email, widget: string }
-            - { label: Facebook, name: facebookPage, widget: string }
-            - { label: Telefonnummer, name: phoneNumber, widget: string }
+      - label: Generelt
+        name: general
+        file: src/_data/site.json
+        fields:
+          - label: Navigasjon
+            name: nav
+            widget: list
+            fields:
+              - { label: Navn, name: name, widget: string }
+              - { label: Link, name: link, widget: string }
+          - label: Kontakt
+            name: contact
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: Facebook, name: facebookPage, widget: string }
+              - { label: Telefonnummer, name: phoneNumber, widget: string }
