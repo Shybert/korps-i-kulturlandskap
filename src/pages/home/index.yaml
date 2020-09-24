@@ -1,22 +1,32 @@
 pageTitle: Korps i kulturlandskap
 welcome:
   title: Velkommen!
-  content: |
+  content: >
     - Lenge siden sist det har vært regionstevne i Midt-Gudbrandsdalen.
+
     - Stevnet er sentrert rundt Sør-Fron Kirke.
+
     - Alle er avhengige av å ha med seg buss.
+
     - Inviterer korps i regionen og utenfor.
+
     - Maks 700 deltagere.
+
     - Sør-Fron har en sentral plass i 1000-års feiringa da Olav den Hellige kristna gudbrandsdølene. Sammenfaller med 1000-års feiringa i Sør-Fron 2021.
+
     - Sør-Fron har ikke noe bysentrum, derfor spiller vi på kulturlandskap og spilling på tunet på flere av våre flotte gårder.
 signUp:
   title: Påmelding og pris
-  content: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+  content: >-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna,
+    luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus
+    iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+
 
     Praesent rhoncus orci eget ligula blandit, vel hendrerit dui ultrices. Vivamus ut sollicitudin magna. Sed pulvinar nulla lectus, at ultricies odio fringilla id. Vestibulum interdum porttitor ante non sodales. Proin nec purus id tortor sagittis pellentesque. Praesent varius lacus dolor, at dapibus leo tincidunt in. Suspendisse eget metus cursus, malesuada arcu vel, dictum elit.
 
-    Nunc porttitor molestie urna dapibus rutrum. Pellentesque purus nisl, vestibulum eget quam eget, mollis ultricies mauris. Nulla vitae placerat felis. Nullam gravida tincidunt semper. Etiam quam dui, pretium nec laoreet at, euismod nec massa.
+
+    Nunc porttitor molestie urna dapibus rutrum. Pellentesque purus nisl, vestibulum eget quam eget, mollis ultricies mauris. Nulla vitae placerat felis. Nullam gravida tincidunt semper. Etiam quam dui, pretium nec laoreet at, euismod massa.
   link: http://example.com/
 news:
   title: Nyheter
@@ -25,13 +35,22 @@ contact:
 hml:
   title: Om Hundorp Musikklag
   picture: /images/hundorpmusikklag.jpg
-  text: |
-    Hundorp Musikklag ble etablert i 1899 og har hatt kontinuerlig aktivitet med unntak av under 2. verdenskrig. Korpset har i dag ca. 30 medlemmer i alder 19-90 år. Korpset er meget aktivt med minimum 2 egne arrangementer per år (Vår-/sommerkonsert, nyttårskonsert). Korpset har for vane å reise på stevne hvert år, både i egen region og utenfor.
+  text: >
+    Hundorp Musikklag ble etablert i 1899 og har hatt kontinuerlig aktivitet med
+    unntak av under 2. verdenskrig. Korpset har i dag ca. 30 medlemmer i alder
+    19-90 år. Korpset er meget aktivt med minimum 2 egne arrangementer per år
+    (Vår-/sommerkonsert, nyttårskonsert). Korpset har for vane å reise på stevne
+    hvert år, både i egen region og utenfor.
+
 
     Korpsets dirigent er Liv Bjerke siden 2010. Hun har selv vært aktivt medlem siden tenårene. Liv mottok Sør-Fron kommunes kulturpris i 2018 for sitt arbeid blant annet for korpsmusikken i bygda.
 
+
     > «Vi skal spille variert, publikumsvennlig musikk som utfordrer oss litt. Det skal være plass til alle, og aktiviteten skal gi påfyll og energi.»
+
     >
+
     > _Liv Bjerke, dirigent_
+
 
     Hundorp Musikklag skal alltid være der for voksne som vil drive med musikk på amatørnivå!
