@@ -26,12 +26,14 @@ permalink: /
 {% endblock %}
 
 {% block main %}
-  {{ textMedia(
-    title = welcome.title,
-    text  = welcome.content,
-    id    = "welcome"
-    )
-  }}
+  <section id="welcome" class="mainSection thin">
+    <div class="container">
+      <h2>{{ welcome.title }}</h2>
+      {% markdown %}
+        {{ welcome.content | safe }}
+      {% endmarkdown %}
+    </div>
+  </section>
 
   <section id="signUp" class="mainSection thin">
     <div class="container card rounded">
