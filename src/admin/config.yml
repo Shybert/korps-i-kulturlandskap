@@ -131,6 +131,16 @@ collections:
               - { label: Navn, name: name, widget: string }
               - { label: Bilde, name: image, widget: image }
               - { label: Beskrivelse, name: description, widget: markdown }
+              - label: Email
+                name: emails
+                widget: list
+                field: { label: Email, name: email, widget: string }
+              - label: Telefonnummer
+                name: phoneNumbers
+                widget: list
+                field:
+                  { label: Telefonnummer, name: phoneNumber, widget: string }
+              - { label: Nettside, name: website, widget: string }
               - label: Adresse
                 name: address
                 widget: object

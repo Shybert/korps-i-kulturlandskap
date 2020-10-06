@@ -12,16 +12,48 @@ permalink: /arenaer/
 
   {% for arena in arenas %}
     {% set media %}
-      <img src="{{ arena.image }}" alt="Bilde av {{ arena.name }}" />      
+      <img src="{{ arena.image }}" alt="Bilde av {{ arena.name }}" />
     {% endset %}
     {% set extra %}
       <ul class="links">
+        {% if arena.website %}
         <li>
-          {{ icon("map-pin", "Addresse", "large") }}
+          {{ icon("link", "Nettside", "large") }}
+          <a href="{{ arena.website }}">{{ arena.website }}</a>
+        </li>
+        {% endif %}
+        {% if arena.emails %}
+        <li>
+          {{ icon("mail", "E-mail", "large") }}
+          <ul>
+            {% for email in arena.emails %}
+              <li>
+                <a href="mailto:{{ email }}">{{ email }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+        {% if arena.phoneNumbers %}
+        <li>
+          {{ icon("phone", "Telefonnummer", "large")}}
+          <ul>
+            {% for phoneNumber in arena.phoneNumbers %}
+              <li>
+                <a href="mailto:{{ phoneNumber }}">{{ phoneNumber }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endif %}
+        {% if arena.address %}
+        <li>
+          {{ icon("map-pin", "Adresse", "large") }}
           <a href="https://www.google.com/maps/@{{ arena.address.latitude }},{{ arena.address.longitude }},16z">{{ arena.address.text }}</a>
         </li>
+        {% endif %}
       </ul>
-    {% endset %}    
+    {% endset %}
     {{ textMedia(
       title     = arena.name,
       text      = arena.description,
@@ -30,6 +62,6 @@ permalink: /arenaer/
       reversed  = loop.index % 2 === 1,
       classes   = "arena"
       )
-    }} 
+    }}
   {% endfor %}
 {% endblock %}
