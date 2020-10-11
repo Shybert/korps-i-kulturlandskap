@@ -1,7 +1,11 @@
 pageTitle: Arenaer
 lead:
   title: Arenaer
-  text: Oversikt over arenaene i stevnet.
+  text: >-
+    Oversikt over arenaene i stevnet. 
+
+
+    Under hvert sted finner dere informasjon om stedet, hvor store korps det er egnet til (gjelder hovedsakelig arenaene som er innendørs) og hva som vil være tilgjengelig av slagverkutstyr o.a.
 arenas:
   - name: Sør-Fron Kirke / Gudbrandsdalsdomen
     image: /images/sor-fron-kirke.jpg
