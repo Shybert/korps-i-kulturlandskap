@@ -21,7 +21,14 @@ arenas:
     website: http://www.kirken.sor-fron.no/
   - name: Dale-Gudbrands Gard
     image: /images/dale-gudbrand.jpg
-    description: info kommer....
+    description: >-
+      Dale-Gudbrands gard ble valgt til [](https://no.wikipedia.org/wiki/Oppland
+      "Oppland")Oppland fylkes og Sør-Fron kommunes tusenårssted i 1999. I 2021
+      skal stedet være i sentrum for 1000-års markelingen for kristningen av
+      Norge.
+
+
+      Det kommer mer informasjon om arrangementene som skal være på Dale-Gudbrand ...
     address:
       text: Hundorpgjeilen 12, 2647 Sør-Fron
       latitude: 61.5484361
