@@ -27,3 +27,38 @@ arenas:
       latitude: 61.5484361
       longitude: 9.9662324
     website: https://www.dale-gudbrandsgard.no/
+  - address:
+      latitude: 613435.2
+      longitude: 95146.1
+      text: Glasmestervegen 8, 2647 Sør-Fron
+    name: Kulturhuset
+    description: >-
+      Scenekapasiteten er ubegrenset
+
+
+      Notestativ, stor scenekapasitet
+
+
+      Xylofon, Konserttromme, trommesett, 3 pauker, klokkespill, vibrafon, temple blocks, chimes, congas, bongos, perkusjonsbord, A2 cymbaler, marsjstortromme, paradetromme og piccolotromme.
+
+
+      Oppvarmingsrom, enkelt kiosksalg.
+    website: https://www.sor-fron.kommune.no/tjenester/kultur-og-naring/sor-fron-kulturhus/
+    image: /images/kulturhuset.jpg
+  - address:
+      latitude: 61.7001429
+      longitude: 10.0971136
+      text: Rudivegen, 2647 Sør-fron
+    name: Rudi Gard
+    description: >-
+      Scenekapasitet maks 35 musikanter i en ny låve bygd til formålet. Ikke
+      oppvarmingsrom. Notestativ, Lagerrom til instrumentkasser og litt annen
+      oppbevaring
+
+
+      Trommesett, 3 pauker, perkusjonsbord, klokkespill, chimes
+
+
+      Mat å få kjøpt på stedet. God bussparkering fra 200 - 500 m fra garden.
+    website: www.rudigard.no
+    image: /images/rudi-gard-dolen-.jpg
