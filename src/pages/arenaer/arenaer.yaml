@@ -3,19 +3,27 @@ lead:
   title: Arenaer
   text: Oversikt over arenaene i stevnet.
 arenas:
-  - name: Sør-Fron Kirke
+  - name: Sør-Fron Kirke / Gudbrandsdalsdomen
     image: /images/sor-fron-kirke.jpg
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
+    description: >-
+      Scenekapasitet for korps på ca 25 medlemmer, maks 30. Tre rekker +
+      slagverk.
+
+
+      Tilgjengelig slagverksutstyr; trommesett, 3 pauker, perkusjonsbord, klokkespill.
+
+
+      Ikke oppvarmingsrom. Noe lagerplass til kasser i kapellet. Notestativ. Kiosk i nærheten.
     address:
       text: Sør-Fron kirke, Gammelvegen, 2647 Sør-Fron
       latitude: 61.5587314
       longitude: 9.9419431
+    website: http://www.kirken.sor-fron.no/
   - name: Dale-Gudbrands Gard
     image: /images/dale-gudbrand.jpg
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra. Nullam sagittis fermentum urna, et congue ex aliquam ut. Etiam faucibus eu lacus vel malesuada. Pellentesque maximus dui et purus bibendum, imperdiet venenatis tellus vestibulum. Aenean nec tincidunt lorem, ac fermentum urna. Nulla a sodales urna. Nulla orci magna, vestibulum a ex ut, accumsan ultrices lorem.
+    description: info kommer....
     address:
       text: Hundorpgjeilen 12, 2647 Sør-Fron
       latitude: 61.5484361
       longitude: 9.9662324
+    website: https://www.dale-gudbrandsgard.no/
