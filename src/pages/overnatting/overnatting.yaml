@@ -4,107 +4,107 @@ lead:
   text: |
     Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
 places:
-  - name: Dale-Gudbrands Gard
-    emails:
-      - post@dale-gudbrandsgard.no
-    phoneNumbers:
-      - +47 911 58 938
-    website: https://www.dale-gudbrandsgard.no/
+  - price: 1100 kr per sengeplass
+    name: Dale-Gudbrands Gard
+    beds: "50"
     address:
       text: Hundorpgjeilen 12, 2647 Sør-Fron
       latitude: 61.5484361
       longitude: 9.9662324
-    image: /images/dale-gudbrand.jpg
-    description: |
-      Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000. Stevneprogrammet søndag er lagt til Dale-Gudbrands gard.
-    beds: "50"
-    price: 1100 kr per sengeplass
-    breakfast: Ja
-
-  - name: Hytter på Gålå
     emails:
-      - knut@galabooking.no
-      - booking@galabooking.no
+      - post@dale-gudbrandsgard.no
+    website: https://www.dale-gudbrandsgard.no/
+    image: /images/dgg.jpg
+    breakfast: Ja
     phoneNumbers:
-      - +47 918 32 111
-    website: https://galabooking.no/
+      - +47 911 58 938
+    description: >
+      Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var her Olav
+      den Hellige møtte Dale-Gudbrand i 1021 for kristning av gudbrandsdølene.
+      Stedet ble Opplands tusenårssted i år 2000. Stevneprogrammet søndag er
+      lagt til Dale-Gudbrands gard.
+  - price: ???
+    name: Hytter på Gålå
+    beds: 500-600 i 100 utleieenheter
     address:
       text: Gålåvegen 1343, 2646 Gålå
       latitude: 61.5010057
       longitude: 9.7923023
-    image: /images/enden-camping.jpg
-    description: |
-      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus, kan korpset bo i hytter eller leiligheter.
-    beds: 500-600 i 100 utleieenheter
-    price: "???"
-    breakfast: "???"
-
-  - name: Frya Leir
     emails:
-      - info@fryaleir.no
+      - knut@galabooking.no
+      - booking@galabooking.no
+    website: https://galabooking.no/
+    image: /images/enden-camping.jpg
+    breakfast: ???
     phoneNumbers:
-      - +47 450 69 558
-    website: https://fryaleir.no/
+      - +47 918 32 111
+    description: >
+      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus,
+      kan korpset bo i hytter eller leiligheter.
+  - price: 220-390 kr per sengeplass, avhengig av antall på rommet
+    name: Frya Leir
+    beds: "90"
     address:
       text: Frya Leir, 2630 Ringebu
       latitude: 61.5492746
       longitude: 10.0574862
+    emails:
+      - info@fryaleir.no
+    website: https://fryaleir.no/
     image: /images/enden-camping.jpg
+    breakfast: Ja, koster 150 kr
+    phoneNumbers:
+      - +47 450 69 558
     description: |
       Frya Leir ligger 5 km sør for Sør-Fron Kirke.
-    beds: "90"
-    price: 220-390 kr per sengeplass, avhengig av antall på rommet
-    breakfast: Ja, koster 150 kr
-
-  - name: Heggerud Gård
-    emails:
-      - ragnhild@heggerud.no
-      - johan@heggerud.no
-    phoneNumbers:
-      - +47 996 08 339
-      - +47 952 82 079
-    website: https://heggerud.no/
+  - price: Fra 700 kr per sengeplass
+    name: Heggerud Gård
+    beds: Mange, fordelt på diverse hytter og stuer
     address:
       text: Kongsvegen 1170, 2647 Sør-Fron
       latitude: 61.5759745
       longitude: 9.8693837
+    emails:
+      - ragnhild@heggerud.no
+      - johan@heggerud.no
+    website: https://heggerud.no/
     image: /images/heggerud.jpg
+    breakfast: Kan bestilles
+    phoneNumbers:
+      - +47 996 08 339
+      - +47 952 82 079
     description: |
       Heggerud Gård ligger flott til på Harpefoss, 6 km fra Sør-Fron Kirke.
-    beds: Mange, fordelt på diverse hytter og stuer
-    price: Fra 700 kr per sengeplass
-    breakfast: Kan bestilles
-
-  - name: Heimtun Camping
-    emails:
-      - ovejonsen@gmail.com
-    phoneNumbers:
-      - +47 958 60 365
-    website: https://heimtun-camping.business.site/
+  - price: 300-475 kr per hytte
+    name: Heimtun Camping
+    beds: 26 i hytter på 2-4 personer
     address:
       text: Endenstrekka 79, 2647 Sør-Fron
       latitude: 61.5504455
       longitude: 10.0486614
-    image: /images/enden-camping.jpg
-    description: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra.
-    beds: 26 i hytter på 2-4 personer
-    price: 300-475 kr per hytte
-    breakfast: Nei
-
-  - name: Enden Camping
     emails:
-      - post@endencamping.no
+      - ovejonsen@gmail.com
+    website: https://heimtun-camping.business.site/
+    image: /images/enden-camping.jpg
+    breakfast: Nei
     phoneNumbers:
-      - +47 917 66 403
-    website: https://endencamping.no/
+      - +47 958 60 365
+    description: >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut
+      mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra.
+  - price: 400-800 kr per hytte
+    name: Enden Camping
+    beds: 58 i hytter på 2-6 personer
     address:
       text: Endenstrekka 63, 2647 Sør-Fron
       latitude: 61.5516998
       longitude: 10.0517021
+    emails:
+      - post@endencamping.no
+    website: https://endencamping.no/
     image: /images/enden-camping.jpg
+    breakfast: ???
+    phoneNumbers:
+      - +47 917 66 403
     description: |
       Enden Camping er en rolig campingplass 7 km fra Sør-Fron Kirke.
-    beds: 58 i hytter på 2-6 personer
-    price: 400-800 kr per hytte
-    breakfast: "???"
