@@ -47,18 +47,17 @@ arenas:
       latitude: 613435.2
       longitude: 95146.1
       text: Glasmestervegen 8, 2647 Sør-Fron
-    name: Kulturhuset
+    name: Sør-Fron Kulturhus
     description: >-
-      Scenekapasiteten er ubegrenset
+      Stevnekontoret er lagt til Sør-Fron Kulturhus, også arrangementet fredag
+      kveld og festmiddagen lørdag kveld. Stedet er et kombinasjonshus for
+      kultur og idrett.
 
 
-      Notestativ, stor scenekapasitet
+      Stor scenekapasitet, notestativ, og følgende slagverksutstyr (Xylofon, Konserttromme, trommesett, 3 pauker, klokkespill, vibrafon, temple blocks, chimes, congas, bongos, perkusjonsbord, A2 cymbaler, marsjstortromme, paradetromme og piccolotromme). Mulighet for oppvarmingsrom i klasserom. 
 
 
-      Xylofon, Konserttromme, trommesett, 3 pauker, klokkespill, vibrafon, temple blocks, chimes, congas, bongos, perkusjonsbord, A2 cymbaler, marsjstortromme, paradetromme og piccolotromme.
-
-
-      Oppvarmingsrom, enkelt kiosksalg.
+      Enkelt kiosksalg.
     website: https://www.sor-fron.kommune.no/tjenester/kultur-og-naring/sor-fron-kulturhus/
     image: /images/kulturhuset.jpg
   - address:
