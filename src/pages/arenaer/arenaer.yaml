@@ -2,10 +2,13 @@ pageTitle: Arenaer
 lead:
   title: Arenaer
   text: >-
-    Oversikt over arenaene i stevnet. 
+    Oversikt over konsertarenaene i stevnet. 
 
 
-    Under hvert sted finner dere informasjon om stedet, hvor store korps det er egnet til (gjelder hovedsakelig arenaene som er innendørs) og hva som vil være tilgjengelig av slagverkutstyr o.a.
+    Her finner du en oversikt over alle konsertarenaen, størrelse på scene, eventuelt oppvarmingsrom og hva som finnes av slagverksutstyr. Dersom korpset ditt trenger mer slagverkutstyr, må dere ta med det selv. 
+
+
+    Under påmelding skal korpset oppgi hvor korpset ønsker å spille konsert ute eller inne. Vi forsøker å innfri ønske, men må fordele ut i fra antall korps og tidspunkt.
 arenas:
   - name: Sør-Fron Kirke / Gudbrandsdalsdomen
     image: /images/sor-fron-kirke.jpg
