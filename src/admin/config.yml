@@ -11,6 +11,15 @@ collections:
         file: src/pages/home/index.yaml
         fields:
           - { label: Sidetittel, name: pageTitle, widget: string }
+          - label: Helt
+            name: hero
+            widget: object
+            fields:
+              - { label: Slagord, name: slogan, widget: string }
+              - label: Bilder i loop
+                name: images
+                widget: list
+                field: { label: Bilde, name: image, widget: image }
           - label: Velkommen
             name: welcome
             widget: object
