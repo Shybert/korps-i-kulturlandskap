@@ -34,7 +34,7 @@ places:
       - knut@galabooking.no
       - booking@galabooking.no
     website: https://galabooking.no/
-    image: /images/enden-camping.jpg
+    image: /images/hytter gala.jpg
     breakfast: ???
     phoneNumbers:
       - +47 918 32 111
@@ -51,7 +51,7 @@ places:
     emails:
       - info@fryaleir.no
     website: https://fryaleir.no/
-    image: /images/enden-camping.jpg
+    image: /images/fryaleir.gif
     breakfast: Ja, koster 150 kr
     phoneNumbers:
       - +47 450 69 558
@@ -85,7 +85,7 @@ places:
     emails:
       - ovejonsen@gmail.com
     website: https://heimtun-camping.business.site/
-    image: /images/enden-camping.jpg
+    image: /images/heimtun camping.jpg
     breakfast: Nei
     phoneNumbers:
       - +47 958 60 365
