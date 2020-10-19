@@ -346,7 +346,7 @@ header {
 /* Home */
 .home header {
   position: relative;
-  z-index: -2;
+  background-color: transparent;
 }
 .home #headerBar {
   background-color: transparent;
