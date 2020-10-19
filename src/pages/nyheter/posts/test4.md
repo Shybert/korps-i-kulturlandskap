@@ -3,16 +3,17 @@ title: Stevnekomiteen
 blurb: Hovedkomiteen
 date: 2020-06-20
 image:
-  link: /images/fana.jpg
-  text: Fana til Hundorp Musikklag
+  link: /images/stevnekomiteen.jpg
+  text: Hovedkomiteen til stevnet
 ---
+
 Hovedkomiteen for Korps i Kulturlandskap består av
 
 Audun Skattebo - komiteleder, spiller trombone
 
 Liv Bjerke - dirigent
 
-Marthe Dybos -  leder for korpset, spiller trombone
+Marthe Dybos - leder for korpset, spiller trombone
 
 Erik Hovemoen - spiller althorn
 

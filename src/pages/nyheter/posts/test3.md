@@ -1,10 +1,10 @@
 ---
-title: "Test post #3"
-blurb: Another one. Another one. Another one.
+title: Påmeldte korps
+blurb: Hundorp Musikklag.
 date: 2020-06-18
 image:
-  link: /images/fana.jpg
-  text: Fana til Hundorp Musikklag
+  link: /images/tromisser.jpg
+  text: Tromisser klare for spilling
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
