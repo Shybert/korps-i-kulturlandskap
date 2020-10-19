@@ -15,10 +15,22 @@ permalink: /
 {% endblock %}
 
 {% block header %}
+  {% for image in hero.images %}
+    <div
+      class="heroBackground {{ 'show' if loop.first  }}"
+      style="background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.6)
+        ),
+        url('{{ image }}');">
+    </div>
+  {% endfor %}
+
   {% include "headerBar.njk" %}
 
   <div class="hero">
-    <div class="slogan">Korps i kulturlandskap</div>
+    <div class="slogan">{{ hero.slogan }}</div>
   </div>
   <svg class="wave" viewBox="0 0 1440 90">
     <path d="M0,0L48,10.7C96,21,192,43,288,58.7C384,75,480,85,576,74.7C672,64,768,32,864,21.3C960,11,1056,21,1152,26.7C1248,32,1344,32,1392,32L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -119,4 +131,5 @@ permalink: /
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
   <script src="/js/cmsRedirect.js" defer></script>
   <script src="/js/headerBarHome.js" defer></script>
+  <script src="/js/heroLoop.js" defer></script>
 {% endblock %}

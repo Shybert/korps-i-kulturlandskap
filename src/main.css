@@ -345,10 +345,8 @@ header {
 
 /* Home */
 .home header {
-  background-image: linear-gradient(#228b22b5 60%, forestgreen 100%),
-    url("/images/sor-fron-kirke.jpg");
-  background-size: cover;
-  background-position: center;
+  position: relative;
+  z-index: -2;
 }
 .home #headerBar {
   background-color: transparent;
@@ -365,6 +363,19 @@ header {
   max-height: 60vh;
   display: flex;
 }
+.heroBackground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: -1;
+}
+.heroBackground.show {
+  opacity: 1;
+}
 .hero .slogan {
   max-width: 75%;
   margin: auto;
@@ -379,8 +390,8 @@ header {
 }
 @media only screen and (max-width: 600px) {
   .home header {
-    background-image: linear-gradient(#228b22b5 60%, forestgreen 100%),
-      url("/images/sor-fron-kirke-crop.jpg");
+    /* background-position: center; */
+    background-size: auto;
   }
   .hero .slogan {
     max-width: 100%;
