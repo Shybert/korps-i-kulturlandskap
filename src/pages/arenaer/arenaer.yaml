@@ -82,34 +82,33 @@ arenas:
       Mat å få kjøpt på stedet. God bussparkering 200 - 500 m fra garden.
     website: www.rudigard.no
     image: /images/rudi-gard.jpg
-  - address:
-      latitude: 613324.9
-      longitude: 95622.3
-      text: Kommunevegen 1, 2647 Sør-Fron
-    name: Utearenaer
+  - name: Utearena - Aanekre Gard
     image: /images/grytting.jpg
-    description: >-
-      Det blir konserter på flere av bygdas tun - både gårdstun og på offentlige
-      steder. 
-
-
-      På gårdene vil det rigges med stoler og trommesett. 
-
-
+    description: |
       **Aanekre gard** ligger på "baksiden" (sør for Laugen) i Lia. Aanekre er en "Inn på tunet" og 4H-gård, som har stor aktivitet i tillegg til gårdsdrift.
 
+      Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
+  - name: Utearena - Sygard Grytting
+    image: /images/grytting.jpg
+    description: |
+      **Sygard Grytting** er en av Sør-Frons gårder med historie fra Middelalderen, og har 700 år med losjhistorie, blant annet overnatting for Pilgrimmer. Gården fikk "Norske folks reisefavoritt 2019" og har ordinær gårdsdrift med sau.
 
+      Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
+  - name: Utearena - Nordgard Korstad
+    image: /images/grytting.jpg
+    description: |
       **Nordgard Korstad** ligger i Øverbygda på Hundorp og har en fantastisk utsikt over bygda og Gudbrandsdalen. På Nordgard Korstad er det melkeproduksjon, og gården er fra *årstall*
 
+      Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
+  - name: Utearena - Kiwi Harpefoss
+    image: /images/grytting.jpg
+    description: |
+      **Kiwi Harpefoss** ligger vis-a-vis Kulturhuset. Butikken er veldig godt besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
 
-      **Sygard Grytting** er en av Sør-Frons gårder med historie fra Middelalderen, og har 700 år med losjihistorie, blant annet overnatting for Pilgrimmer. Gården fikk "Norske folks reisefavoritt 2019" og har ordinær gårdsdrift med sau.
+      Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i umiddelbar nærhet.
+  - name: Utearena - Tveitplassen
+    image: /images/grytting.jpg
+    description: |
+      **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og rett nedenfor Sør-Fron kirke. Det er marked på plassen lørdag 12. juni. **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
 
-
-      På offentlige plasser legges det til rette for "marsjkonserter":
-
-
-      **Kiwi Harpefoss** ligger via-a-vis Kulturhuset. Butikken er veldig godt besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
-
-
-      **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og rett nedenfor Sør-Fron kike. Det er marked på plassen lørdag 12. juni. Ellers er plassen et møtepunkt for lokalbefolkningen på dager som 1. og 17. mai, og andre merkedager. **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
-    website: https://no.wikipedia.org/wiki/Hundorp
+      Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i nærheten.
