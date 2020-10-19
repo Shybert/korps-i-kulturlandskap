@@ -60,16 +60,22 @@ collections:
               - { label: Navn, name: name, widget: string }
               - label: Email
                 name: emails
+                required: false
                 widget: list
                 field: { label: Email, name: email, widget: string }
               - label: Telefonnummer
                 name: phoneNumbers
+                required: false
                 widget: list
                 field:
                   { label: Telefonnummer, name: phoneNumber, widget: string }
-              - { label: Nettside, name: website, widget: string }
+              - label: Nettside
+                name: website
+                required: false
+                widget: string
               - label: Adresse
                 name: address
+                required: false
                 widget: object
                 fields:
                   - { label: Tekst, name: text, widget: string }
