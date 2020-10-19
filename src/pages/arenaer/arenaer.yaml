@@ -63,7 +63,7 @@ arenas:
     website: www.rudigard.no
     image: /images/rudi-gard.jpg
   - name: Utearena - Aanekre Gard
-    image: /images/grytting.jpg
+    image: /images/kveldsstemning-aanekre.jpg
     description: |
       **Aanekre gard** ligger på "baksiden" (sør for Laugen) i Lia. Aanekre er en "Inn på tunet" og 4H-gård, som har stor aktivitet i tillegg til gårdsdrift.
 
@@ -75,19 +75,19 @@ arenas:
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
   - name: Utearena - Nordgard Korstad
-    image: /images/grytting.jpg
+    image: /images/klokketårn.jpg
     description: |
       **Nordgard Korstad** ligger i Øverbygda på Hundorp og har en fantastisk utsikt over bygda og Gudbrandsdalen. På Nordgard Korstad er det melkeproduksjon, og gården er fra *årstall*
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
   - name: Utearena - Kiwi Harpefoss
-    image: /images/grytting.jpg
+    image: /images/kiwi-harpefoss.jpg
     description: |
       **Kiwi Harpefoss** ligger vis-a-vis Kulturhuset. Butikken er veldig godt besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
 
       Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i umiddelbar nærhet.
   - name: Utearena - Tveitplassen
-    image: /images/grytting.jpg
+    image: /images/tveit-med-korps.jpg
     description: |
       **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og rett nedenfor Sør-Fron kirke. Det er marked på plassen lørdag 12. juni. **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
 
