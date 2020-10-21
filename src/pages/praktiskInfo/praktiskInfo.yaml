@@ -4,19 +4,27 @@ lead:
   text: Diverse praktisk informasjon om stevnet.
 map:
   title: Kart
-  content: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+  content: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna,
+    luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus
+    iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+
 
     Praesent rhoncus orci eget ligula blandit, vel hendrerit dui ultrices. Vivamus ut sollicitudin magna. Sed pulvinar nulla lectus, at ultricies odio fringilla id. Vestibulum interdum porttitor ante non sodales. Proin nec purus id tortor sagittis pellentesque. Praesent varius lacus dolor, at dapibus leo tincidunt in. Suspendisse eget metus cursus, malesuada arcu vel, dictum elit.
 taxi:
   title: Taxi
-  content: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+  content: >-
+    Trenger du eller ditt korps taxi mens du er på stevnet, så er
+    telefonnummeret til Drosjesentralen i Sør-Fron 61 29 67 00.
 
-    Praesent rhoncus orci eget ligula blandit, vel hendrerit dui ultrices. Vivamus ut sollicitudin magna. Sed pulvinar nulla lectus, at ultricies odio fringilla id. Vestibulum interdum porttitor ante non sodales. Proin nec purus id tortor sagittis pellentesque. Praesent varius lacus dolor, at dapibus leo tincidunt in. Suspendisse eget metus cursus, malesuada arcu vel, dictum elit.
+
+    Vi jobber for å få til en egen taxi-avtale for stevnehelgen. En fast gunstig pris for å ta taxi mellom arenaene og overnattingsstedet.
 food:
   title: Mat
-  content: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna, luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+  content: >
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris urna,
+    luctus nec turpis eu, mattis vulputate ipsum. Nullam non turpis a est tempus
+    iaculis. Vivamus et leo ex. Nullam quis interdum sapien.
+
 
     Praesent rhoncus orci eget ligula blandit, vel hendrerit dui ultrices. Vivamus ut sollicitudin magna. Sed pulvinar nulla lectus, at ultricies odio fringilla id. Vestibulum interdum porttitor ante non sodales. Proin nec purus id tortor sagittis pellentesque. Praesent varius lacus dolor, at dapibus leo tincidunt in. Suspendisse eget metus cursus, malesuada arcu vel, dictum elit.
