@@ -1,8 +1,12 @@
 pageTitle: Program
 lead:
   title: Program
-  text: |
-    Det foreløpige programmet for stevnet. Med forbehold for endringer!
+  text: Under følger det foreløpige programmet for stevnet. Små endringer kan
+    forekomme, f.eks. som følge av antall korps som melder seg på. Vi er opptatt
+    av opplevelser i kulturlandskap, men vi er også opptatt av at korpsene skal
+    få anledning til å høre hverandre. Blir det få korps vi antall spillesteder
+    reduseres. Blir det veldig mange korps, noe som ville glede oss, blir det
+    lagt til spillesteder.
 program:
   - title: Fredag, 11. juni
     events:
@@ -29,9 +33,9 @@ program:
           Korpsene marsjerer fra 4 forskjellige retninger:
 
           * Dale-Gudbrands Gard
-          * Sørheim
-          * Midtbygda
-          * Flatmoen
+          * Sørheim eldresenter
+          * Midtbygda skole
+          * Flatmoen idrettspark
       - time: 10:30
         title: Ankomst Sør-Fron Kirke
         description: Åpning av stevnet med presentasjon av hvert enkelt korps, taler og
@@ -43,19 +47,17 @@ program:
           notestativ. Enkelt trommesett er tilgjengelig (Sygard Grytting,
           Nordgard Korstad, Aanekre Gard).
       - time: 15:00
-        title: Parallelle konserter
+        title: Parallelle inne-konserter
         description: >-
-          Konserter på kjente og kjære steder i Sør-Fron:
+          * Sør-Fron Kirke - Passer for korps under 30 musikanter. Konserten
+          starter kl. 12.00
+
+          * Rudi Gard - Passer for korps opp til 35 musikanter.
+
+          * Sør-Fron Kulturhus - Ingen størrelsesbegrensning. Her kan vi tilby oppvarmingsrom.
 
 
-          * Sør-Fron Kirke - Passer for korps under 30 musikanter. Konserten starter kl. 12.00
-
-          * Rudi Gard - Passer for korps opp til 40 musikanter.
-
-          * Sør-Fron Kulturhus - Ingen størrelsebegrensing. Her kan vi tilby oppvarmingsrom.
-
-
-          Alle steder har standard slagverkutstyr. Ta kontakt for spesielle behov.
+          Mer informasjon om spillestedene finner du under fanen **Arenaer**
       - time: 20:00
         title: Festmiddag
         description: Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i
