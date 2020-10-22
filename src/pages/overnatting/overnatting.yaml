@@ -111,8 +111,9 @@ places:
       - post@endencamping.no
     website: https://endencamping.no/
     image: /images/enden-camping.jpg
-    breakfast: ???
+    breakfast: Nei
     phoneNumbers:
       - +47 917 66 403
-    description: |
-      Enden Camping er en rolig campingplass 7 km fra Sør-Fron Kirke.
+    description: Enden Camping er en rolig campingplass 6,5 km sør for Sør-Fron
+      Kirke med mange hytter for 2 til 6 personer. Ellers alle muligheter for
+      telt, campingvogn eller bobil. God parkering for bil eller buss.
