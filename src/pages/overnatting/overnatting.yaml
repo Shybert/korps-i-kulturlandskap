@@ -4,7 +4,7 @@ lead:
   text: |
     Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
 places:
-  - price: 1100 kr per person fra fredag til søndag inkludert frokost.
+  - price: 1100 kr per person per døgn inkludert frokost.
     name: Dale-Gudbrands Gard
     beds: "50"
     address:
@@ -52,13 +52,14 @@ places:
       - info@fryaleir.no
     website: https://fryaleir.no/
     image: /images/fryaleir.gif
-    breakfast: Ja, koster 150 kr
+    breakfast: Ja, kr. 150,- per person
     phoneNumbers:
       - +47 450 69 558
     description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
       vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
       tallet.
-  - price: Fra 700 kr per sengeplass
+  - price: Fra kr. 200 per person per døgn avhengig av boenhet og hvor mange som bor
+      i hver enhet.
     name: Heggerud Gård
     beds: Mange, fordelt på diverse hytter og stuer
     address:
@@ -74,8 +75,13 @@ places:
     phoneNumbers:
       - +47 996 08 339
       - +47 952 82 079
-    description: |
-      Heggerud Gård ligger flott til på Harpefoss, 6 km fra Sør-Fron Kirke.
+    description: >-
+      Heggerud Gård ligger flott til på Harpefoss, 6 km fra Sør-Fron Kirke. Det
+      er gåavstand til kulturhuset der stevnekontoret ligger, festen fredag og
+      festmiddagen lørdag.
+
+
+      Heggerud har mange alternativ overnattinger: Et stort hus med senger til 10 personer og 8 campinghytter av forskjellig størrelse. I tillegg kan du ha med deg eget telt, campingvogn eller bobil.
   - price: 300-475 kr per hytte
     name: Heimtun Camping
     beds: 26 i hytter på 2-4 personer
