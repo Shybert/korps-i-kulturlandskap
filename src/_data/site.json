@@ -1,14 +1,32 @@
 {
   "nav": [
-    { "name": "Hjem", "link": "/" },
-    { "name": "Overnatting", "link": "/overnatting/" },
-    { "name": "Program", "link": "/program/" },
-    { "name": "Arenaer", "link": "/arenaer/" },
-    { "name": "Praktisk info", "link": "/praktiskInfo/" },
-    { "name": "Samarbeidspartnere", "link": "/samarbeidspartnere/" }
+    {
+      "name": "Hjem",
+      "link": "/"
+    },
+    {
+      "name": "Overnatting",
+      "link": "/overnatting/"
+    },
+    {
+      "name": "Program",
+      "link": "/program/"
+    },
+    {
+      "name": "Arenaer",
+      "link": "/arenaer/"
+    },
+    {
+      "name": "Praktisk info",
+      "link": "/praktiskInfo/"
+    },
+    {
+      "name": "Samarbeidspartnere",
+      "link": "/samarbeidspartnere/"
+    }
   ],
   "contact": {
-    "email": "marthe.n.dybos@gmail.com",
+    "email": "hundorp.musikklag@gmail.com",
     "facebookPage": "http://example.com/",
     "phoneNumber": "412 26 193"
   }
