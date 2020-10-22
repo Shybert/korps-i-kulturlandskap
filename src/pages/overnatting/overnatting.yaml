@@ -96,9 +96,10 @@ places:
     breakfast: Nei
     phoneNumbers:
       - +47 958 60 365
-    description: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pulvinar ut
-      mauris quis vestibulum. Aliquam congue purus ut est laoreet viverra.
+    description: Enkel campingplass på Frya, 6 km sør for Sør-Fron kirke. Plassen
+      har mange campinghytter for 2 eller 4 personer i tillegg til at det er
+      muligheter for telt, campingvogn eller bobil. Gode parkeringsmuligheter
+      for bil eller buss.
   - price: 400-800 kr per hytte
     name: Enden Camping
     beds: 58 i hytter på 2-6 personer
