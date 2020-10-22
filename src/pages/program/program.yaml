@@ -10,7 +10,7 @@ lead:
 program:
   - title: Fredag, 11. juni
     events:
-      - time: 17:00
+      - time: '"17:00"'
         title: Stevnekontoret åpner
         description: Stevnekontoret finner du i Sør-Fron Kulturhus og holder oppe fra
           fredag kl. 17 og hele lørdagen.
