@@ -4,7 +4,7 @@ lead:
   text: |
     Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
 places:
-  - price: 1100 kr per sengeplass
+  - price: 1100 kr per person fra fredag til søndag inkludert frokost.
     name: Dale-Gudbrands Gard
     beds: "50"
     address:
@@ -18,11 +18,11 @@ places:
     breakfast: Ja
     phoneNumbers:
       - +47 911 58 938
-    description: >
-      Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var her Olav
-      den Hellige møtte Dale-Gudbrand i 1021 for kristning av gudbrandsdølene.
-      Stedet ble Opplands tusenårssted i år 2000. Stevneprogrammet søndag er
-      lagt til Dale-Gudbrands gard.
+    description: Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var
+      her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av
+      gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
+      Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
+      parkeringsmuligheter.
   - price: ???
     name: Hytter på Gålå
     beds: 500-600 i 100 utleieenheter
@@ -41,7 +41,7 @@ places:
     description: >
       Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus,
       kan korpset bo i hytter eller leiligheter.
-  - price: 220-390 kr per sengeplass, avhengig av antall på rommet
+  - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
     name: Frya Leir
     beds: "90"
     address:
@@ -55,8 +55,9 @@ places:
     breakfast: Ja, koster 150 kr
     phoneNumbers:
       - +47 450 69 558
-    description: |
-      Frya Leir ligger 5 km sør for Sør-Fron Kirke.
+    description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
+      vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
+      tallet.
   - price: Fra 700 kr per sengeplass
     name: Heggerud Gård
     beds: Mange, fordelt på diverse hytter og stuer
