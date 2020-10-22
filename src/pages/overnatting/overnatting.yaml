@@ -23,7 +23,7 @@ places:
       gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
       Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
       parkeringsmuligheter.
-  - price: ???
+  - price: Ikke klare enda
     name: Hytter på Gålå
     beds: 500-600 i 100 utleieenheter
     address:
@@ -35,12 +35,18 @@ places:
       - booking@galabooking.no
     website: https://galabooking.no/
     image: /images/hytter gala.jpg
-    breakfast: ???
+    breakfast: Nei.
     phoneNumbers:
       - +47 918 32 111
-    description: >
+    description: >-
       Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus,
-      kan korpset bo i hytter eller leiligheter.
+      kan korpset bo i store hytter eller leiligheter med alle fasiliteter. 
+
+
+      Gålå er en stor turistdestinasjon med masse hytter, storhytter, private hytter, skianlegg og mye aktivitet hele året. Det er her Peer Gynt teater spilles på utescene ved Gålåvannet hvert år.
+
+
+      Du kan velge om du vil leie hytte med sengetøy eller ta med ditt eget.
   - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
     name: Frya Leir
     beds: "90"
