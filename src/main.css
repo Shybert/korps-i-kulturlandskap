@@ -447,7 +447,7 @@ header {
 }
 @media only screen and (max-width: 600px) {
   #contact {
-    font-size: 25px;
+    font-size: 22px;
   }
   #contact .title {
     font-size: 50px;
