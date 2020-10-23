@@ -57,7 +57,7 @@ permalink: /overnatting/
       </div>
     {% endset %}
     {% set media %}
-      <img src="{{ place.image }}" alt="Bilde av {{ place.name }}" />      
+      <img src="{{ place.image }}?nf_resize=fit&w=850" alt="Bilde av {{ place.name }}" />      
     {% endset %}
     {{ contentMedia(
       title     = place.name,
