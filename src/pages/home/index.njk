@@ -79,32 +79,6 @@ permalink: /
     </div>
   </section>
 
-  <svg class="wave top" viewBox="0 0 1440 320">
-    <path fill="forestgreen" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,165.3C384,181,480,235,576,266.7C672,299,768,309,864,293.3C960,277,1056,235,1152,197.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-  </svg>
-  <section id="contact" class="mainSection">
-    <div class="container">
-      <h2 class="title">{{ contact.title }}</h2>
-
-      <ul class="listMedia">
-        <li>
-          {{ icon("facebook", "Facebook", "huge") }}
-          <a href="{{ site.contact.facebookPage }}">Facebookside</a>
-        </li>
-        <li>
-          {{ icon("mail", "Email", "huge") }}
-          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
-        </li>
-        <li>
-          {{ icon("phone", "Telefonnummer", "huge") }}
-          <a href="tel:{{ site.contact.phoneNumber }}">{{ site.contact.phoneNumber }}</a>
-        </li>        
-      </ul>
-    </div>
-  </section>
-  <svg class="wave" viewBox="0 0 1440 180">
-    <path fill="forestgreen" fill-opacity="1" d="M0,160L48,149.3C96,139,192,117,288,96C384,75,480,53,576,74.7C672,96,768,160,864,165.3C960,171,1056,117,1152,90.7C1248,64,1344,64,1392,64L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
-  </svg>
 
   <section id="hml" class="mainSection">
     <div class="container">
@@ -124,7 +98,31 @@ permalink: /
         {% endmarkdown %}
       </div>
     </div>
-  </section>  
+  </section>
+
+  <svg class="wave top" viewBox="0 0 1440 320">
+    <path fill="forestgreen" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,165.3C384,181,480,235,576,266.7C672,299,768,309,864,293.3C960,277,1056,235,1152,197.3C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+  </svg>
+  <section id="contact" class="mainSection">
+    <div class="container">
+      <h2 class="title">{{ contact.title }}</h2>
+
+      <ul class="listMedia">
+        <li>
+          {{ icon("facebook", "Facebook", "huge") }}
+          <a href="{{ site.contact.facebookPage }}">Facebookside</a>
+        </li>
+        <li>
+          {{ icon("mail", "Email", "huge") }}
+          <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+        </li>
+        <li>
+          {{ icon("phone", "Telefonnummer", "huge") }}
+          <a href="tel:{{ site.contact.phoneNumber }}">{{ site.contact.phoneNumber }}</a>
+        </li>
+      </ul>
+    </div>
+  </section>
 {% endblock %}
 
 {% block js %}

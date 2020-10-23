@@ -129,12 +129,14 @@ a.externalLink::after {
   display: flex;
   justify-content: center;
   padding: 50px 0;
+  margin-bottom: 48px;
 }
 .mainSection:first-child {
   padding-top: 25px;
 }
 .mainSection:last-child {
   padding-bottom: 25px;
+  margin-bottom: 0;
 }
 .mainSection > .container {
   width: 100%;
@@ -184,6 +186,7 @@ a.externalLink::after {
 #lead {
   text-align: center;
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .textMedia > .container {
@@ -451,6 +454,9 @@ header {
   }
 }
 
+#hml {
+  margin-bottom: 0;
+}
 #hml .image {
   width: 100%;
 }
