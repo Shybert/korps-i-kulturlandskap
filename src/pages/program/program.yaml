@@ -14,20 +14,20 @@ program:
         title: Stevnekontoret åpner
         description: Stevnekontoret finner du i Sør-Fron Kulturhus og holder oppe fra
           fredag kl. 17 og hele lørdagen.
-      - time: 19:00
+      - time: " ‎19:00"
         title: Marsjkonkurranse
         description: Vi oppfordrer alle som kommer på fredag til å melde seg på en
           uhøytidelig marsjkonkurranse. Hvert påmeldte korps spiller en marsj
           fra scenen i kulturhuset. En oppnevnt jury gir bedømming ut fra
           kvalitet og spilleglede. Resultatet inkludert premiering
           offentliggjøres lørdag under festmiddagen.
-      - time: 19:00
+      - time: " ‎19:00"
         title: Servering, drikke, og dans
         description: Servering, drikke, og dans etter levende musikk (bandet Rita og
           Ståle) i Sør-Fron Kulturhus.
   - title: Lørdag, 12. juni
     events:
-      - time: 10:00
+      - time: " ‎10:00"
         title: Oppmarsj til Sør-Fron kirke
         description: |-
           Korpsene marsjerer fra 4 forskjellige retninger:
@@ -36,17 +36,17 @@ program:
           * Sørheim eldresenter
           * Midtbygda skole
           * Flatmoen idrettspark
-      - time: 10:30
+      - time: " ‎10:30"
         title: Ankomst Sør-Fron Kirke
         description: Åpning av stevnet med presentasjon av hvert enkelt korps, taler og
           felles marsj.
-      - time: 12:00
+      - time: " ‎12:00"
         title: Spilling rundt i bygda
         description: Hvert enkelt korps lister opp ønske for marsjheftespilling (Kiwi
           Harpefoss, Tveit Smie), eller gardstunspilling sittende, ta med
           notestativ. Enkelt trommesett er tilgjengelig (Sygard Grytting,
           Nordgard Korstad, Aanekre Gard).
-      - time: 15:00
+      - time: " ‎15:00"
         title: Parallelle inne-konserter
         description: >-
           * Sør-Fron Kirke - Passer for korps under 30 musikanter. Konserten
@@ -58,22 +58,22 @@ program:
 
 
           Mer informasjon om spillestedene finner du under fanen [Arenaer](/arenaer/)
-      - time: 20:00
+      - time: " ‎20:00"
         title: Festmiddag
         description: Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i
           marsjkonkurransen. Underholdning og dans.
   - title: Søndag, 13. juni
     events:
-      - time: 11:00
+      - time: " ‎11:00"
         title: Avmarsj til Dale-Gudbrands gard
         description: |
           Korpsene marsjerer fra tre forskjellige retninger:
           - Sør-Fron Kirke
           - Hyttebyen
           - Lidarende
-      - time: 12:00
+      - time: " ‎12:00"
         title: Arrangement på Dale-Gudbrand
         description: Felles marsjer, historisk og musikalsk underholdning fra scene.
-      - time: 14:00
+      - time: " ‎14:00"
         title: Regionstevnet 2021, Korps i Kulturlandskap avsluttes
         description: Avslutningstale.
