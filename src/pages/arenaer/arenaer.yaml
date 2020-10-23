@@ -74,6 +74,10 @@ arenas:
       **Sygard Grytting** er en av Sør-Frons gårder med historie fra Middelalderen, og har 700 år med losjhistorie, blant annet overnatting for Pilgrimmer. Gården fikk "Norske folks reisefavoritt 2019" og har ordinær gårdsdrift med sau.
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
+    address:
+      text: Kongsvegen 999, 2647 Sør-Fron
+      latitude: 61.5756919
+      longitude: 9.8922209
   - name: Utearena - Nordgard Korstad
     image: /images/klokketårn.jpg
     description: |
@@ -86,12 +90,20 @@ arenas:
       **Kiwi Harpefoss** ligger vis-a-vis Kulturhuset. Butikken er veldig godt besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
 
       Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i umiddelbar nærhet.
+    address:
+      text: Moavegen 1 A, 2647 Sør-Fron
+      latitude: 61.5778452
+      longitude: 9.8589121
   - name: Utearena - Tveitplassen
     image: /images/tveit-med-korps.jpg
     description: |
       **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og rett nedenfor Sør-Fron kirke. Det er marked på plassen lørdag 12. juni. **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
 
       Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i nærheten.
+    address:
+      text: Haugansgeilen, 2647 Sør-Fron
+      latitude: 61.5572093
+      longitude: 9.9395971
   - name: Dale-Gudbrands Gard
     image: /images/dale-gudbrands-gard-kurs-og-konferansesenter-1.jpg
     description: |
