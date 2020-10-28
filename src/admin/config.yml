@@ -148,26 +148,37 @@ collections:
               - { label: Beskrivelse, name: description, widget: markdown }
               - label: Email
                 name: emails
+                required: false
                 widget: list
                 field: { label: Email, name: email, widget: string }
               - label: Telefonnummer
                 name: phoneNumbers
+                required: false
                 widget: list
                 field:
                   { label: Telefonnummer, name: phoneNumber, widget: string }
-              - { label: Nettside, name: website, widget: string }
+              - label: Nettside
+                name: website
+                required: false
+                widget: string
               - label: Adresse
                 name: address
+                required: false
                 widget: object
                 fields:
-                  - { label: Tekst, name: text, widget: string }
+                  - label: Tekst
+                    name: text
+                    required: false
+                    widget: string
                   - label: Breddegrad
                     name: latitude
+                    required: false
                     widget: number
                     default: 0
                     value_type: float
                   - label: Lengdegrad
                     name: longitude
+                    required: false
                     widget: number
                     default: 0
                     value_type: float
