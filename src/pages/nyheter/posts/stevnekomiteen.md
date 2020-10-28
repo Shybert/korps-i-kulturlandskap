@@ -1,26 +1,26 @@
 ---
 title: Stevnekomiteen
 blurb: Hovedkomiteen
-date: 2020-06-20
+date: 2020-10-28
 image:
   link: /images/stevnekomiteen.jpg
   text: Hovedkomiteen til stevnet
 ---
 
-Hovedkomiteen for Korps i Kulturlandskap består av
+Hovedkomiteen for Korps i Kulturlandskap består av:
 
-Audun Skattebo - komiteleder, spiller trombone
+- Audun Skattebo - komiteleder, spiller trombone
 
-Liv Bjerke - dirigent
+- Liv Bjerke - dirigent
 
-Marthe Dybos - leder for korpset, spiller trombone
+- Marthe Dybos - leder for korpset, spiller trombone
 
-Erik Hovemoen - spiller althorn
+- Erik Hovemoen - spiller althorn
 
-Berit Muriteigen - spiller fløyte
+- Berit Muriteigen - spiller fløyte
 
-Hilde Grytting - spiller baryton
+- Hilde Grytting - spiller baryton
 
-Ingrid Haugen - spiller altsax
+- Ingrid Haugen - spiller altsax
 
-Eivind Bergseth - spiller trompet
+- Eivind Bergseth - spiller trompet
