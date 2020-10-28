@@ -2,7 +2,9 @@ pageTitle: Arenaer
 lead:
   title: Arenaer
   text: >-
-    Her finner du en oversikt over alle konsertarenaen, størrelse på scene, eventuelt oppvarmingsrom og hva som finnes av slagverksutstyr. Dersom korpset ditt trenger mer slagverkutstyr, må dere ta med det selv. 
+    Her finner du en oversikt over alle konsertarenaen, størrelse på scene,
+    eventuelt oppvarmingsrom og hva som finnes av slagverksutstyr. Dersom
+    korpset ditt trenger mer slagverkutstyr, må dere ta med det selv. 
 
 
     Under påmelding skal korpset oppgi hvor korpset ønsker å spille konsert ute eller inne. Vi forsøker å innfri ønske, men må fordele ut i fra antall korps og tidspunkt.
@@ -64,14 +66,21 @@ arenas:
     image: /images/rudi-gard.jpg
   - name: Utearena - Aanekre Gard
     image: /images/kveldsstemning-aanekre.jpg
-    description: |
-      **Aanekre gard** ligger på "baksiden" (sør for Laugen) i Lia. Aanekre er en "Inn på tunet" og 4H-gård, som har stor aktivitet i tillegg til gårdsdrift.
+    description: >-
+      **Aanekre gard** ligger på "baksiden" (sør for Laugen) i Lia. Aanekre er
+      en "Inn på tunet" og 4H-gård, som har stor aktivitet i tillegg til
+      gårdsdrift.
+
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
   - name: Utearena - Sygard Grytting
     image: /images/grytting.jpg
-    description: |
-      **Sygard Grytting** er en av Sør-Frons gårder med historie fra Middelalderen, og har 700 år med losjhistorie, blant annet overnatting for Pilgrimmer. Gården fikk "Norske folks reisefavoritt 2019" og har ordinær gårdsdrift med sau.
+    description: >
+      **Sygard Grytting** er en av Sør-Frons gårder med historie fra
+      Middelalderen, og har 700 år med losjhistorie, blant annet overnatting for
+      Pilgrimmer. Gården fikk "Norske folks reisefavoritt 2019" og har ordinær
+      gårdsdrift med sau.
+
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
     address:
@@ -80,14 +89,19 @@ arenas:
       longitude: 9.8922209
   - name: Utearena - Nordgard Korstad
     image: /images/klokketårn.jpg
-    description: |
-      **Nordgard Korstad** ligger i Øverbygda på Hundorp og har en fantastisk utsikt over bygda og Gudbrandsdalen. På Nordgard Korstad er det melkeproduksjon, og gården er fra *årstall*
+    description: >
+      **Nordgard Korstad** ligger i Øverbygda på Hundorp og har en fantastisk
+      utsikt over bygda og Gudbrandsdalen. På Nordgard Korstad er det
+      melkeproduksjon, og gården er fra *årstall*
+
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
   - name: Utearena - Kiwi Harpefoss
     image: /images/kiwi-harpefoss.jpg
-    description: |
-      **Kiwi Harpefoss** ligger vis-a-vis Kulturhuset. Butikken er veldig godt besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
+    description: >
+      **Kiwi Harpefoss** ligger vis-a-vis Kulturhuset. Butikken er veldig godt
+      besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
+
 
       Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i umiddelbar nærhet.
     address:
@@ -96,8 +110,11 @@ arenas:
       longitude: 9.8589121
   - name: Utearena - Tveitplassen
     image: /images/tveit-med-korps.jpg
-    description: |
-      **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og rett nedenfor Sør-Fron kirke. Det er marked på plassen lørdag 12. juni. **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
+    description: >
+      **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og
+      rett nedenfor Sør-Fron kirke. Det er marked på plassen lørdag 12. juni.
+      **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
+
 
       Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i nærheten.
     address:
@@ -106,15 +123,22 @@ arenas:
       longitude: 9.9395971
   - name: Dale-Gudbrands Gard
     image: /images/dale-gudbrands-gard-kurs-og-konferansesenter-1.jpg
-    description: |
+    description: >
       Søndagens arrangement er lagt til Dale-Gudbrands gard. Stedet ble valgt
+
       til [Oppland](https://no.wikipedia.org/wiki/Oppland) fylkes og
+
       Sør-Fron kommunes tusenårssted i 1999. I 2021 skal stedet være i sentrum
+
       for 1000-års markelingen for kristningen av Norge. Det var nemlig her Olav
+
       den Hellige møtte høvdingen i Gudbrandsdalen, Dale- Gudbrand, til kamp
+
       under kristninga av Norge i 1021.
 
+
       Alle korpsene skal marsjere fra flere retninger til stedet. Det blir felles marsjer og deretter underholdning relatert til tusenårsfeiringa fra utescene.
+
 
       Det kommer mer informasjon om arrangementene som skal være på Dale-Gudbrand.
     address:
