@@ -7,12 +7,7 @@ permalink: /program/
 {% from "components/lead.njk" import lead as leadComponent %}
 
 {% block main %}
-  {% set extra %}
-    <a class="print button" href="/program/program.pdf">
-      {{ icon("printer", "Printer", "large") }} Utskriftsversjon
-    </a>
-  {% endset %}
-  {{ leadComponent(lead.title, lead.text, extra) }}
+  {{ leadComponent(lead.title, lead.text) }}
 
   <nav id="navProgram" class="mainSection">
     <div class="container">
