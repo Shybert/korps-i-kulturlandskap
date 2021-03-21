@@ -21,7 +21,7 @@ collections:
                 widget: list
                 field: { label: Bilde, name: image, widget: image }
           - label: Utsettelse
-            name: delayed
+            name: delay
             widget: object
             fields:
               - { label: Tittel, name: title, widget: string }
