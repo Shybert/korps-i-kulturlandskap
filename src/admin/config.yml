@@ -20,6 +20,12 @@ collections:
                 name: images
                 widget: list
                 field: { label: Bilde, name: image, widget: image }
+          - label: Utsettelse
+            name: delayed
+            widget: object
+            fields:
+              - { label: Tittel, name: title, widget: string }
+              - { label: Innhold, name: content, widget: markdown }
           - label: Velkommen
             name: welcome
             widget: object

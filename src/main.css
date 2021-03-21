@@ -402,6 +402,11 @@ header {
   }
 }
 
+#delayed > .container {
+  padding: 35px;
+  padding-top: 25px;
+}
+
 #signUp > .container {
   padding: 35px;
   padding-top: 25px;
