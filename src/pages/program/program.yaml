@@ -8,24 +8,27 @@ lead:
     reduseres. Blir det veldig mange korps, noe som ville glede oss, blir det
     lagt til spillesteder.
 program:
-  - title: Fredag, 11. juni
+  - title: Fredag, 10. juni
     events:
       - time: " ‎17:00"
         title: Stevnekontoret åpner
-        description: Stevnekontoret finner du i Sør-Fron Kulturhus og holder oppe fra
+        description:
+          Stevnekontoret finner du i Sør-Fron Kulturhus og holder oppe fra
           fredag kl. 17 og hele lørdagen.
       - time: " ‎19:00"
         title: Marsjkonkurranse
-        description: Vi oppfordrer alle som kommer på fredag til å melde seg på en
+        description:
+          Vi oppfordrer alle som kommer på fredag til å melde seg på en
           uhøytidelig marsjkonkurranse. Hvert påmeldte korps spiller en marsj
           fra scenen i kulturhuset. En oppnevnt jury gir bedømming ut fra
           kvalitet og spilleglede. Resultatet inkludert premiering
           offentliggjøres lørdag under festmiddagen.
       - time: " ‎19:00"
         title: Servering, drikke, og dans
-        description: Servering, drikke, og dans etter levende musikk (bandet Rita og
+        description:
+          Servering, drikke, og dans etter levende musikk (bandet Rita og
           Ståle) i Sør-Fron Kulturhus.
-  - title: Lørdag, 12. juni
+  - title: Lørdag, 11. juni
     events:
       - time: " ‎10:00"
         title: Oppmarsj til Sør-Fron kirke
@@ -38,11 +41,13 @@ program:
           * Flatmoen idrettspark
       - time: " ‎10:30"
         title: Ankomst Sør-Fron Kirke
-        description: Åpning av stevnet med presentasjon av hvert enkelt korps, taler og
+        description:
+          Åpning av stevnet med presentasjon av hvert enkelt korps, taler og
           felles marsj.
       - time: " ‎12:00"
         title: Spilling rundt i bygda
-        description: Hvert enkelt korps lister opp ønske for marsjheftespilling (Kiwi
+        description:
+          Hvert enkelt korps lister opp ønske for marsjheftespilling (Kiwi
           Harpefoss, Tveit Smie), eller gardstunspilling sittende, ta med
           notestativ. Enkelt trommesett er tilgjengelig (Sygard Grytting,
           Nordgard Korstad, Aanekre Gard).
@@ -60,9 +65,10 @@ program:
           Mer informasjon om spillestedene finner du under fanen [Arenaer](/arenaer/)
       - time: " ‎20:00"
         title: Festmiddag
-        description: Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i
+        description:
+          Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i
           marsjkonkurransen. Underholdning og dans.
-  - title: Søndag, 13. juni
+  - title: Søndag, 12. juni
     events:
       - time: " ‎11:00"
         title: Avmarsj til Dale-Gudbrands gard
@@ -75,5 +81,5 @@ program:
         title: Arrangement på Dale-Gudbrand
         description: Felles marsjer, historisk og musikalsk underholdning fra scene.
       - time: " ‎14:00"
-        title: Regionstevnet 2021, Korps i Kulturlandskap avsluttes
+        title: Regionstevnet 2022, Korps i Kulturlandskap avsluttes
         description: Avslutningstale.
