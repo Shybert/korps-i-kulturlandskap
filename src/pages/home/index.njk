@@ -38,16 +38,6 @@ permalink: /
 {% endblock %}
 
 {% block main %}
-  <section id="delayed" class="mainSection thin">
-    <div class="container card rounded">
-      <h2>{{ delay.title }}</h2>
-      {% markdown %}
-        {{ delay.content | safe }}
-      {% endmarkdown %}
-    </div>
-  </section>
-
-
   <section id="welcome" class="mainSection thin">
     <div class="container">
       <h2>{{ welcome.title }}</h2>
