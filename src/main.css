@@ -476,6 +476,25 @@ header {
   text-align: center;
 }
 
+#hml .video {
+  position: relative;
+  max-width: 750px;
+  margin: auto;
+  margin-top: 2em;
+}
+#hml .video::before {
+  display: block;
+  content: "";
+  padding-top: 56.25%;
+}
+#hml .video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Program */
 #navProgram {
   padding-bottom: 0;
