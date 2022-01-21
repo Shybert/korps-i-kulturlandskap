@@ -40,7 +40,17 @@ permalink: /
 {% block main %}
   <section id="welcome" class="mainSection thin">
     <div class="container">
-      <h2>{{ welcome.title }}</h2>
+      <h1>{{ welcome.title }}</h1>
+      {% markdown %}
+        {{ welcome.intro | safe }}
+      {% endmarkdown %}
+
+      <div class="warning">
+        {% markdown %}
+        {{ welcome.warning | safe }}
+        {% endmarkdown %}
+      </div>
+
       {% markdown %}
         {{ welcome.content | safe }}
       {% endmarkdown %}
