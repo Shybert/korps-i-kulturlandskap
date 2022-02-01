@@ -4,7 +4,7 @@ lead:
   text: |
     Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
 places:
-  - price: 1100 kr per person per døgn inkludert frokost.
+  - price: FULLT
     name: Dale-Gudbrands Gard
     beds: "50"
     address:
@@ -18,8 +18,7 @@ places:
     breakfast: Ja
     phoneNumbers:
       - +47 911 58 938
-    description:
-      Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var
+    description: Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var
       her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av
       gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
       Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
@@ -62,12 +61,10 @@ places:
     breakfast: Ja, kr. 150,- per person
     phoneNumbers:
       - +47 450 69 558
-    description:
-      Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
+    description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
       vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
       tallet.
-  - price:
-      Fra kr. 200 per person per døgn avhengig av boenhet og hvor mange som bor
+  - price: Fra kr. 200 per person per døgn avhengig av boenhet og hvor mange som bor
       i hver enhet.
     name: Heggerud Gård
     beds: Mange, fordelt på diverse hytter og stuer
@@ -86,8 +83,8 @@ places:
       - +47 952 82 079
     description: >-
       Heggerud Gård ligger flott til på Harpefoss, 6 km fra Sør-Fron Kirke. Det
-      er gåavstand til kulturhuset der stevnekontoret ligger, og hvor det er fest fredag og
-      festmiddag lørdag.
+      er gåavstand til kulturhuset der stevnekontoret ligger, og hvor det er
+      fest fredag og festmiddag lørdag.
 
 
       Heggerud har mange alternativ overnattinger: Et stort hus med senger til 10 personer og 8 campinghytter av forskjellig størrelse. I tillegg kan du ha med deg eget telt, campingvogn eller bobil.
@@ -105,8 +102,7 @@ places:
     breakfast: Nei
     phoneNumbers:
       - +47 958 60 365
-    description:
-      Enkel campingplass på Frya, 6 km sør for Sør-Fron kirke. Plassen
+    description: Enkel campingplass på Frya, 6 km sør for Sør-Fron kirke. Plassen
       har mange campinghytter for 2 eller 4 personer i tillegg til at det er
       muligheter for telt, campingvogn eller bobil. Gode parkeringsmuligheter
       for bil eller buss.
