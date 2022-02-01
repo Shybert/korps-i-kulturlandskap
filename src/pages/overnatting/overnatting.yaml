@@ -4,25 +4,23 @@ lead:
   text: |
     Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
 places:
-  - price: FULLT
-    name: Dale-Gudbrands Gard
-    beds: "50"
+  - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
+    name: Frya Leir
+    beds: "90"
     address:
-      text: Hundorpgjeilen 12, 2647 Sør-Fron
-      latitude: 61.5484361
-      longitude: 9.9662324
+      text: Frya Leir, 2630 Ringebu
+      latitude: 61.5492746
+      longitude: 10.0574862
     emails:
-      - post@dale-gudbrandsgard.no
-    website: https://www.dale-gudbrandsgard.no/
-    image: /images/dgg.jpg
-    breakfast: Ja
+      - info@fryaleir.no
+    website: https://fryaleir.no/
+    image: /images/fryaleir.gif
+    breakfast: Ja, kr. 150,- per person
     phoneNumbers:
-      - +47 911 58 938
-    description: Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var
-      her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av
-      gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
-      Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
-      parkeringsmuligheter.
+      - +47 450 69 558
+    description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
+      vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
+      tallet.
   - price: Ikke klare enda
     name: Hytter på Gålå
     beds: 500-600 i 100 utleieenheter
@@ -47,23 +45,6 @@ places:
 
 
       Du kan velge om du vil leie hytte med sengetøy eller ta med ditt eget.
-  - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
-    name: Frya Leir
-    beds: "90"
-    address:
-      text: Frya Leir, 2630 Ringebu
-      latitude: 61.5492746
-      longitude: 10.0574862
-    emails:
-      - info@fryaleir.no
-    website: https://fryaleir.no/
-    image: /images/fryaleir.gif
-    breakfast: Ja, kr. 150,- per person
-    phoneNumbers:
-      - +47 450 69 558
-    description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
-      vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
-      tallet.
   - price: Fra kr. 200 per person per døgn avhengig av boenhet og hvor mange som bor
       i hver enhet.
     name: Heggerud Gård
@@ -123,3 +104,22 @@ places:
     description: Enden Camping er en rolig campingplass 6,5 km sør for Sør-Fron
       Kirke med mange hytter for 2 til 6 personer. Ellers alle muligheter for
       telt, campingvogn eller bobil. God parkering for bil eller buss.
+  - price: FULLT
+    name: Dale-Gudbrands Gard
+    beds: "50"
+    address:
+      text: Hundorpgjeilen 12, 2647 Sør-Fron
+      latitude: 61.5484361
+      longitude: 9.9662324
+    emails:
+      - post@dale-gudbrandsgard.no
+    website: https://www.dale-gudbrandsgard.no/
+    image: /images/dgg.jpg
+    breakfast: Ja
+    phoneNumbers:
+      - +47 911 58 938
+    description: Hundorp Dale-Gudbrands Gard er et veldig historisk sted. Det var
+      her Olav den Hellige møtte Dale-Gudbrand i 1021 for kristning av
+      gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
+      Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
+      parkeringsmuligheter.
