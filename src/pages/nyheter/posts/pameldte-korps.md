@@ -6,5 +6,6 @@ image:
   link: /images/tromisser.jpg
   text: Tromisser klare for spilling
 ---
+Nå har påmeldingene begynt å komme - og vi gleder oss VELDIG til å ønske dere velkommen.
 
-Foreløpig bare Hundorp Musikklag. Veldig snart ditt korps også?
+3 korps er nå på lista...
