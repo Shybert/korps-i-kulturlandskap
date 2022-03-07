@@ -49,30 +49,6 @@ places:
     description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
       vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
       tallet.
-  - price: Ikke klare enda
-    name: Hytter på Gålå
-    beds: 500-600 i 100 utleieenheter
-    address:
-      text: Gålåvegen 1343, 2646 Gålå
-      latitude: 61.5010057
-      longitude: 9.7923023
-    emails:
-      - knut@galabooking.no
-      - booking@galabooking.no
-    website: https://galabooking.no/
-    image: /images/hytter gala.jpg
-    breakfast: Nei
-    phoneNumbers:
-      - +47 918 32 111
-    description: >-
-      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus,
-      kan korpset bo i store hytter eller leiligheter med alle fasiliteter. 
-
-
-      Gålå er en stor turistdestinasjon med masse hytter, storhytter, private hytter, skianlegg og mye aktivitet hele året. Det er her Peer Gynt teater spilles på utescene ved Gålåvannet hvert år.
-
-
-      Du kan velge om du vil leie hytte med sengetøy eller ta med ditt eget.
   - price: Fra kr. 200 per person per døgn avhengig av boenhet og hvor mange som bor
       i hver enhet.
     name: Heggerud Gård
@@ -132,6 +108,30 @@ places:
     description: Enden Camping er en rolig campingplass 6,5 km sør for Sør-Fron
       Kirke med mange hytter for 2 til 6 personer. Ellers alle muligheter for
       telt, campingvogn eller bobil. God parkering for bil eller buss.
+  - price: Ikke klare enda
+    name: Hytter på Gålå
+    beds: 500-600 i 100 utleieenheter
+    address:
+      text: Gålåvegen 1343, 2646 Gålå
+      latitude: 61.5010057
+      longitude: 9.7923023
+    emails:
+      - knut@galabooking.no
+      - booking@galabooking.no
+    website: https://galabooking.no/
+    image: /images/hytter gala.jpg
+    breakfast: Nei
+    phoneNumbers:
+      - +47 918 32 111
+    description: >-
+      Oppe på fjellet, 18 km fra Sør-Fron Kirke, 12 km fra Sør-Fron Kulturhus,
+      kan korpset bo i store hytter eller leiligheter med alle fasiliteter. 
+
+
+      Gålå er en stor turistdestinasjon med masse hytter, storhytter, private hytter, skianlegg og mye aktivitet hele året. Det er her Peer Gynt teater spilles på utescene ved Gålåvannet hvert år.
+
+
+      Du kan velge om du vil leie hytte med sengetøy eller ta med ditt eget.
   - price: FULLT
     name: Dale-Gudbrands Gard
     beds: "50"
