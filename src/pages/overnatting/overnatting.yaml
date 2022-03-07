@@ -1,8 +1,9 @@
 pageTitle: Overnatting
 lead:
   title: Overnatting
-  text: |
-    Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer.
+  text: Hvert enkelt korps tar selv kontakt med det overnattingsstedet som passer
+    - bortsett fra Pyntaberget hotell, der reservasjon skal gå gjennom Hundorp
+    Musikklag (hundorp.musikklag@gmail.com)
 places:
   - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
     name: Frya Leir
@@ -123,3 +124,30 @@ places:
       gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
       Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
       parkeringsmuligheter.
+  - price: 400 - 700
+    name: Pyntaberget hotell
+    beds: "100"
+    address:
+      latitude: 61.56634
+      longitude: 9.96954
+      text: Pyntabergvegen 107, 2647 Sør-Fron
+    emails:
+      - hundorp.musikklag@gmail.com
+    website: "www.pyntabergethotell.no "
+    image: /images/utsikt.jpg
+    breakfast: ja
+    phoneNumbers: []
+    description: >-
+      Pyntaberget hotell ligger 3 km rett opp for Sør-Fron kirke. Hotellet
+      holder grei standard, fantastisk utsikt og har plass til ca 100 personer i
+      dobbeltrom, enkeltrom og noen 3 til 4 sengs rom.  
+
+
+      Pris: kr. 700,- per døgn i enkeltrom inkludert frokost  \
+
+      Kr. 500,- per person per døgn i dobbeltrom inkludert frokost  \
+
+      Kr. 400,- per person per døgn i 3 eller 4 sengs rom inkludert frokost. 
+
+
+      Reservasjon skjer gjennom Hundorp Musikklag på e-post hundorp.musikklag@gmail.com
