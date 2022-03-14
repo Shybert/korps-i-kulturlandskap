@@ -1,6 +1,6 @@
 ---
 title: Påmeldte korps
-blurb: 4 korps
+blurb: "Rendalen, Tretten, Kvam og Hundorp "
 date: 2020-10-20
 image:
   link: /images/tromisser.jpg
@@ -8,4 +8,4 @@ image:
 ---
 Nå har påmeldingene begynt å komme - og vi gleder oss VELDIG til å ønske dere velkommen.
 
-3 korps er nå på lista...
+4 korps er nå på lista... som oppdateres jevnlig
