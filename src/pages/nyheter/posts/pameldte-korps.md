@@ -1,6 +1,6 @@
 ---
 title: Påmeldte korps
-blurb: Hundorp Musikklag.
+blurb: 4 korps
 date: 2020-10-20
 image:
   link: /images/tromisser.jpg
