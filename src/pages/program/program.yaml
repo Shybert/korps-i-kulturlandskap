@@ -37,7 +37,7 @@ program:
           Hvem som skal spille hvor blir annonsert i forkant av stevnet.
 
           Stoler og trommesett er tilgjengelig.
-      - time: 14:30
+      - time: " ‎14:30"
         title: Konsert på Rudi Gard
         description: >-
           Passer for større korps. 
@@ -50,7 +50,7 @@ program:
 
 
           Det blir tid til å forflytte seg fra Rudi Gard til kirka mellom konsertene.
-      - time: 17:00
+      - time: " ‎17:00"
         title: Konsert i Sør-Fron kirke
         description: |-
           Passer for korps under 30 stk.
