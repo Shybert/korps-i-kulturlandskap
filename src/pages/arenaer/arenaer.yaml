@@ -28,23 +28,6 @@ arenas:
       longitude: 9.9419431
     website: http://www.kirken.sor-fron.no/
   - address:
-      latitude: 613435.2
-      longitude: 95146.1
-      text: Glasmestervegen 8, 2647 Sør-Fron
-    name: Sør-Fron Kulturhus
-    description: >-
-      Stevnekontoret er lagt til Sør-Fron Kulturhus, også arrangementet fredag
-      kveld og festmiddagen lørdag kveld. Stedet er et kombinasjonshus for
-      kultur og idrett.
-
-
-      Stor scenekapasitet, notestativ, og følgende slagverksutstyr: Xylofon, konserttromme, trommesett, 3 pauker, klokkespill, vibrafon, temple blocks, chimes, congas, bongos, perkusjonsbord, A2 cymbaler, marsjstortromme, paradetromme og piccolotromme. Mulighet for sanganlegg. Oppvarmingsrom i klasserom. 
-
-
-      Enkelt kiosksalg.
-    website: https://www.sor-fron.kommune.no/tjenester/kultur-og-naring/sor-fron-kulturhus/
-    image: /images/kulturhuset.jpg
-  - address:
       latitude: 61.7001429
       longitude: 10.0971136
       text: Rudivegen, 2647 Sør-fron
@@ -73,46 +56,12 @@ arenas:
 
 
       Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
-  - name: Utearena - Sygard Grytting
-    image: /images/grytting.jpg
-    description: >
-      **Sygard Grytting** er en av Sør-Frons gårder med historie fra
-      Middelalderen, og har 700 år med losjhistorie, blant annet overnatting for
-      Pilgrimmer. Gården fikk "Norske folks reisefavoritt 2019" og har ordinær
-      gårdsdrift med sau.
-
-
-      Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
-    address:
-      text: Kongsvegen 999, 2647 Sør-Fron
-      latitude: 61.5756919
-      longitude: 9.8922209
-  - name: Utearena - Nordgard Korstad
-    image: /images/klokketårn.jpg
-    description: >-
-      **Nordgard Korstad** ligger i Øverbygda på Hundorp og har en fantastisk
-      utsikt over bygda og Gudbrandsdalen. På Nordgard Korstad er det
-      melkeproduksjon.
-
-
-      Her er det stoler og trommesett. Enkel servering fås kjøpt på gården. Bussparkering i nærheten.
-  - name: Utearena - Kiwi Harpefoss
-    image: /images/kiwi-harpefoss.jpg
-    description: >
-      **Kiwi Harpefoss** ligger vis-a-vis Kulturhuset. Butikken er veldig godt
-      besøkt av lokalbefolkningen, gjennomreisende og hyttefolk.
-
-
-      Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i umiddelbar nærhet.
-    address:
-      text: Moavegen 1 A, 2647 Sør-Fron
-      latitude: 61.5778452
-      longitude: 9.8589121
   - name: Utearena - Tveitplassen
     image: /images/tveit-med-korps.jpg
     description: >
       **Tveitplassen** ligger midt i Hundorp sentrum, vis-a-vis Kommunehuset og
-      rett nedenfor Sør-Fron kirke. **Tveit Smie** er en anerkjent kunstsmie med åpen smie og utsalg.
+      rett nedenfor Sør-Fron kirke. **Tveit Smie** er en anerkjent kunstsmie med
+      åpen smie og utsalg.
 
 
       Stående konsert med smånoter (ikke notestativ og ikke noe slagverkutstyr). Bussparkering i nærheten.
