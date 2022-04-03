@@ -34,20 +34,35 @@ program:
         description: |-
           Småkonsert på tunet til gården Aanekre og i Hundorp sentrum. 
 
+          Hvem som skal spille hvor blir annonsert i forkant av stevnet.
+
           Stoler og trommesett er tilgjengelig.
-      - time: " ‎15:00"
-        title: Parallelle inne-konserter
+      - time: 14:30
+        title: Konsert på Rudi Gard
         description: >-
-          * Rudi Gard - Passer for korps opp til 35 musikanter.
-
-          * Sør-Fron Kulturhus - Ingen størrelsesbegrensning. Her kan vi tilby oppvarmingsrom.
+          Passer for større korps. 
 
 
-          Mer informasjon om spillestedene finner du under fanen [Arenaer](/arenaer/)
+          På Rudi er det bar og kiosksalg.
+
+
+          Fullt trommesett tilgjengelig.
+
+
+          Det blir tid til å forflytte seg fra Rudi Gard til kirka mellom konsertene.
+      - time: 17:00
+        title: Konsert i Sør-Fron kirke
+        description: |-
+          Passer for korps under 30 stk.
+
+          Fullt trommesett tilgjengelig.
+
+          Det blir god tid til å komme seg til Rudi Gard før festmiddagen.
       - time: " ‎20:00"
         title: Festmiddag
-        description: Festmiddag i Sør-Fron kulturhus. Kunngjøring av plassering i
-          marsjkonkurransen. Underholdning og dans.
+        description: |-
+          Festmiddag på Rudi Gard. \
+          God middag, bar og dans til levende musikk.
   - title: Søndag, 12. juni
     events:
       - time: " ‎11:00"
