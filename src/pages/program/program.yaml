@@ -24,23 +24,17 @@ program:
     events:
       - time: " ‎10:00"
         title: Oppmarsj til Sør-Fron kirke
-        description: |-
-          Korpsene marsjerer fra 4 forskjellige retninger:
+        description: >-
+          Korpsene marsjerer fra nord og sør, og samles utenfor kirka.
+          Fellesnummer blir sendt ut til alle korps før 17. mai.\
 
-          * Dale-Gudbrands Gard
-          * Sørheim eldresenter
-          * Midtbygda skole
-          * Flatmoen idrettspark
-      - time: " ‎10:30"
-        title: Ankomst Sør-Fron Kirke
-        description: Åpning av stevnet med presentasjon av hvert enkelt korps, taler og
-          felles marsj.
+          Her blir det mulighet for kjøp av kaffe og litt andre kioskvarer.
       - time: " ‎12:00"
-        title: Spilling rundt i bygda
-        description: Hvert enkelt korps lister opp ønske for marsjheftespilling (Kiwi
-          Harpefoss, Tveit Smie), eller gardstunspilling sittende, ta med
-          notestativ. Enkelt trommesett er tilgjengelig (Sygard Grytting,
-          Nordgard Korstad, Aanekre Gard).
+        title: Spilling på Aanekre og i sentrum
+        description: |-
+          Småkonsert på tunet til gården Aanekre og i Hundorp sentrum. 
+
+          Stoler og trommesett er tilgjengelig.
       - time: " ‎15:00"
         title: Parallelle inne-konserter
         description: >-
