@@ -12,19 +12,14 @@ program:
     events:
       - time: " ‎17:00"
         title: Stevnekontoret åpner
-        description: Stevnekontoret finner du i Sør-Fron Kulturhus og holder oppe fra
-          fredag kl. 17 og hele lørdagen.
+        description: Stevnekontoret finer du på Sygard Listad fra fredag kl. 17.00
+      - time: " ‎18:00"
+        title: Konsert i Sør-Fron kirke
+        description: Hvem som skal spille blir opplyst om nærmere stevnet :)
       - time: " ‎19:00"
-        title: Marsjkonkurranse
-        description: Vi oppfordrer alle som kommer på fredag til å melde seg på en
-          uhøytidelig marsjkonkurranse. Hvert påmeldte korps spiller en marsj
-          fra scenen i kulturhuset. En oppnevnt jury gir bedømming ut fra
-          kvalitet og spilleglede. Resultatet inkludert premiering
-          offentliggjøres lørdag under festmiddagen.
-      - time: " ‎19:00"
-        title: Servering, drikke, og dans
-        description: Servering, drikke, og dans etter levende musikk (bandet Rita og
-          Ståle) i Sør-Fron Kulturhus.
+        title: Fjøspub
+        description: Sosialt med servering, drikke, og dans til musikk med Rita og Ståle
+          i gamle fjøset på Sygard Listad.
   - title: Lørdag, 11. juni
     events:
       - time: " ‎10:00"
