@@ -67,14 +67,15 @@ program:
     events:
       - time: " ‎11:00"
         title: Avmarsj til Dale-Gudbrands gard
-        description: |
-          Korpsene marsjerer fra tre forskjellige retninger:
-          - Sør-Fron Kirke
-          - Hyttebyen
-          - Lidarende
+        description: >-
+          Det vil bli to felleskorps som marsjerer går ulike veier og møtes på
+          Dale Gudbrandsgård.
+
+
+          Fellesnummer vil bli sendt ut før 17. mai
       - time: " ‎12:00"
-        title: Arrangement på Dale-Gudbrand
+        title: Utekonsert på Dale-Gudbrand
         description: Felles marsjer, historisk og musikalsk underholdning fra scene.
       - time: " ‎14:00"
         title: Regionstevnet 2022, Korps i Kulturlandskap avsluttes
-        description: Avslutningstale.
+        description: Takk for et godt stevne!
