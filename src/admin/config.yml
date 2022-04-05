@@ -26,7 +26,6 @@ collections:
             fields:
               - { label: Tittel, name: title, widget: string }
               - { label: Intro, name: intro, widget: markdown }
-              - { label: Fare, name: warning, widget: markdown }
               - { label: Innhold, name: content, widget: markdown }
           - label: Påmelding
             name: signUp

@@ -406,12 +406,6 @@ header {
   font-size: 40px;
 }
 
-#welcome .warning {
-  border: 2px red solid;
-  border-radius: 6px;
-  padding: 16px;
-}
-
 #delayed > .container {
   padding: 35px;
   padding-top: 25px;
