@@ -5,50 +5,6 @@ lead:
     - bortsett fra Pyntaberget hotell, der reservasjon skal gå gjennom Hundorp
     Musikklag (hundorp.musikklag@gmail.com)
 places:
-  - price: 400 - 700 pr person
-    name: Pyntaberget hotell
-    beds: "100"
-    address:
-      latitude: 61.56634
-      longitude: 9.96954
-      text: Pyntabergvegen 107, 2647 Sør-Fron
-    emails:
-      - hundorp.musikklag@gmail.com
-    website: "www.pyntabergethotell.no "
-    image: /images/pyntaberget-lodge-utsikt.jpg
-    breakfast: ja
-    phoneNumbers: []
-    description: >-
-      Pyntaberget hotell ligger 3 km rett opp for Sør-Fron kirke. Hotellet
-      holder grei standard, fantastisk utsikt og har plass til ca 100 personer i
-      dobbeltrom, enkeltrom og noen 3 til 4 sengs rom.  
-
-
-      Pris: kr. 700,- per døgn i enkeltrom inkludert frokost  \
-
-      Kr. 500,- per person per døgn i dobbeltrom inkludert frokost  \
-
-      Kr. 400,- per person per døgn i 3 eller 4 sengs rom inkludert frokost. 
-
-
-      Reservasjon skjer gjennom Hundorp Musikklag på e-post hundorp.musikklag@gmail.com
-  - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
-    name: Frya Leir
-    beds: "90"
-    address:
-      text: Frya Leir, 2630 Ringebu
-      latitude: 61.5492746
-      longitude: 10.0574862
-    emails:
-      - info@fryaleir.no
-    website: https://fryaleir.no/
-    image: /images/fryaleir.gif
-    breakfast: Ja, kr. 150,- per person
-    phoneNumbers:
-      - +47 450 69 558
-    description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
-      vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
-      tallet.
   - price: Fra kr. 200 per person per døgn avhengig av boenhet og hvor mange som bor
       i hver enhet.
     name: Heggerud Gård
@@ -73,6 +29,23 @@ places:
 
 
       Heggerud har mange alternativ overnattinger: Et stort hus med senger til 10 personer og 8 campinghytter av forskjellig størrelse. I tillegg kan du ha med deg eget telt, campingvogn eller bobil.
+  - price: "220-390 kr per pers per døgn avhengig av antall personer per rom. "
+    name: Frya Leir
+    beds: "90"
+    address:
+      text: Frya Leir, 2630 Ringebu
+      latitude: 61.5492746
+      longitude: 10.0574862
+    emails:
+      - info@fryaleir.no
+    website: https://fryaleir.no/
+    image: /images/fryaleir.gif
+    breakfast: Ja, kr. 150,- per person
+    phoneNumbers:
+      - +47 450 69 558
+    description: Frya Leir ligger 5 km sør for Sør-Fron Kirke. Her har det en gang
+      vært militærleir. Stedet ble mye brukt til sommerkurs for korps på 80
+      tallet.
   - price: 300-475 kr per hytte
     name: Heimtun Camping
     beds: 26 i hytter på 2-4 personer
@@ -108,6 +81,33 @@ places:
     description: Enden Camping er en rolig campingplass 6,5 km sør for Sør-Fron
       Kirke med mange hytter for 2 til 6 personer. Ellers alle muligheter for
       telt, campingvogn eller bobil. God parkering for bil eller buss.
+  - price: 400 - 700 pr person
+    name: Pyntaberget hotell
+    beds: "100"
+    address:
+      latitude: 61.56634
+      longitude: 9.96954
+      text: Pyntabergvegen 107, 2647 Sør-Fron
+    emails:
+      - hundorp.musikklag@gmail.com
+    website: "www.pyntabergethotell.no "
+    image: /images/pyntaberget-lodge-utsikt.jpg
+    breakfast: ja
+    phoneNumbers: []
+    description: >-
+      Pyntaberget hotell ligger 3 km rett opp for Sør-Fron kirke. Hotellet
+      holder grei standard, fantastisk utsikt og har plass til ca 100 personer i
+      dobbeltrom, enkeltrom og noen 3 til 4 sengs rom.  
+
+
+      Pris: kr. 700,- per døgn i enkeltrom inkludert frokost  \
+
+      Kr. 500,- per person per døgn i dobbeltrom inkludert frokost  \
+
+      Kr. 400,- per person per døgn i 3 eller 4 sengs rom inkludert frokost. 
+
+
+      Reservasjon skjer gjennom Hundorp Musikklag på e-post hundorp.musikklag@gmail.com
   - price: FULLT
     name: Dale-Gudbrands Gard
     beds: "50"
