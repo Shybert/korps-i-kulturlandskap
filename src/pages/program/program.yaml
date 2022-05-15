@@ -13,9 +13,6 @@ program:
       - time: " ‎17:00"
         title: Stevnekontoret åpner
         description: Stevnekontoret finer du på Sygard Listad fra fredag kl. 17.00
-      - time: " ‎18:00"
-        title: Konsert i Sør-Fron kirke
-        description: Hvem som skal spille blir opplyst om nærmere stevnet :)
       - time: " ‎19:00"
         title: Fjøspub
         description: Sosialt med servering, drikke, og dans til musikk med Rita og Ståle
