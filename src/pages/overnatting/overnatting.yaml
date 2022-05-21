@@ -112,3 +112,21 @@ places:
       gudbrandsdølene. Stedet ble Opplands tusenårssted i år 2000.
       Stevneprogrammet søndag er lagt til Dale-Gudbrands gard. Gode
       parkeringsmuligheter.
+  - price: "0"
+    name: Rudi Gard
+    beds: "30"
+    address:
+      latitude: 0
+      longitude: 0
+      text: Her skal festmiddagen være lørdag!
+    emails:
+      - hundorp.musikklag@gmail.com
+    website: www.rudigard.no
+    image: /images/rudi-gard.avif
+    breakfast: Ja
+    phoneNumbers:
+      - "41226193"
+    description: |-
+      På dagen lørdag skal det være konserter her - og festmiddagen på kvelden.
+
+      30 sengeplasser fordelt på ulike enheter. Noen med, noen uten bad.
