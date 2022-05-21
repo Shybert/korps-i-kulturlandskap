@@ -1,9 +1,9 @@
 ---
 title: Påmeldte korps
-blurb: "Dombås, Fåvang, Oppdal, Tolga-Os, Rendalen, Tretten, Kvam, Trysil og Hundorp "
+blurb: "Tolga-Os, Trysil, Fåvang, Oppdal, Rendalen, Kvam, og Hundorp "
 date: 2020-10-20
 image:
   link: /images/tromisser.jpg
   text: Tromisser klare for spilling
 ---
-Velkommen til korps fra Dombås, Fåvang, Oppdal, Tolga-Os, Rendalen, Tretten, Kvam, Trysil og Hundorp
+Velkommen til korps fra Fåvang, Oppdal, Tolga-Os, Rendalen, Kvam, Trysil og Hundorp
