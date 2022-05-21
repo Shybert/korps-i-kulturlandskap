@@ -79,9 +79,9 @@ places:
     description: Enden Camping er en rolig campingplass 6,5 km sør for Sør-Fron
       Kirke med mange hytter for 2 til 6 personer. Ellers alle muligheter for
       telt, campingvogn eller bobil. God parkering for bil eller buss.
-  - price: 400 - 700 pr person
+  - price: "0"
     name: Pyntaberget hotell
-    beds: "100"
+    beds: "0"
     address:
       latitude: 61.56634
       longitude: 9.96954
@@ -90,22 +90,9 @@ places:
       - hundorp.musikklag@gmail.com
     website: "www.pyntabergethotell.no "
     image: /images/pyntaberget-lodge-utsikt.jpg
-    breakfast: ja
+    breakfast: "0"
     phoneNumbers: []
-    description: >-
-      Pyntaberget hotell ligger 3 km rett opp for Sør-Fron kirke. Hotellet
-      holder grei standard, fantastisk utsikt og har plass til ca 100 personer i
-      dobbeltrom, enkeltrom og noen 3 til 4 sengs rom.  
-
-
-      Pris: kr. 700,- per døgn i enkeltrom inkludert frokost  \
-
-      Kr. 500,- per person per døgn i dobbeltrom inkludert frokost  \
-
-      Kr. 400,- per person per døgn i 3 eller 4 sengs rom inkludert frokost. 
-
-
-      Reservasjon skjer gjennom Hundorp Musikklag på e-post hundorp.musikklag@gmail.com
+    description: Pyntaberget har blitt asylmottak
   - price: FULLT
     name: Dale-Gudbrands Gard
     beds: "50"
