@@ -54,31 +54,53 @@ program:
           Trysil Musikklag
       - time: " ‎14:00"
         title: Konsert på Rudi Gard
-        description: |-
+        description: >-
           Tolga-Os Janitsjar
+
 
           Kvam Musikkforening
 
+
           Oppdal Musikkforening
+
 
           Trysil Musikklag
 
+
           Rendalen Musikkorps
+
+
+
+
+          *Billett til konsertene på Rudi Gard og i Sør-Fron kirke: 100,- for begge steder. Kan kjøpes på Rudi Gard frem til kl. 14.00*
       - time: " ‎17:00"
         title: Konsert i Sør-Fron kirke
-        description: |-
+        description: >-
           Oppdal Musikkforening
+
 
           Messingrampen fra Hundorp Musikklag
 
+
           Klarinettensemble fra Tolga-Os janitsjar
 
+
           Trysil Musikklag
+
+
+
+
+          *Billett til konsertene på Rudi Gard og i Sør-Fron kirke: 100,- for begge steder. Kan kjøpes på Rudi Gard frem til kl. 14.00*
       - time: " ‎20:00"
         title: Festmiddag
-        description: |-
-          Festmiddag på Rudi Gard. \
-          God middag, bar og dans til levende musikk.
+        description: >-
+          Festmiddag på Rudi Gard.
+
+
+          God middag, bar og dans til levende musikk ved Fron Trekkspillklubb og Fossajazz
+
+
+          Fra kl. 21.00 er det mulig for publikum å kjøpe inngang og bli med på festen.
   - title: Søndag, 12. juni
     events:
       - time: " ‎11:00"
