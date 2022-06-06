@@ -7,13 +7,8 @@ program:
     events:
       - time: " ‎17:00"
         title: Stevnekontoret åpner
-        description: |-
-          Stevnekontoret finer du på Sygard Listad fra fredag kl. 17.00
-
-          Telefon Stevnekontor: \
-          41 22 61 93 - Marthe\
-          97 41 51 38 - Elise\
-          90 65 44 20 - Inger Lise
+        description: "[Stevnekontoret](https://www.korpsikulturlandskap.no/praktiskInfo\
+          /) finner du på Sygard Listad fra fredag kl. 17.00"
       - time: " ‎19:00"
         title: Fjøspub
         description: >-
