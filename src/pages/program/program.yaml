@@ -1,22 +1,27 @@
 pageTitle: Program
 lead:
   title: Program
-  text: Under følger det foreløpige programmet for stevnet. Små endringer kan
-    forekomme, f.eks. som følge av antall korps som melder seg på. Vi er opptatt
-    av opplevelser i kulturlandskap, men vi er også opptatt av at korpsene skal
-    få anledning til å høre hverandre. Blir det få korps vil antall spillesteder
-    reduseres. Blir det veldig mange korps, noe som ville glede oss, blir det
-    lagt til spillesteder.
+  text: Med forbehold om små endringer, her er programmet for Korps i Kulturlandskap
 program:
   - title: Fredag, 10. juni
     events:
       - time: " ‎17:00"
         title: Stevnekontoret åpner
-        description: Stevnekontoret finer du på Sygard Listad fra fredag kl. 17.00
+        description: |-
+          Stevnekontoret finer du på Sygard Listad fra fredag kl. 17.00
+
+          Telefon Stevnekontor: \
+          41 22 61 93 - Marthe\
+          97 41 51 38 - Elise\
+          90 65 44 20 - Inger Lise
       - time: " ‎19:00"
         title: Fjøspub
-        description: Sosialt med servering, drikke, og dans til musikk med Rita og Ståle
-          i gamle fjøset på Sygard Listad.
+        description: >-
+          Sosialt med servering, drikke, og dans til musikk med Rita og Ståle i
+          gamle fjøset på Sygard Listad.
+
+
+          Drøbak Trommedamer spiller
   - title: Lørdag, 11. juni
     events:
       - time: " ‎10:00"
