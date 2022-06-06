@@ -105,15 +105,30 @@ program:
     events:
       - time: " ‎11:00"
         title: Avmarsj til Dale-Gudbrands gard
-        description: >-
-          Det vil bli to felleskorps som marsjerer går ulike veier og møtes på
-          Dale Gudbrandsgård.
+        description: |-
+          **Avmarsj fra Sør-Fron kirke:**
 
+          Rendalen Musikkorps\
+          Fåvang Musikkforening\
+          Tolga-Os Janitsjar
 
-          Fellesnummer vil bli sendt ut før 17. mai
+          **Avmarsj fra Lidarende:** 
+
+          Oppdal Musikkforening\
+          Kvam Musikkforening\
+          Trysil Musikklag
       - time: " ‎12:00"
         title: Utekonsert på Dale-Gudbrand
-        description: Felles marsjer, historisk og musikalsk underholdning fra scene.
+        description: |-
+          Hundorp Musikklag
+
+          Tolga-Os Janitsjar
+
+          Rendalen Musikkorps
+
+          Fåvang Musikkforening
+
+          Kvam Musikkforening
       - time: " ‎15:00"
         title: Regionstevnet 2022, Korps i Kulturlandskap avsluttes
         description: Takk for et godt stevne!
