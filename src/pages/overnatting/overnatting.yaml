@@ -80,21 +80,6 @@ places:
       Kirke med mange hytter for 2 til 6 personer. Ellers alle muligheter for
       telt, campingvogn eller bobil. God parkering for bil eller buss.
   - price: "0"
-    name: Sygard Grytting
-    beds: "24"
-    address:
-      latitude: 0
-      longitude: 0
-      text: Historisk gard - gåavstand fra Rudi gard
-    emails:
-      - hundorp.musikklag@gmail.com
-    website: www.grytting.com
-    image: /images/grytting.jpg
-    breakfast: Ja
-    phoneNumbers:
-      - "41226193"
-    description: Overnatting i historiske omgivelser.
-  - price: "0"
     name: Rudi Gard
     beds: "30"
     address:
@@ -111,21 +96,7 @@ places:
     description: |-
       På dagen lørdag skal det være konserter her - og festmiddagen på kvelden.
 
-      30 sengeplasser fordelt på ulike enheter. Noen med, noen uten bad.
-  - price: "0"
-    name: Pyntaberget hotell
-    beds: "0"
-    address:
-      latitude: 61.56634
-      longitude: 9.96954
-      text: Pyntabergvegen 107, 2647 Sør-Fron
-    emails:
-      - hundorp.musikklag@gmail.com
-    website: "www.pyntabergethotell.no "
-    image: /images/pyntaberget-lodge-utsikt.jpg
-    breakfast: "0"
-    phoneNumbers: []
-    description: med utsikt over hele dalen...
+      FULLT
   - price: FULLT
     name: Dale-Gudbrands Gard
     beds: "50"
