@@ -38,6 +38,14 @@ program:
           Rendalen Musikkorps\
           Tolga-Os Janitsjar\
           Trysil Musikklag
+      - time: "11:00 "
+        title: Åpning av stevnet
+        description: >-
+          Ved leder i NMF Rita Hirsum Lystad, ordfører i Sør-Fron kommune Ole T.
+          Muriteigen og leder for Korps i Kulturlandskap Audun Skattebo.
+
+
+          Fellesmarsjer ledes av Hundorp Musikklag sin dirigent Liv Bjerke
       - time: " ‎12:00"
         title: "Konserter "
         description: |-
@@ -101,14 +109,6 @@ program:
 
 
           Fra kl. 21.00 er det mulig for publikum å kjøpe inngang og bli med på festen.
-      - time: 11:00
-        title: Åpning av stevnet
-        description: >-
-          Ved leder i NMF Rita Hirsum Lystad, ordfører i Sør-Fron kommune Ole T.
-          Muriteigen og leder for Korps i Kulturlandskap Audun Skattebo.
-
-
-          Fellesmarsjer ledes av Hundorp Musikklag sin dirigent Liv Bjerke
   - title: Søndag, 12. juni
     events:
       - time: " ‎11:00"
