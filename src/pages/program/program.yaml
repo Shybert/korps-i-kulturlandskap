@@ -26,11 +26,18 @@ program:
     events:
       - time: " ‎10:00"
         title: Oppmarsj til Sør-Fron kirke
-        description: >-
-          Korpsene marsjerer fra nord og sør, og samles utenfor kirka.
-          Fellesnummer blir sendt ut til alle korps før 17. mai.\
+        description: |-
+          **Oppmarsj fra Sørheim omsorgssenter:** 
 
-          Her blir det mulighet for kjøp av kaffe og litt andre kioskvarer.
+          Drøbak Trommedamer\
+          Oppdal Musikkforening\
+          Kvam Musikkforening
+
+          **Oppmarsj fra Dale-Gudbrands Gard:**
+
+          Rendalen Musikkorps\
+          Tolga-Os Janitsjar\
+          Trysil Musikklag
       - time: " ‎12:00"
         title: Spilling på Aanekre gard og i sentrum
         description: |-
