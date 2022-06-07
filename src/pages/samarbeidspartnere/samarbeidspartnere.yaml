@@ -31,3 +31,12 @@ partners:
   - name: Akershus Traktor
     logo: /images/akershus-traktor.gif
     website: https://www.akershustraktor.no/
+  - name: Tinde Hytter
+    logo: /images/tinde-hytter.jpg
+    website: https://www.tindehytter.no/
+  - logo: /images/peer-gynt-kjøpesenter.jpg
+    name: Peer Gynt Kjøpesenter
+    website: https://www.peergyntsenter.no/
+  - name: Rudi Gard
+    logo: /images/rudi-gard.jpg
+    website: https://rudigard.no/
