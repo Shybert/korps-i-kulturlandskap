@@ -200,6 +200,7 @@ collections:
             widget: object
             fields:
               - { label: Tittel, name: title, widget: string }
+              - { label: Bilde, name: image, widget: image }
           - label: Taxi
             name: taxi
             widget: object

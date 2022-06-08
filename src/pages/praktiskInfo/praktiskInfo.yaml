@@ -11,10 +11,11 @@ lead:
     90 65 44 20 - Inger Lise
 map:
   title: Kart
+  image: /images/korps-i-kulturlandskap-kart-3.png
 taxi:
   title: Taxi
   content: >-
-    Taxitilbud 
+    Taxitilbud
 
 
     Dersom det vil være behov for drosje. \
